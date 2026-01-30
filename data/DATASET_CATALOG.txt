@@ -1,0 +1,21 @@
+# REAL COSMOLOGICAL DATASETS FOR CGC THEORY TESTING
+# Generated: $(date)
+# 
+# DATASET LIST:
+# 1. CMB: Planck 2018 TT power spectrum (30 ≤ ℓ ≤ 2500)
+# 2. BAO: BOSS DR12 consensus (z=0.38, 0.51, 0.61) + eBOSS Lyman-α
+# 3. SNe: Pantheon+ compressed (1701 SNe, 0.001 < z < 2.3)
+# 4. H0: SH0ES 2022 Cepheid calibration (73.04 ± 1.04 km/s/Mpc)
+# 5. Growth: RSD fσ8 compilation (0.02 < z < 1.48)
+# 6. Lyman-α: eBOSS DR16 flux power spectrum (2.2 < z < 3.0)
+#
+# Total data points: ~2500
+# 
+# File Structure:
+# data/
+# ├── planck/           # planck_TT_binned.txt
+# ├── bao/              # boss_dr12_consensus.txt, eboss_lyalpha_bao.txt
+# ├── sne/              # pantheon_plus.dat, sh0es_2022.txt
+# ├── growth/           # rsd_measurements.txt
+# ├── lyalpha/          # eboss_lyalpha_flux_power.txt
+# └── misc/             # planck2018_params.txt, cosmological_tensions.txt

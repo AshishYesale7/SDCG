@@ -1,0 +1,8 @@
+# S8 S8_err
+# Weak lensing S8 measurements compilation
+# S8 = σ8 * √(Ω_m/0.3)
+0.832 0.013
+0.766 0.020
+0.776 0.017
+0.780 0.033
+0.737 0.036

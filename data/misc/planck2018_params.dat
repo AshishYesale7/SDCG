@@ -1,0 +1,19 @@
+# Planck 2018 cosmological parameters (TT,TE,EE+lowE+lensing+BAO)
+# Planck Collaboration 2020, A&A, 641, A6
+# Parameter       Value       Error
+omega_b           0.02237     0.00015
+omega_cdm         0.1200      0.0012
+h                 0.6736      0.0054
+H0                67.36       0.54
+sigma8            0.8111      0.0060
+n_s               0.9649      0.0042
+S8                0.832       0.013
+tau_reio          0.0544      0.0073
+ln10A_s           3.044       0.014
+Omega_m           0.315       0.007
+Omega_Lambda      0.685       0.007
+Omega_b           0.0493      0.0005
+Omega_c           0.2647      0.0055
+z_reio            7.68        0.79
+Y_p               0.245       0.003
+r_drag            147.09      0.26

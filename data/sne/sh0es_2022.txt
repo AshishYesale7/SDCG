@@ -1,0 +1,4 @@
+# H0 H0_err
+# SH0ES 2022 Hubble constant measurement (Riess et al. 2022, ApJ, 934, L7)
+# H0 = 73.04 ± 1.04 km/s/Mpc
+73.04 1.04

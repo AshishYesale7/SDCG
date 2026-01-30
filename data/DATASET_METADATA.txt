@@ -1,0 +1,19 @@
+# REAL COSMOLOGICAL DATASETS FOR CGC THEORY TESTING
+# Downloaded on: $(date)
+# 
+# DATASET SUMMARY:
+# 1. Planck 2018 CMB - TT power spectrum from Planck Legacy Archive
+# 2. BOSS DR12 BAO - Consensus BAO measurements from SDSS
+# 3. Pantheon+ SNe - Compressed distance moduli from Brout et al. 2022
+# 4. SH0ES 2022 - H0 calibration from Cepheids
+# 5. RSD growth - fσ8 measurements from various surveys
+# 6. Lyman-α forest - Flux power spectrum from eBOSS
+#
+# File Structure:
+# data/
+# ├── planck/           # CMB data
+# ├── bao/              # BAO measurements
+# ├── sne/              # Supernovae
+# ├── growth/           # Growth measurements
+# ├── lyalpha/          # Lyman-alpha forest
+# └── misc/             # Reference parameters

@@ -1,0 +1,7 @@
+# requirements_fixed.txt - Compatible with Python 3.14
+numpy==1.26.4
+matplotlib==3.8.0
+scipy==1.12.0
+emcee==3.1.4
+corner==2.2.2
+tqdm==4.66.1

@@ -1,0 +1,10 @@
+version: '3.8'
+
+services:
+  cgc-analysis:
+    build: .
+    volumes:
+      - ./data:/app/data
+      - ./results:/app/results
+      - ./plots:/app/plots
+    working_dir: /app

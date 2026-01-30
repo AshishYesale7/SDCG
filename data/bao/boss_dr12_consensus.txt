@@ -1,0 +1,6 @@
+# z DV_rd DV_rd_err
+# BOSS DR12 consensus BAO measurements (Alam et al. 2017)
+# D_V/r_d measurements at effective redshifts
+0.38 8.467 0.167
+0.51 8.857 0.168
+0.61 9.445 0.168
