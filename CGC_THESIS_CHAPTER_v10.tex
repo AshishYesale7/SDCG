@@ -1109,6 +1109,68 @@ Clusters & Maximum & 0.461 & $<1\%$ \\
 \end{enumerate}
 \end{prediction}
 
+%----------------------------------------------------------------------
+% VOID VS CLUSTER DENSITY CORRELATION
+%----------------------------------------------------------------------
+\subsection{Void vs Cluster Density Correlation}
+
+A critical test of SDCG: the gravitational enhancement should correlate directly with local density.
+
+\begin{prediction}[Density-Dependent Gravitational Enhancement]
+\textbf{The Core Correlation:} SDCG predicts that $G_{\text{eff}}/G_N$ should decrease monotonically with increasing local density $\delta$:
+
+\begin{equation}
+\frac{G_{\text{eff}}(\delta)}{G_N} = 1 + \mu \times S(\delta) = 1 + \frac{\mu_{\text{bare}}}{1 + \left(\frac{1+\delta}{\delta_{\text{thresh}}}\right)^\alpha}
+\end{equation}
+
+\textbf{Predicted Correlation (Quantitative):}
+\begin{center}
+\renewcommand{\arraystretch}{1.4}
+\begin{tabular}{lcccc}
+\toprule
+\textbf{Environment} & \textbf{$\delta$} & \textbf{$S(\delta)$} & \textbf{$G_{\text{eff}}/G_N$} & \textbf{$\Delta v/v$} \\
+\midrule
+Deep void & $-0.9$ & 0.98 & 1.147 & +7.0\% \\
+Moderate void & $-0.5$ & 0.75 & 1.113 & +5.4\% \\
+Field (mean density) & $0$ & 0.31 & 1.046 & +2.3\% \\
+Filament & $+5$ & 0.08 & 1.012 & +0.6\% \\
+Group & $+50$ & 0.01 & 1.002 & +0.1\% \\
+Cluster core & $+200$ & 0.003 & 1.000 & 0\% \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+\textbf{Observable Signature:}
+\begin{equation}
+\boxed{\Delta v_{\text{rot}} \propto \frac{1}{(1 + \delta/\delta_{\text{thresh}})^{\alpha/2}}}
+\end{equation}
+
+This predicts a \textbf{smooth, monotonic} correlation---not a binary void/cluster dichotomy.
+\end{prediction}
+
+\begin{testbox}[Testing the Density Correlation with SDSS + ALFALFA]
+\textbf{Method:} Cross-correlate ALFALFA rotation velocities with SDSS environmental density estimates.
+
+\textbf{Observables:}
+\begin{itemize}
+    \item $\delta_5$: Density contrast on 5 Mpc scale (from SDSS group catalog)
+    \item $W_{50}$: HI line width (proxy for $v_{\text{rot}}$) from ALFALFA
+    \item $M_*$: Stellar mass (control variable)
+\end{itemize}
+
+\textbf{Expected Correlation:}
+At fixed $M_*$, plot residual $\Delta W_{50}$ vs. $\delta_5$:
+\begin{equation}
+\Delta W_{50}(\delta) = W_{50}^{\text{obs}} - W_{50}^{\text{TFR}}(M_*) = A \times \left(\frac{1}{1 + \delta/200}\right)^{1/2}
+\end{equation}
+
+\textbf{SDCG Prediction:} $A \approx 2$--3 km/s for $M_* \sim 10^9 M_\odot$ dwarfs.
+
+\textbf{$\Lambda$CDM Prediction:} $A = 0$ (no correlation expected).
+
+\textbf{Sample Size:} With $\sim$15,000 ALFALFA galaxies and environmental classification, this test is achievable \textit{today}.
+\end{testbox}
+
 \subsection{Laboratory Test: Gold Plate Casimir-Gravity Experiment}
 
 A direct laboratory test of SDCG using the Casimir effect:
