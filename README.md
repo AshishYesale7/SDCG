@@ -6,40 +6,42 @@
 
 Using **only published observables from peer-reviewed papers** (no manufactured V_rot values):
 
-| Metric | Void Dwarfs | Cluster Dwarfs |
-|--------|-------------|----------------|
-| **Sample size** | 12 | 13 |
-| **Observable** | σ_HI (HI line width) | σ_v (stellar dispersion) |
-| **Mean** | 23.7 ± 1.5 km/s | 12.7 ± 2.3 km/s |
-| **Std** | 5.1 km/s | 8.2 km/s |
+| Metric          | Void Dwarfs          | Cluster Dwarfs           |
+| --------------- | -------------------- | ------------------------ |
+| **Sample size** | 12                   | 13                       |
+| **Observable**  | σ_HI (HI line width) | σ_v (stellar dispersion) |
+| **Mean**        | 23.7 ± 1.5 km/s      | 12.7 ± 2.3 km/s          |
+| **Std**         | 5.1 km/s             | 8.2 km/s                 |
 
 ### KEY RESULT
 
-| Statistic | Value |
-|-----------|-------|
-| **Δσ (void − cluster)** | **+11.0 ± 2.7 km/s** |
-| **Welch's t-test** | t = 4.03 |
-| **p-value** | **p = 0.0006** |
-| **Significance** | **Highly significant (p < 0.001)** |
+| Statistic               | Value                              |
+| ----------------------- | ---------------------------------- |
+| **Δσ (void − cluster)** | **+11.0 ± 2.7 km/s**               |
+| **Welch's t-test**      | t = 4.03                           |
+| **p-value**             | **p = 0.0006**                     |
+| **Significance**        | **Highly significant (p < 0.001)** |
 
 ### COMPARISON WITH SDCG PREDICTION
 
-| | Value |
-|---|---|
-| **SDCG Prediction** | +12 ± 3 km/s |
-| **Observed Δσ** | +11.0 ± 2.7 km/s |
-| **Deviation** | **0.3σ** |
-| **Status** | ✓✓✓ **EXCELLENT AGREEMENT** |
+|                     | Value                       |
+| ------------------- | --------------------------- |
+| **SDCG Prediction** | +12 ± 3 km/s                |
+| **Observed Δσ**     | +11.0 ± 2.7 km/s            |
+| **Deviation**       | **0.3σ**                    |
+| **Status**          | ✓✓✓ **EXCELLENT AGREEMENT** |
 
 > **Note:** The observed excess slightly exceeds prediction - may indicate additional astrophysical effects (e.g., tidal stripping in clusters) or require further investigation with larger samples.
 
 ### DATA SOURCES (Verified & Authentic)
 
 **Void Sample (12 galaxies):**
+
 - Pustilnik et al. (2019) MNRAS 482, 4329 - Lynx-Cancer void dwarfs
 - Observable: σ_HI (21cm HI line width W50/2)
 
 **Cluster Sample (13 galaxies):**
+
 - McConnachie (2012) AJ 144, 4 - Local Group dwarfs
 - Observable: σ_v (stellar velocity dispersion)
 - Environment filter: "cluster" classification only
@@ -131,12 +133,12 @@ Using **only published observables from peer-reviewed papers** (no manufactured 
 
 #### Comparison: Prediction vs Observation
 
-| Aspect                     | SDCG Prediction         | Observed         | Status        |
-| -------------------------- | ----------------------- | ---------------- | ------------- |
-| **Sign**                   | Positive (voids faster) | Positive         | ✅ Consistent |
-| **Magnitude**              | +12 ± 3 km/s            | +9.5 ± 2.9 km/s  | ✅ Within 0.6σ|
-| **Median match**           | +12 km/s                | +12.4 km/s       | ✅ Excellent  |
-| **Environment dependence** | Yes (7:1 ratio)         | Yes (detected)   | ✅ Consistent |
+| Aspect                     | SDCG Prediction         | Observed        | Status         |
+| -------------------------- | ----------------------- | --------------- | -------------- |
+| **Sign**                   | Positive (voids faster) | Positive        | ✅ Consistent  |
+| **Magnitude**              | +12 ± 3 km/s            | +9.5 ± 2.9 km/s | ✅ Within 0.6σ |
+| **Median match**           | +12 km/s                | +12.4 km/s      | ✅ Excellent   |
+| **Environment dependence** | Yes (7:1 ratio)         | Yes (detected)  | ✅ Consistent  |
 
 > **Status:** ✓✓✓ **EXCELLENT AGREEMENT** - The observed Δv = +9.5 ± 2.9 km/s is only 0.6σ from the SDCG prediction of +12 ± 3 km/s. The median difference (+12.4 km/s) matches the prediction exactly.
 
