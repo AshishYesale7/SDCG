@@ -254,9 +254,9 @@ def run_analysis():
         print("  ✓ UNCONSTRAINED SDCG (μ = 0.41) is consistent within 2σ")
     
     if constrained_tension < 2:
-        print("  ✓ Lyα-CONSTRAINED SDCG (μ = 0.045) is consistent within 2σ")
+        print("  ✓ MCMC BEST-FIT SDCG (μ = 0.149) is consistent within 2σ")
     else:
-        print("  ✗ Lyα-CONSTRAINED SDCG (μ = 0.045) is in tension")
+        print("  ✗ MCMC BEST-FIT SDCG (μ = 0.149) shows tension")
     
     if lcdm_tension < 2:
         print("  ✓ ΛCDM (no modification) is consistent within 2σ")

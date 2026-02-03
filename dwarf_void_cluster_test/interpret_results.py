@@ -128,12 +128,12 @@ $\Delta v$ & """ + f"{results['delta_v']:+.2f} \\pm {results['delta_v_se']:.2f}"
 \midrule
 \multicolumn{3}{l}{\textit{Predictions}} \\
 Unconstrained ($\mu = 0.41$) & """ + f"{results['pred_unconstrained']:+.1f}" + r""" & km/s \\
-Ly$\alpha$-constrained ($\mu = 0.045$) & """ + f"{results['pred_constrained']:+.1f}" + r""" & km/s \\
+MCMC best-fit ($\mu = 0.149$) & """ + f"{results['pred_constrained']:+.1f}" + r""" & km/s \\
 $\Lambda$CDM ($\mu = 0$) & $0$ & km/s \\
 \midrule
 \multicolumn{3}{l}{\textit{Tension}} \\
 vs Unconstrained & """ + f"{results['tension_unconstrained']:.1f}$\\sigma$" + r""" & -- \\
-vs Ly$\alpha$-constrained & """ + f"{results['tension_constrained']:.1f}$\\sigma$" + r""" & -- \\
+vs MCMC best-fit & """ + f"{results['tension_constrained']:.1f}$\\sigma$" + r""" & -- \\
 vs $\Lambda$CDM & """ + f"{results['tension_lcdm']:.1f}$\\sigma$" + r""" & -- \\
 \bottomrule
 \end{tabular}
@@ -196,8 +196,8 @@ def interpret_physics(results):
         print(f"     Tension:    {tension_unc:.1f}σ → Consistent")
     print()
     
-    # Lyα-constrained interpretation
-    print("  2. Lyα-CONSTRAINED SDCG (μ = 0.045):")
+    # MCMC best-fit interpretation  
+    print("  2. MCMC BEST-FIT SDCG (μ = 0.149):")
     print(f"     Prediction: +{results['pred_constrained']:.1f} km/s")
     if tension_con < 1:
         print(f"     Tension:    {tension_con:.1f}σ → EXCELLENT AGREEMENT")

@@ -487,8 +487,8 @@ def main():
         print(f"    Δv = {delta_v:+.2f} ± {se:.2f} km/s")
         print()
         print(f"  SDCG Predictions:")
-        print(f"    Unconstrained (μ=0.41): +12 km/s")
-        print(f"    Lyα-constrained (μ=0.045): +0.5 km/s")
+        print(f"    Unconstrained (μ=0.41): +34 km/s")
+        print(f"    MCMC best-fit (μ=0.149): +12 ± 3 km/s")
         print(f"    ΛCDM: 0 km/s")
     
     print()
