@@ -95,7 +95,7 @@ We welcome thoughtful collaboration and rigorous scientific inquiry.
 ### 1. **Fork the Repository**
 
 ```bash
-git clone https://github.com/your-username/SDCG.git
+git clone https://github.com/AshishYesale7/SDCG-Framework.git
 cd SDCG
 ```
 
