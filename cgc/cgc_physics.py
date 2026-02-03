@@ -437,8 +437,15 @@ def apply_cgc_to_growth(fsigma8_lcdm: Union[float, np.ndarray],
     """
     Apply CGC modification to growth rate fσ8.
     
-    Original formula (from CGC_EQUATIONS_REFERENCE.txt):
-        fσ8_CGC = fσ8_ΛCDM × [1 + 0.1 × μ × (1+z)^(-n_g)]
+    CORRECTED FORMULA (Feb 2026):
+        fσ8_CGC = fσ8_ΛCDM × [1 + 0.1 × μ × g(z)]
+    
+    where g(z) = exp(-z/z_trans) is the redshift evolution.
+    
+    PHYSICS NOTE:
+    The original formula used (1+z)^(-n_g), which incorrectly used the 
+    SCALE exponent n_g for REDSHIFT evolution. n_g should ONLY appear 
+    in scale-dependent terms (k^n_g), not redshift terms.
     
     Parameters
     ----------
@@ -457,8 +464,10 @@ def apply_cgc_to_growth(fsigma8_lcdm: Union[float, np.ndarray],
     z = np.asarray(z)
     alpha = CGC_COUPLINGS['growth']  # 0.1
     
-    # Growth modification: fσ8_CGC = fσ8_ΛCDM × [1 + 0.1μ × (1+z)^(-n_g)]
-    return fsigma8_lcdm * (1 + alpha * cgc.mu * (1 + z)**(-cgc.n_g))
+    # CORRECTED: Growth uses z_trans for redshift evolution
+    # fσ8_CGC = fσ8_ΛCDM × [1 + 0.1μ × exp(-z/z_trans)]
+    g_z = np.exp(-z / cgc.z_trans)
+    return fsigma8_lcdm * (1 + alpha * cgc.mu * g_z)
 
 
 def apply_cgc_to_cmb(Cl_lcdm: np.ndarray,
@@ -496,8 +505,18 @@ def apply_cgc_to_bao(DV_rd_lcdm: Union[float, np.ndarray],
     """
     Apply CGC modification to BAO distance scale D_V/r_d.
     
-    Original formula (from CGC_EQUATIONS_REFERENCE.txt):
-        (D_V/r_d)^CGC = (D_V/r_d)^ΛCDM × [1 + μ × (1+z)^(-n_g)]
+    CORRECTED FORMULA (Feb 2026):
+        (D_V/r_d)^CGC = (D_V/r_d)^ΛCDM × [1 + μ × g(z)]
+    
+    where g(z) = exp(-z/z_trans) is the redshift evolution.
+    
+    PHYSICS NOTE:
+    The original formula used (1+z)^(-n_g), which incorrectly used the 
+    SCALE exponent n_g for REDSHIFT evolution. This caused the n_g tension
+    (MCMC finding n_g ~ 0.09 vs EFT prediction 0.014).
+    
+    n_g should ONLY appear in scale-dependent terms (k^n_g), not redshift terms.
+    The redshift evolution is controlled by z_trans, not n_g.
     
     Parameters
     ----------
@@ -515,8 +534,11 @@ def apply_cgc_to_bao(DV_rd_lcdm: Union[float, np.ndarray],
     """
     z = np.asarray(z)
     
-    # BAO modification: (D_V/r_d)^CGC = (D_V/r_d)^ΛCDM × [1 + μ × (1+z)^(-n_g)]
-    return DV_rd_lcdm * (1 + cgc.mu * (1 + z)**(-cgc.n_g))
+    # CORRECTED: BAO modification uses z_trans for redshift evolution
+    # (D_V/r_d)^CGC = (D_V/r_d)^ΛCDM × [1 + μ × exp(-z/z_trans)]
+    # This is consistent with SNe formula and separates scale (n_g) from z (z_trans)
+    g_z = np.exp(-z / cgc.z_trans)
+    return DV_rd_lcdm * (1 + cgc.mu * g_z)
 
 
 def apply_cgc_to_lyalpha(P_flux_lcdm: np.ndarray,

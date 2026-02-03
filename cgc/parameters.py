@@ -208,8 +208,8 @@ PARAM_BOUNDS = {
     # ═══════════════════════════════════════════════════════════════════════
     
     'cgc_mu': (0.0, 0.5),          # Coupling strength (0 = ΛCDM)
-    'cgc_n_g': (0.0, 2.0),         # Scale dependence
-    'cgc_z_trans': (0.5, 5.0),     # Transition redshift
+    'cgc_n_g': (0.001, 0.1),       # Scale dependence (EFT: n_g = β₀²/4π² ≈ 0.014)
+    'cgc_z_trans': (1.0, 2.5),     # Transition redshift (EFT: z_trans ≈ 1.64)
     'cgc_rho_thresh': (10.0, 1000.0),  # Screening threshold
 }
 

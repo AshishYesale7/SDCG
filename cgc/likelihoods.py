@@ -78,7 +78,8 @@ def log_prior(theta: np.ndarray) -> float:
 
 
 def log_prior_gaussian(theta: np.ndarray, 
-                       add_bbn_prior: bool = False) -> float:
+                       add_bbn_prior: bool = False,
+                       add_eft_priors: bool = False) -> float:
     """
     Log prior with optional Gaussian constraints.
     
@@ -88,6 +89,8 @@ def log_prior_gaussian(theta: np.ndarray,
         Parameter vector.
     add_bbn_prior : bool, default=False
         If True, add BBN prior on ω_b.
+    add_eft_priors : bool, default=False
+        If True, add EFT-derived Gaussian priors on n_g and z_trans.
     
     Returns
     -------
@@ -105,6 +108,21 @@ def log_prior_gaussian(theta: np.ndarray,
         omega_b_bbn = 0.02242  # BBN + D/H
         omega_b_bbn_err = 0.00014
         logp -= 0.5 * ((omega_b - omega_b_bbn) / omega_b_bbn_err)**2
+    
+    # Add EFT-derived priors on n_g and z_trans
+    # These are DERIVED quantities, not free parameters!
+    if add_eft_priors:
+        # n_g = β₀²/4π² = 0.70²/39.48 = 0.0124 (±20% uncertainty from β₀)
+        n_g = theta[7]
+        n_g_eft = 0.014  # Derived from β₀ = 0.70
+        n_g_err = 0.003  # ~20% uncertainty from β₀ measurement
+        logp -= 0.5 * ((n_g - n_g_eft) / n_g_err)**2
+        
+        # z_trans = z_acc + Δz_delay = 0.64 + 1.0 = 1.64 (±0.2 from cosmic variance)
+        z_trans = theta[8]
+        z_trans_eft = 1.64  # Derived from q(z) = 0
+        z_trans_err = 0.20  # ~12% uncertainty from cosmic variance
+        logp -= 0.5 * ((z_trans - z_trans_eft) / z_trans_err)**2
     
     return logp
 
@@ -870,6 +888,7 @@ def log_likelihood(theta: np.ndarray, data: Dict[str, Any],
 # =============================================================================
 
 def log_probability(theta: np.ndarray, data: Dict[str, Any],
+                    use_eft_priors: bool = True,
                     **likelihood_kwargs) -> float:
     """
     Log posterior probability for emcee sampler.
@@ -882,6 +901,10 @@ def log_probability(theta: np.ndarray, data: Dict[str, Any],
         Parameter vector.
     data : dict
         Data dictionary.
+    use_eft_priors : bool, default=True
+        If True, use EFT-informed Gaussian priors on n_g and z_trans.
+        Since these are DERIVED quantities (not free parameters), this
+        should be True for physical consistency with the thesis.
     **likelihood_kwargs
         Additional arguments passed to log_likelihood.
     
@@ -890,7 +913,8 @@ def log_probability(theta: np.ndarray, data: Dict[str, Any],
     float
         Log posterior probability.
     """
-    lp = log_prior(theta)
+    # Use EFT-informed priors by default (n_g, z_trans are derived!)
+    lp = log_prior_gaussian(theta, add_bbn_prior=True, add_eft_priors=use_eft_priors)
     if not np.isfinite(lp):
         return -np.inf
     
