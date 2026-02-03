@@ -203,11 +203,11 @@ def S_rho(rho, rho_thresh=200, alpha=2):
     """Screening function"""
     return 1 / (1 + (rho/rho_thresh)**alpha)
 
-def G_eff_ratio(k, z, rho, mu=0.045):
+def G_eff_ratio(k, z, rho, mu=0.149):
     """G_eff/G_N - 1"""
     return mu * (k/k_0)**n_g * g_z(z) * S_rho(rho)
 
-print("\nG_eff/G_N - 1 at various conditions (μ=0.045):")
+print("\nG_eff/G_N - 1 at various conditions (μ=0.149, MCMC best-fit):")
 conditions = [
     ("CMB (z=1100, k=0.1)", 0.1, 1100, 1),
     ("BAO (z=0.5, k=0.1)", 0.1, 0.5, 1),
