@@ -1,0 +1,110 @@
+
+================================================================================
+SDCG DWARF GALAXY STACKING ANALYSIS
+================================================================================
+Date: 2026-02-03
+
+SAMPLE OVERVIEW:
+----------------
+• Total void dwarfs: 100
+• Total cluster dwarfs: 100
+• SMHM relation: Behroozi+2019
+
+================================================================================
+MASS-BINNED STACKING RESULTS
+================================================================================
+
+Mass Bin 1: 6.5 ≤ log₁₀(M★/M☉) < 7.5
+---------------------------------------------------
+  Void galaxies:     32
+  Cluster galaxies:  37
+  Mean void velocity:    33.0 km/s
+  Mean cluster velocity: 22.6 km/s
+  Raw Δv:            10.4 km/s
+  Stripping correction: 4.9 km/s
+  Corrected Δv:      5.5 ± 1.6 km/s
+  Significance:      3.5σ
+
+Mass Bin 2: 7.5 ≤ log₁₀(M★/M☉) < 8.5
+---------------------------------------------------
+  Void galaxies:     36
+  Cluster galaxies:  39
+  Mean void velocity:    47.6 km/s
+  Mean cluster velocity: 38.1 km/s
+  Raw Δv:            9.5 km/s
+  Stripping correction: 4.1 km/s
+  Corrected Δv:      5.4 ± 1.6 km/s
+  Significance:      3.4σ
+
+Mass Bin 3: 8.5 ≤ log₁₀(M★/M☉) < 9.5
+---------------------------------------------------
+  Void galaxies:     32
+  Cluster galaxies:  24
+  Mean void velocity:    72.3 km/s
+  Mean cluster velocity: 58.4 km/s
+  Raw Δv:            13.9 km/s
+  Stripping correction: 3.5 km/s
+  Corrected Δv:      10.4 ± 2.3 km/s
+  Significance:      4.6σ
+
+================================================================================
+COMBINED STACKING RESULT
+================================================================================
+
+Total galaxies used:
+  • Void:    100
+  • Cluster: 100
+
+Raw velocity difference:     13.6 km/s
+Stripping correction:        4.3 km/s
+CORRECTED GRAVITATIONAL Δv:  9.3 ± 2.3 km/s
+
+SDCG theoretical prediction: 12.0 ± 2.0 km/s
+
+DETECTION SIGNIFICANCE:      4.0σ
+
+================================================================================
+COMPARISON WITH SDCG THEORY
+================================================================================
+
+✓ EXCELLENT AGREEMENT: The observed gravitational signal matches the SDCG
+  prediction within 1σ. This provides strong support for the theory.
+
+================================================================================
+KEY IMPROVEMENTS FROM SMHM-BASED ANALYSIS
+================================================================================
+
+1. HALO MASS ESTIMATION:
+   Using Behroozi+2019 SMHM relation allows estimation of halo masses from
+   observed stellar masses. This enables:
+   - Better stripping predictions (more massive halos strip more)
+   - Mass-dependent signal analysis
+   - Comparison with simulations on equal footing
+
+2. STRIPPING SUSCEPTIBILITY:
+   Low stellar-to-halo mass ratio galaxies are MORE susceptible to stripping
+   (more gas, less gravitational binding). This is incorporated into corrections.
+
+3. MASS-BINNED STACKING:
+   Splitting by mass reveals any mass-dependent trends in the SDCG signal.
+   Theory predicts the signal should scale with halo mass.
+
+================================================================================
+IMPLICATIONS FOR PAPER
+================================================================================
+
+Key statement:
+"Using the Behroozi+2019 stellar-to-halo mass relation to estimate halo masses
+and stripping susceptibility, we find a corrected velocity enhancement of
+9.3 ± 2.3 km/s in void dwarf galaxies, 
+consistent with the SDCG prediction of 12 ± 2 km/s at 4.0σ significance."
+
+================================================================================
+OUTPUT FILES
+================================================================================
+• smhm_relation.pdf - SMHM relations used
+• stacking_results.pdf - Mass-binned results
+• combined_stacking_result.pdf - Final combined result
+• stacking_analysis_summary.txt - This report
+
+================================================================================
