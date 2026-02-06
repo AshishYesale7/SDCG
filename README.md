@@ -199,8 +199,8 @@ At fixed mass, if G is constant → V_rot is constant.
 
 ### Thesis & Derivations
 
-| Document                                        | Description                                                     | Location                                           |
-| ----------------------------------------------- | --------------------------------------------------------------- | -------------------------------------------------- |
+| Document                       | Description                              | Location                                                     |
+| ------------------------------ | ---------------------------------------- | ------------------------------------------------------------ |
 | **CGC_THESIS_CHAPTER_v13.pdf** | Main thesis document (v13, mass-matched) | [PDF](thesis_materials/DRAFT/v13/CGC_THESIS_CHAPTER_v13.pdf) |
 
 ### Parameter Documentation
