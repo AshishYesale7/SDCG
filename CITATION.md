@@ -40,6 +40,7 @@ The theoretical framework is based on:
 This analysis uses publicly available data from:
 
 ### Planck CMB
+
 ```bibtex
 @article{planck2018,
   author       = {{Planck Collaboration}},
@@ -53,6 +54,7 @@ This analysis uses publicly available data from:
 ```
 
 ### Pantheon+ Supernovae
+
 ```bibtex
 @article{pantheonplus,
   author       = {Brout, Dillon and others},
@@ -65,6 +67,7 @@ This analysis uses publicly available data from:
 ```
 
 ### BAO Measurements
+
 ```bibtex
 @article{eboss_dr16,
   author       = {{eBOSS Collaboration}},
