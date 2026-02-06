@@ -198,9 +198,7 @@ At fixed mass, if G is constant → V_rot is constant.
 
 | Document | Description | Location |
 |----------|-------------|----------|
-| **SDCG_DERIVATIONS_AND_IMPLEMENTATION.pdf** | Complete mathematical derivations from QFT to observables | [PDF](SDCG_DERIVATIONS_AND_IMPLEMENTATION.pdf) |
-| **CGC_EQUATIONS_REFERENCE.pdf** | Quick reference for all equations | [PDF](CGC_EQUATIONS_REFERENCE.pdf) |
-| **SDCG_PHYSICS_DERIVATIONS.pdf** | Physics motivation and theoretical foundations | [PDF](SDCG_PHYSICS_DERIVATIONS.pdf) |
+| **SDCG_DERIVATIONS_AND_IMPLEMENTATION_v13.pdf** | Complete mathematical derivations from QFT to observables (v13) | [PDF](SDCG_DERIVATIONS_AND_IMPLEMENTATION_v13.pdf) |
 
 ### Parameter Documentation
 
@@ -263,8 +261,7 @@ SDCG-Framework/
 |
 +-- Thesis Documents
 |   +-- SDCG_DERIVATIONS_AND_IMPLEMENTATION.pdf
-|   +-- CGC_EQUATIONS_REFERENCE.pdf
-|   +-- SDCG_PHYSICS_DERIVATIONS.pdf
+|   +-- SDCG_DERIVATIONS_AND_IMPLEMENTATION_v13.pdf
 |
 +-- v12_parameters.py                  # Canonical parameter values
 +-- generate_thesis_comparison.py      # Publication-quality plots
