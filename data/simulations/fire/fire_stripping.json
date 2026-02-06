@@ -1,0 +1,14 @@
+{
+  "simulation": "FIRE-2",
+  "mean_v_satellite": 32.45454545454546,
+  "mean_v_field": 43.037499999999994,
+  "std_v_satellite": 10.678556562004712,
+  "std_v_field": 11.720274900786244,
+  "delta_v": 10.582954545454534,
+  "delta_v_err": 5.247581524371566,
+  "n_satellite": 11,
+  "n_field": 8,
+  "delta_v_matched": 6.799999999999997,
+  "reference": "Hopkins et al. (2018), Wetzel et al. (2016)",
+  "note": "FIRE satellites show ~6-9 km/s velocity suppression vs isolated dwarfs"
+}

@@ -1,0 +1,19 @@
+{
+  "simulation": "SIMBA-m100n1024",
+  "mean_v_satellite": 33.04615384615385,
+  "mean_v_field": 38.99,
+  "mean_v_cluster": 31.475,
+  "std_v_satellite": 7.844411571265769,
+  "std_v_field": 8.044681472873863,
+  "delta_v": 5.9438461538461524,
+  "delta_v_cluster": 7.515000000000001,
+  "delta_v_err": 3.3474072963484427,
+  "n_cluster": 8,
+  "n_group": 5,
+  "n_field": 10,
+  "mean_fgas_satellite": 0.08769230769230771,
+  "mean_fgas_field": 0.315,
+  "delta_fgas": 0.2273076923076923,
+  "reference": "Dav\u00e9 et al. (2019), Appleby et al. (2020)",
+  "note": "SIMBA includes AGN jet feedback affecting satellite evolution"
+}

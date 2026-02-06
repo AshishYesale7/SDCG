@@ -6,8 +6,214 @@
     "mean_void": 67.42835676776443,
     "mean_cluster": 59.94569420125449,
     "delta_v": 7.482662566509937,
-    "error": 7.564019090506539,
-    "t_statistic": 0.9892442730480795,
+    "error": 7.56401909050654,
+    "t_statistic": 0.9892442730480794,
     "sdcg_prediction_mu15": 3.5670497851339023,
     "sdcg_prediction_mu05": 1.1890165950446343,
-    "consistent_with_sdcg": 
+    "consistent_with_sdcg": true,
+    "favors_sdcg": true
+  },
+  "test_2": {
+    "test_name": "Lyman-alpha",
+    "mu_eff": 5.76e-05,
+    "screening_factor": 0.00012,
+    "max_enhancement": 0.01195956418751014,
+    "limit": 7.5,
+    "passes": true,
+    "margin_percent": 99.84053914416653,
+    "by_scale": [
+      {
+        "k": 0.01,
+        "enhancement": 0.01129055664685857
+      },
+      {
+        "k": 0.05,
+        "enhancement": 0.011519999999999999
+      },
+      {
+        "k": 0.1,
+        "enhancement": 0.011620246853265395
+      },
+      {
+        "k": 0.5,
+        "enhancement": 0.011856390073279812
+      },
+      {
+        "k": 1.0,
+        "enhancement": 0.01195956418751014
+      }
+    ]
+  },
+  "test_3": {
+    "test_name": "Growth Rate Scale Dependence",
+    "n_large": 3,
+    "n_small": 5,
+    "fs8_large": 0.41855895270845395,
+    "fs8_small": 0.428780440585514,
+    "scale_dependence_percent": 2.4420664785492745,
+    "error_percent": 11.949650171180915,
+    "t_statistic": 0.20436301009370378,
+    "sdcg_prediction": 0.10320454586170147,
+    "detectable": false
+  },
+  "test_4": {
+    "test_name": "Density-Modification Correlation",
+    "n_galaxies": 500,
+    "pearson_r": -0.019121000580491668,
+    "pearson_p": 0.669723558021373,
+    "spearman_r": -0.049722136686764555,
+    "spearman_p": 0.2671177526907639,
+    "significant": false,
+    "correct_sign": true
+  },
+  "test_5": {
+    "test_name": "Casimir Noise Budget",
+    "d_um": 95.0,
+    "F_casimir": 1.5962133776723665e-19,
+    "F_sdcg_signal": 7.66182421282736e-22,
+    "total_noise": 5.100009822548496e-13,
+    "snr_direct": 1.5023155796587692e-09,
+    "snr_modulated": 1.5023155796587692e-06,
+    "feasible_direct": false,
+    "feasible_modulated": false,
+    "noise_sources": {
+      "Thermal (Brownian)": 4.359944210526316e-17,
+      "Casimir fluctuations": 1.5962133776723667e-23,
+      "Surface roughness": 1e-13,
+      "Patch potentials": 5e-13,
+      "Seismic vibrations": 1e-14,
+      "Electronic noise": 1e-15
+    }
+  },
+  "test_6": {
+    "test_name": "Hubble Tension",
+    "H0_planck": 67.4,
+    "H0_local": 73.04,
+    "tension_lcdm": 4.887561225309663,
+    "H0_sdcg": 68.69408000000001,
+    "tension_sdcg": 3.7661245974953266,
+    "reduction_percent": 22.944707516032913,
+    "mu_eff_used": 0.048
+  },
+  "test_7": {
+    "test_name": "\u03b2\u2080 Sensitivity",
+    "beta_nominal": 0.7,
+    "beta_range": [
+      0.63,
+      0.644,
+      0.658,
+      0.672,
+      0.686,
+      0.7,
+      0.714,
+      0.728,
+      0.742,
+      0.756,
+      0.77
+    ],
+    "predictions": [
+      {
+        "beta": 0.63,
+        "mu_bare": 0.38880000000000003,
+        "mu_void": 0.12052800000000001,
+        "delta_v_percent": 5.854995158471388,
+        "lya_enhancement": 2.1767823360000007e-07,
+        "h0_shift_percent": 4.8211200000000005,
+        "lya_passes": true
+      },
+      {
+        "beta": 0.644,
+        "mu_bare": 0.406272,
+        "mu_void": 0.12594432,
+        "delta_v_percent": 6.110523512043797,
+        "lya_enhancement": 2.3768199069696e-07,
+        "h0_shift_percent": 5.0377728,
+        "lya_passes": true
+      },
+      {
+        "beta": 0.658,
+        "mu_bare": 0.42412800000000006,
+        "mu_void": 0.13147968000000002,
+        "delta_v_percent": 6.3710336510837795,
+        "lya_enhancement": 2.590337669529601e-07,
+        "h0_shift_percent": 5.259187200000001,
+        "lya_passes": true
+      },
+      {
+        "beta": 0.672,
+        "mu_bare": 0.4423680000000001,
+        "mu_void": 0.13713408000000002,
+        "delta_v_percent": 6.636489064484863,
+        "lya_enhancement": 2.8179280429056014e-07,
+        "h0_shift_percent": 5.485363200000001,
+        "lya_passes": true
+      },
+      {
+        "beta": 0.686,
+        "mu_bare": 0.46099200000000007,
+        "mu_void": 0.14290752,
+        "delta_v_percent": 6.90685291411397,
+        "lya_enhancement": 3.060196186521601e-07,
+        "h0_shift_percent": 5.716300800000001,
+        "lya_passes": true
+      },
+      {
+        "beta": 0.7,
+        "mu_bare": 0.48,
+        "mu_void": 0.1488,
+        "delta_v_percent": 7.1820880557941,
+        "lya_enhancement": 3.3177599999999997e-07,
+        "h0_shift_percent": 5.952,
+        "lya_passes": true
+      },
+      {
+        "beta": 0.714,
+        "mu_bare": 0.499392,
+        "mu_void": 0.15481152,
+        "delta_v_percent": 7.46215706005533,
+        "lya_enhancement": 3.5912501231616e-07,
+        "h0_shift_percent": 6.192460800000001,
+        "lya_passes": true
+      },
+      {
+        "beta": 0.728,
+        "mu_bare": 0.5191680000000001,
+        "mu_void": 0.16094208000000002,
+        "delta_v_percent": 7.747022232635281,
+        "lya_enhancement": 3.8813099360256015e-07,
+        "h0_shift_percent": 6.437683200000001,
+        "lya_passes": true
+      },
+      {
+        "beta": 0.742,
+        "mu_bare": 0.539328,
+        "mu_void": 0.16719168,
+        "delta_v_percent": 8.03664563471045,
+        "lya_enhancement": 4.1885955588095996e-07,
+        "h0_shift_percent": 6.687667200000001,
+        "lya_passes": true
+      },
+      {
+        "beta": 0.756,
+        "mu_bare": 0.559872,
+        "mu_void": 0.17356032000000002,
+        "delta_v_percent": 8.330989102841668,
+        "lya_enhancement": 4.5137758519296e-07,
+        "h0_shift_percent": 6.942412800000001,
+        "lya_passes": true
+      },
+      {
+        "beta": 0.77,
+        "mu_bare": 0.5808000000000001,
+        "mu_void": 0.18004800000000004,
+        "delta_v_percent": 8.630014268617314,
+        "lya_enhancement": 4.857532416000003e-07,
+        "h0_shift_percent": 7.201920000000002,
+        "lya_passes": true
+      }
+    ],
+    "delta_v_variation_percent": 38.50847509812711,
+    "all_pass_lya": true,
+    "robust": false
+  }
+}

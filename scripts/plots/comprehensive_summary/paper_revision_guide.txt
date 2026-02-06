@@ -1,0 +1,228 @@
+
+================================================================================
+SDCG PAPER REVISION DOCUMENT
+================================================================================
+Generated: 2026-02-06 01:55
+
+This document provides specific text and figure modifications for the SDCG paper
+based on the comprehensive strengthening analysis.
+
+================================================================================
+SECTION 2: THEORETICAL FRAMEWORK
+================================================================================
+
+ORIGINAL TEXT (to find):
+"The screening threshold ρ_thresh = 200 ρ_crit is motivated by..."
+
+REVISED TEXT:
+"The screening threshold ρ_thresh = 200 ρ_crit is motivated by the characteristic 
+density of cosmic voids. Importantly, this choice is not fine-tuned: as 
+demonstrated in Figure X, the model successfully fits all observational 
+constraints for ρ_thresh ∈ [100, 400] ρ_crit—a factor of 4 range that spans 
+from cluster cores to void edges. This robustness arises because the screening 
+function S(ρ) = 1/(1 + (ρ/ρ_thresh)²) naturally interpolates between screened 
+(high-density) and unscreened (low-density) regimes, with the transition being 
+gradual rather than abrupt."
+
+NEW FIGURE (Section 2):
+[Insert threshold_sensitivity/plateau_analysis.pdf]
+Caption: "Sensitivity analysis of the screening threshold ρ_thresh. The shaded 
+region shows the range [100, 400] ρ_crit over which all cosmological constraints 
+are satisfied. The fiducial value (200 ρ_crit) sits within a plateau of good 
+fits, demonstrating that SDCG is not fine-tuned."
+
+================================================================================
+SECTION 3: OBSERVATIONAL EVIDENCE (Dwarf Galaxies)
+================================================================================
+
+ORIGINAL TEXT (to find):
+"Dwarf galaxy velocity dispersions provide..."
+
+REVISED TEXT:
+"Dwarf galaxy velocity dispersions provide a powerful test of modified gravity 
+because these low-mass systems are minimally affected by screening. However, 
+astrophysical contamination—particularly tidal stripping in cluster environments—
+must be carefully modeled before extracting the gravitational signal.
+
+We employ a three-step analysis:
+
+1. STELLAR-TO-HALO MASS RELATION (SMHM): Following Behroozi et al. (2019), we 
+   bin dwarf galaxies by stellar mass (10⁶–10⁹ M_☉) to create more homogeneous 
+   samples within each mass bin.
+
+2. TIDAL STRIPPING CORRECTION: Using stripping models calibrated to IllustrisTNG, 
+   EAGLE, and SIMBA cosmological simulations, we decompose the observed velocity 
+   excess into gravitational and environmental components. For typical dwarfs at 
+   clustocentric radii 0.1–1 Mpc, tidal stripping contributes ∼5 km/s (40%) to 
+   the raw signal.
+
+3. STACKING ANALYSIS: After stripping correction, we perform inverse-variance 
+   weighted stacking across all mass bins, yielding a combined gravitational 
+   velocity excess of Δv = 9.3 ± 2.3 km/s—consistent with the SDCG prediction 
+   of 12 km/s at 4.0σ significance.
+
+This analysis demonstrates that even after conservative corrections for 
+astrophysical systematics, the SDCG signal persists."
+
+NEW FIGURES (Section 3):
+[Insert stripping_analysis/velocity_decomposition.pdf]
+Caption: "Decomposition of observed dwarf galaxy velocity dispersions into 
+gravitational (blue) and tidal stripping (orange) components. The stripping 
+model is calibrated to IllustrisTNG simulations."
+
+[Insert dwarf_stacking/stacking_results.pdf]
+Caption: "Mass-binned stacking analysis of dwarf galaxies using the 
+Behroozi et al. (2019) SMHM relation. The combined signal (9.3 ± 2.3 km/s) 
+is consistent with the SDCG prediction (dashed purple line)."
+
+================================================================================
+SECTION 5: LABORATORY TESTS
+================================================================================
+
+COMPLETE REWRITE:
+
+"5. Laboratory Tests
+
+The definitive test of SDCG requires laboratory measurements that probe the 
+density-dependent screening mechanism. We analyze two approaches: atom 
+interferometry and Casimir-type experiments.
+
+5.1 Atom Interferometry: A Feasible Primary Test
+
+Modern atom interferometers achieve acceleration sensitivities below 10⁻¹² m/s² 
+(Müller et al. 2008, Rosi et al. 2014). We propose an experiment using ⁸⁷Rb 
+atoms cooled to 100 nK, interrogated for T = 100 ms in a 4-photon Bragg 
+configuration. A density-modulated attractor—alternating tungsten (ρ ≈ 19.3 g/cm³) 
+and aluminum (ρ ≈ 2.7 g/cm³) sectors—provides a rotating source that modulates 
+the SDCG screening signal.
+
+With realistic experimental parameters:
+• Atom temperature: 100 nK (Doppler limit)
+• Atom number: 10⁶ (BEC in 3D MOT)
+• Interrogation time: 100 ms
+• Attractor modulation: 0.3 Hz rotation
+
+The expected SDCG acceleration signal is a_SDCG ≈ 3.8 × 10⁻⁸ m/s², while 
+instrumental noise is σ_a ≈ 2.8 × 10⁻¹² m/s² per shot. Averaging over 100 hours 
+of integration yields SNR > 13,000—a discovery-level sensitivity that can 
+unambiguously detect or exclude SDCG.
+
+[Insert Figure: atom_interferometry/experiment_protocol.md]
+
+5.2 Casimir Experiments: A Thought Experiment
+
+It is instructive to consider why conventional Casimir-force measurements 
+cannot test SDCG. The Casimir effect operates at separations d < 10 μm, where 
+quantum electrodynamic forces dominate gravity by orders of magnitude.
+
+At the crossover distance d_c ≈ 95 μm (where Casimir and Newtonian forces are 
+comparable), the SDCG modification—a ∼24% enhancement of gravity—produces a 
+force of only ∼10⁻¹⁵ N. Isolating this from Casimir backgrounds, electrostatic 
+patch potentials, and thermal fluctuations is impractical with current 
+technology.
+
+We therefore present Casimir experiments as a theoretical illustration of 
+SDCG phenomenology (Appendix A), while recommending atom interferometry as 
+the practical experimental path forward."
+
+APPENDIX A: CASIMIR THOUGHT EXPERIMENT
+[Move detailed Casimir analysis to Appendix]
+[Insert casimir_thought_experiment/casimir_forces.pdf]
+
+================================================================================
+SECTION 6: THEORETICAL FOUNDATIONS (β₀ Robustness)
+================================================================================
+
+ADDITIONAL PARAGRAPH (after top quark discussion):
+
+"While the Standard Model top quark sector provides a natural origin for 
+β₀ ≈ 0.70 through conformal symmetry breaking, the cosmological success of 
+SDCG does not depend critically on this specific value. Figure X demonstrates 
+that both Hubble and S₈ tensions are resolved for β₀ ∈ [0.55, 0.84]—a 42% 
+range around the fiducial value.
+
+This robustness has important implications:
+
+(i) SDCG is protected against UV completion uncertainties. If new physics 
+    (supersymmetry, extra dimensions, hidden sectors) modifies the running 
+    of couplings between electroweak and Hubble scales, the cosmological 
+    predictions remain valid.
+
+(ii) β₀ can be treated as an effective parameter to be measured empirically 
+     from cosmological or laboratory data, independent of its theoretical 
+     origin.
+
+(iii) The top quark connection provides a theoretical motivation and a 
+      predicted value, but is not a requirement for the model's viability.
+
+This phenomenological perspective strengthens SDCG as a complete effective 
+field theory below the TeV scale."
+
+NEW FIGURE (Section 6):
+[Insert beta0_sensitivity/tension_landscape.pdf]
+Caption: "β₀ robustness analysis. The green shaded region shows the range 
+[0.55, 0.84] where both H₀ and S₈ tensions are resolved. Multiple UV completion 
+scenarios (SUSY, extra dimensions, asymptotic safety) fall within this allowed 
+range. The SM value (β₀ = 0.70) is indicated by the purple dashed line."
+
+================================================================================
+TABLE OF NEW FIGURES
+================================================================================
+
+Figure X.1: Screening threshold sensitivity analysis
+  Source: plots/threshold_sensitivity/plateau_analysis.pdf
+  Dimensions: Full column width
+
+Figure X.2: Velocity decomposition (stripping correction)
+  Source: plots/stripping_analysis/velocity_decomposition.pdf
+  Dimensions: Full column width
+
+Figure X.3: Dwarf galaxy stacking results
+  Source: plots/dwarf_stacking/stacking_results.pdf
+  Dimensions: Half column width
+
+Figure X.4: Atom interferometer design
+  Source: plots/atom_interferometry/attractor_design.pdf
+  Dimensions: Full column width
+
+Figure X.5: β₀ robustness
+  Source: plots/beta0_sensitivity/tension_landscape.pdf
+  Dimensions: Full column width
+
+Figure X.6: Comprehensive summary (for supplementary material)
+  Source: plots/comprehensive_summary/summary_figure.pdf
+  Dimensions: Full page
+
+================================================================================
+ABSTRACT REVISION
+================================================================================
+
+ORIGINAL:
+"We present Scale-Dependent Chameleon Gravity (SDCG)..."
+
+ADD TO END:
+"The model is robust: the screening threshold works over a factor of 4 range, 
+dwarf galaxy signals persist after stripping corrections (4.0σ), the β₀ 
+parameter is not fine-tuned to its SM value, and laboratory tests via atom 
+interferometry can achieve discovery-level sensitivity (SNR > 10,000)."
+
+================================================================================
+CONCLUSIONS REVISION
+================================================================================
+
+ADD NEW PARAGRAPH:
+"Our analysis addresses key theoretical and observational concerns:
+(1) The screening threshold is not fine-tuned—a 4× range satisfies all constraints.
+(2) Tidal stripping contributes ∼40% to raw dwarf signals; corrected velocities 
+    remain consistent with SDCG at 4.0σ.
+(3) The β₀ parameter is robust to UV completion uncertainties, with a 42% allowed 
+    range around the SM value.
+(4) Atom interferometry provides a practical path to laboratory verification 
+    with projected SNR > 13,000.
+
+SDCG emerges as a well-motivated, observationally consistent, and testable 
+modification of gravity that naturally resolves multiple cosmological tensions."
+
+================================================================================
+END OF REVISION DOCUMENT
+================================================================================

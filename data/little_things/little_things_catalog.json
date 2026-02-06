@@ -1,0 +1,330 @@
+{
+  "survey": "LITTLE THINGS",
+  "full_name": "Local Irregulars That Trace Luminosity Extremes, The HI Nearby Galaxy Survey",
+  "reference": "Hunter et al. (2012), Oh et al. (2015)",
+  "paper_url": "https://ui.adsabs.harvard.edu/abs/2012AJ....144..134H",
+  "n_galaxies": 40,
+  "data_source": "NRAO VLA Archive + VizieR",
+  "galaxies": {
+    "CVnIdwA": {
+      "distance": 3.6,
+      "log_Mstar": 6.2,
+      "V_rot": 18.5,
+      "V_rot_err": 2.1,
+      "inc": 55,
+      "type": "dIrr"
+    },
+    "DDO43": {
+      "distance": 7.8,
+      "log_Mstar": 7.4,
+      "V_rot": 35.2,
+      "V_rot_err": 3.5,
+      "inc": 47,
+      "type": "dIrr"
+    },
+    "DDO46": {
+      "distance": 6.1,
+      "log_Mstar": 7.1,
+      "V_rot": 28.3,
+      "V_rot_err": 2.8,
+      "inc": 62,
+      "type": "dIrr"
+    },
+    "DDO47": {
+      "distance": 5.2,
+      "log_Mstar": 7.5,
+      "V_rot": 42.1,
+      "V_rot_err": 4.2,
+      "inc": 38,
+      "type": "dIrr"
+    },
+    "DDO50": {
+      "distance": 3.4,
+      "log_Mstar": 7.8,
+      "V_rot": 38.5,
+      "V_rot_err": 3.1,
+      "inc": 50,
+      "type": "dIrr"
+    },
+    "DDO52": {
+      "distance": 10.3,
+      "log_Mstar": 7.6,
+      "V_rot": 48.5,
+      "V_rot_err": 4.8,
+      "inc": 66,
+      "type": "dIrr"
+    },
+    "DDO53": {
+      "distance": 3.6,
+      "log_Mstar": 6.8,
+      "V_rot": 22.1,
+      "V_rot_err": 2.2,
+      "inc": 31,
+      "type": "dIrr"
+    },
+    "DDO63": {
+      "distance": 3.9,
+      "log_Mstar": 7.3,
+      "V_rot": 31.5,
+      "V_rot_err": 3.2,
+      "inc": 55,
+      "type": "dIrr"
+    },
+    "DDO69": {
+      "distance": 0.8,
+      "log_Mstar": 5.9,
+      "V_rot": 12.8,
+      "V_rot_err": 1.3,
+      "inc": 68,
+      "type": "dIrr"
+    },
+    "DDO70": {
+      "distance": 1.3,
+      "log_Mstar": 6.5,
+      "V_rot": 19.5,
+      "V_rot_err": 2.0,
+      "inc": 52,
+      "type": "dIrr"
+    },
+    "DDO75": {
+      "distance": 1.3,
+      "log_Mstar": 6.8,
+      "V_rot": 25.2,
+      "V_rot_err": 2.5,
+      "inc": 41,
+      "type": "dIrr"
+    },
+    "DDO87": {
+      "distance": 7.7,
+      "log_Mstar": 7.9,
+      "V_rot": 44.8,
+      "V_rot_err": 4.5,
+      "inc": 58,
+      "type": "dIrr"
+    },
+    "DDO101": {
+      "distance": 6.4,
+      "log_Mstar": 7.2,
+      "V_rot": 32.5,
+      "V_rot_err": 3.3,
+      "inc": 51,
+      "type": "dIrr"
+    },
+    "DDO126": {
+      "distance": 4.9,
+      "log_Mstar": 7.4,
+      "V_rot": 37.8,
+      "V_rot_err": 3.8,
+      "inc": 64,
+      "type": "dIrr"
+    },
+    "DDO133": {
+      "distance": 3.5,
+      "log_Mstar": 7.5,
+      "V_rot": 43.2,
+      "V_rot_err": 4.3,
+      "inc": 45,
+      "type": "dIrr"
+    },
+    "DDO154": {
+      "distance": 3.7,
+      "log_Mstar": 7.2,
+      "V_rot": 47.2,
+      "V_rot_err": 4.7,
+      "inc": 66,
+      "type": "dIrr"
+    },
+    "DDO155": {
+      "distance": 2.2,
+      "log_Mstar": 6.4,
+      "V_rot": 15.3,
+      "V_rot_err": 1.5,
+      "inc": 55,
+      "type": "dIrr"
+    },
+    "DDO165": {
+      "distance": 4.6,
+      "log_Mstar": 7.6,
+      "V_rot": 52.1,
+      "V_rot_err": 5.2,
+      "inc": 71,
+      "type": "dIrr"
+    },
+    "DDO167": {
+      "distance": 4.2,
+      "log_Mstar": 6.5,
+      "V_rot": 18.2,
+      "V_rot_err": 1.8,
+      "inc": 48,
+      "type": "dIrr"
+    },
+    "DDO168": {
+      "distance": 4.3,
+      "log_Mstar": 7.8,
+      "V_rot": 52.3,
+      "V_rot_err": 5.2,
+      "inc": 65,
+      "type": "dIrr"
+    },
+    "DDO187": {
+      "distance": 2.2,
+      "log_Mstar": 6.1,
+      "V_rot": 14.5,
+      "V_rot_err": 1.5,
+      "inc": 42,
+      "type": "dIrr"
+    },
+    "DDO210": {
+      "distance": 0.9,
+      "log_Mstar": 5.5,
+      "V_rot": 9.8,
+      "V_rot_err": 1.0,
+      "inc": 67,
+      "type": "dIrr"
+    },
+    "DDO216": {
+      "distance": 1.1,
+      "log_Mstar": 6.2,
+      "V_rot": 16.2,
+      "V_rot_err": 1.6,
+      "inc": 73,
+      "type": "dIrr"
+    },
+    "F564-V3": {
+      "distance": 8.7,
+      "log_Mstar": 6.9,
+      "V_rot": 26.5,
+      "V_rot_err": 2.7,
+      "inc": 59,
+      "type": "dIrr"
+    },
+    "Haro29": {
+      "distance": 5.9,
+      "log_Mstar": 7.1,
+      "V_rot": 28.8,
+      "V_rot_err": 2.9,
+      "inc": 61,
+      "type": "BCD"
+    },
+    "Haro36": {
+      "distance": 9.3,
+      "log_Mstar": 7.8,
+      "V_rot": 45.2,
+      "V_rot_err": 4.5,
+      "inc": 72,
+      "type": "BCD"
+    },
+    "IC10": {
+      "distance": 0.7,
+      "log_Mstar": 8.2,
+      "V_rot": 35.5,
+      "V_rot_err": 3.6,
+      "inc": 45,
+      "type": "dIrr"
+    },
+    "IC1613": {
+      "distance": 0.7,
+      "log_Mstar": 7.6,
+      "V_rot": 22.5,
+      "V_rot_err": 2.3,
+      "inc": 38,
+      "type": "dIrr"
+    },
+    "LGS3": {
+      "distance": 0.6,
+      "log_Mstar": 5.8,
+      "V_rot": 8.5,
+      "V_rot_err": 0.9,
+      "inc": 52,
+      "type": "dSph/dIrr"
+    },
+    "Mrk178": {
+      "distance": 4.2,
+      "log_Mstar": 7.0,
+      "V_rot": 29.5,
+      "V_rot_err": 3.0,
+      "inc": 68,
+      "type": "BCD"
+    },
+    "NGC1569": {
+      "distance": 3.4,
+      "log_Mstar": 8.5,
+      "V_rot": 48.2,
+      "V_rot_err": 4.8,
+      "inc": 63,
+      "type": "dIrr"
+    },
+    "NGC2366": {
+      "distance": 3.4,
+      "log_Mstar": 8.1,
+      "V_rot": 55.5,
+      "V_rot_err": 5.6,
+      "inc": 64,
+      "type": "dIrr"
+    },
+    "NGC3738": {
+      "distance": 4.9,
+      "log_Mstar": 8.3,
+      "V_rot": 62.1,
+      "V_rot_err": 6.2,
+      "inc": 47,
+      "type": "dIrr"
+    },
+    "NGC4163": {
+      "distance": 2.9,
+      "log_Mstar": 7.4,
+      "V_rot": 25.8,
+      "V_rot_err": 2.6,
+      "inc": 35,
+      "type": "dIrr"
+    },
+    "NGC4214": {
+      "distance": 2.9,
+      "log_Mstar": 8.8,
+      "V_rot": 68.5,
+      "V_rot_err": 6.9,
+      "inc": 44,
+      "type": "dIrr"
+    },
+    "SagDIG": {
+      "distance": 1.1,
+      "log_Mstar": 6.0,
+      "V_rot": 12.2,
+      "V_rot_err": 1.2,
+      "inc": 61,
+      "type": "dIrr"
+    },
+    "UGC8508": {
+      "distance": 2.6,
+      "log_Mstar": 6.7,
+      "V_rot": 21.5,
+      "V_rot_err": 2.2,
+      "inc": 75,
+      "type": "dIrr"
+    },
+    "UGCA292": {
+      "distance": 3.6,
+      "log_Mstar": 6.3,
+      "V_rot": 17.8,
+      "V_rot_err": 1.8,
+      "inc": 58,
+      "type": "dIrr"
+    },
+    "VIIZw403": {
+      "distance": 4.4,
+      "log_Mstar": 7.2,
+      "V_rot": 38.5,
+      "V_rot_err": 3.9,
+      "inc": 69,
+      "type": "BCD"
+    },
+    "WLM": {
+      "distance": 1.0,
+      "log_Mstar": 7.4,
+      "V_rot": 38.2,
+      "V_rot_err": 3.8,
+      "inc": 74,
+      "type": "dIrr"
+    }
+  }
+}

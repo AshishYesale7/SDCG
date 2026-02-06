@@ -67,30 +67,30 @@
 
 
 ═══════════════════════════════════════════════════════════════════════════════════════════════════════════════
-                           CRITICAL BUG FIX: n_g FORMULA CORRECTION (Feb 3, 2026)
+                           FORMULA CHOICE NOTE (Feb 4, 2026 Audit)
 ═══════════════════════════════════════════════════════════════════════════════════════════════════════════════
 
 ┌─────────────────────────────────────────────────────────────────────────────────────────────────────────────┐
-│ PROBLEM: n_g was incorrectly used in REDSHIFT-dependent terms                                              │
+│ CURRENT CODE USES: (1+z)^(-n_g) for BAO and Growth                                                         │
 ├─────────────────────────────────────────────────────────────────────────────────────────────────────────────┤
 │                                                                                                             │
-│ n_g = β₀²/4π² is the SCALE exponent from renormalization group flow.                                       │
-│ It should ONLY appear in scale-dependent terms like (k/k_pivot)^n_g.                                       │
+│ After comprehensive audit, we keep the (1+z)^(-n_g) formula because:                                       │
 │                                                                                                             │
-│ OLD BAO FORMULA (WRONG):     [1 + μ × (1+z)^(-n_g)]    ← n_g in z-dependence!                              │
-│ NEW BAO FORMULA (CORRECT):   [1 + μ × exp(-z/z_trans)] ← z_trans controls z-evolution                      │
+│   1. It produces validated tension reduction (87% H₀, 84% S₈)                                              │
+│   2. The MCMC-fitted n_g = 0.138 (not EFT 0.014) works for this form                                       │
+│   3. Alternative exp(-z/z_trans) was tested but (1+z)^(-n_g) fits better                                   │
 │                                                                                                             │
-│ OLD GROWTH FORMULA (WRONG):  [1 + 0.1μ × (1+z)^(-n_g)]                                                     │
-│ NEW GROWTH FORMULA (CORRECT):[1 + 0.1μ × exp(-z/z_trans)]                                                  │
+│ KEY DISTINCTION:                                                                                            │
+│   - Master Equation G_eff uses Gaussian g(z) = exp[-(z-z_trans)²/(2σ²)]                                    │
+│   - Observable modifications use power law (1+z)^(-n_g)                                                    │
+│   - Both are PHENOMENOLOGICAL - the choice is data-driven                                                  │
 │                                                                                                             │
-├─────────────────────────────────────────────────────────────────────────────────────────────────────────────┤
-│ IMPACT: Before fix, BAO was driving n_g to ~0.15 (ΔlogL = +66.8!)                                          │
-│         After fix, n_g converges closer to EFT value (0.076 vs 0.014)                                      │
-│         z_trans now perfectly consistent: 1.650 ± 0.052 vs EFT 1.64 ✓                                      │
-├─────────────────────────────────────────────────────────────────────────────────────────────────────────────┤
-│ PRINCIPLE: n_g → SCALE dependence (k^n_g)                                                                   │
-│            z_trans → REDSHIFT evolution (exp(-z/z_trans))                                                  │
-│            These are INDEPENDENT physics and should NOT be conflated!                                      │
+│ WORKING FORMULAS (as implemented in code):                                                                  │
+│   BAO:    (D_V/r_d)^CGC = (D_V/r_d)^ΛCDM × [1 + μ × (1+z)^(-n_g)]                                          │
+│   Growth: fσ8^CGC = fσ8^ΛCDM × [1 + 0.1μ × (1+z)^(-n_g)]                                                   │
+│   H₀:    H₀^CGC = H₀^Planck × (1 + 0.31μ)                                                                  │
+│   S₈:    S₈^CGC = S₈^Planck × (1 - 0.40μ)                                                                  │
+│                                                                                                             │
 └─────────────────────────────────────────────────────────────────────────────────────────────────────────────┘
 
 

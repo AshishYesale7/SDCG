@@ -1,0 +1,844 @@
+{
+  "analysis_date": "2026-02-03",
+  "void_sample": [
+    {
+      "name": "AGC724906",
+      "v_rot": 5.291502622129181,
+      "source": "ALFALFA"
+    },
+    {
+      "name": "AGC749408",
+      "v_rot": 6.557438524302001,
+      "source": "ALFALFA"
+    },
+    {
+      "name": "AGC229052",
+      "v_rot": 8.660254037844387,
+      "source": "ALFALFA"
+    },
+    {
+      "name": "AGC182561",
+      "v_rot": 9.59166304662544,
+      "source": "ALFALFA"
+    },
+    {
+      "name": "AGC749406",
+      "v_rot": 9.59166304662544,
+      "source": "ALFALFA"
+    },
+    {
+      "name": "AGC749241",
+      "v_rot": 10.392304845413264,
+      "source": "ALFALFA"
+    },
+    {
+      "name": "AGC749387",
+      "v_rot": 10.472185381603339,
+      "source": "ALFALFA"
+    },
+    {
+      "name": "AGC732602",
+      "v_rot": 10.472185381603339,
+      "source": "ALFALFA"
+    },
+    {
+      "name": "F495-2",
+      "v_rot": 11.547005383792516,
+      "source": "ALFALFA"
+    },
+    {
+      "name": "KKH 52",
+      "v_rot": 14.422205101855958,
+      "source": "ALFALFA"
+    },
+    {
+      "name": "AGC226606",
+      "v_rot": 14.422205101855958,
+      "source": "ALFALFA"
+    },
+    {
+      "name": "AGC731430",
+      "v_rot": 15.154757228892409,
+      "source": "ALFALFA"
+    },
+    {
+      "name": "AGC721972",
+      "v_rot": 17.281975195754296,
+      "source": "ALFALFA"
+    },
+    {
+      "name": "AGC182575",
+      "v_rot": 19.330459556530638,
+      "source": "ALFALFA"
+    },
+    {
+      "name": "AGC229053",
+      "v_rot": 20.000000000000004,
+      "source": "ALFALFA"
+    },
+    {
+      "name": "AGC182545",
+      "v_rot": 25.826343140289918,
+      "source": "ALFALFA"
+    },
+    {
+      "name": "AGC749303",
+      "v_rot": 25.826343140289918,
+      "source": "ALFALFA"
+    },
+    {
+      "name": "I 508",
+      "v_rot": 28.33725463060951,
+      "source": "ALFALFA"
+    },
+    {
+      "name": "AGC749236",
+      "v_rot": 28.33725463060951,
+      "source": "ALFALFA"
+    },
+    {
+      "name": "AGC  8030",
+      "v_rot": 28.33725463060951,
+      "source": "ALFALFA"
+    },
+    {
+      "name": "AGC191058",
+      "v_rot": 28.959742171964635,
+      "source": "ALFALFA"
+    },
+    {
+      "name": "AGC  7236",
+      "v_rot": 29.580398915498083,
+      "source": "ALFALFA"
+    },
+    {
+      "name": "AGC194045",
+      "v_rot": 31.432467291003423,
+      "source": "ALFALFA"
+    },
+    {
+      "name": "ADBS",
+      "v_rot": 33.27160951922825,
+      "source": "ALFALFA"
+    },
+    {
+      "name": "VGS01",
+      "v_rot": 35.0,
+      "source": "Kreckel+2012"
+    },
+    {
+      "name": "VGS02",
+      "v_rot": 35.0,
+      "source": "Kreckel+2012"
+    },
+    {
+      "name": "VGS03",
+      "v_rot": 35.0,
+      "source": "Kreckel+2012"
+    },
+    {
+      "name": "VGS04",
+      "v_rot": 35.0,
+      "source": "Kreckel+2012"
+    },
+    {
+      "name": "VGS05",
+      "v_rot": 35.0,
+      "source": "Kreckel+2012"
+    },
+    {
+      "name": "VGS06",
+      "v_rot": 35.0,
+      "source": "Kreckel+2012"
+    },
+    {
+      "name": "VGS07",
+      "v_rot": 35.0,
+      "source": "Kreckel+2012"
+    },
+    {
+      "name": "VGS08",
+      "v_rot": 35.0,
+      "source": "Kreckel+2012"
+    },
+    {
+      "name": "VGS09",
+      "v_rot": 35.0,
+      "source": "Kreckel+2012"
+    },
+    {
+      "name": "VGS10",
+      "v_rot": 35.0,
+      "source": "Kreckel+2012"
+    },
+    {
+      "name": "VGS11",
+      "v_rot": 35.0,
+      "source": "Kreckel+2012"
+    },
+    {
+      "name": "VGS12",
+      "v_rot": 35.0,
+      "source": "Kreckel+2012"
+    },
+    {
+      "name": "VGS13",
+      "v_rot": 35.0,
+      "source": "Kreckel+2012"
+    },
+    {
+      "name": "VGS14",
+      "v_rot": 35.0,
+      "source": "Kreckel+2012"
+    },
+    {
+      "name": "VGS15",
+      "v_rot": 35.0,
+      "source": "Kreckel+2012"
+    },
+    {
+      "name": "J0723+3621",
+      "v_rot": 35.0,
+      "source": "Pustilnik+2019"
+    },
+    {
+      "name": "J0737+4724",
+      "v_rot": 35.0,
+      "source": "Pustilnik+2019"
+    },
+    {
+      "name": "J0812+4836",
+      "v_rot": 35.0,
+      "source": "Pustilnik+2019"
+    },
+    {
+      "name": "J0926+3343",
+      "v_rot": 35.0,
+      "source": "Pustilnik+2019"
+    },
+    {
+      "name": "J0929+2502",
+      "v_rot": 35.0,
+      "source": "Pustilnik+2019"
+    },
+    {
+      "name": "KK246",
+      "v_rot": 35.0,
+      "source": "Karachentsev+2013"
+    },
+    {
+      "name": "ESO461-36",
+      "v_rot": 35.0,
+      "source": "Karachentsev+2013"
+    },
+    {
+      "name": "UGCA292",
+      "v_rot": 35.0,
+      "source": "Begum+2008"
+    },
+    {
+      "name": "AGC749304",
+      "v_rot": 35.09985754956849,
+      "source": "ALFALFA"
+    },
+    {
+      "name": "AGC194060",
+      "v_rot": 35.707142142714254,
+      "source": "ALFALFA"
+    },
+    {
+      "name": "152-071",
+      "v_rot": 35.707142142714254,
+      "source": "ALFALFA"
+    },
+    {
+      "name": "I3341",
+      "v_rot": 35.707142142714254,
+      "source": "ALFALFA"
+    },
+    {
+      "name": "UA298",
+      "v_rot": 35.707142142714254,
+      "source": "ALFALFA"
+    },
+    {
+      "name": "AGC731420",
+      "v_rot": 37.52332607858744,
+      "source": "ALFALFA"
+    },
+    {
+      "name": "AGC182601",
+      "v_rot": 38.12698082285912,
+      "source": "ALFALFA"
+    },
+    {
+      "name": "121-049",
+      "v_rot": 38.12698082285912,
+      "source": "ALFALFA"
+    },
+    {
+      "name": "I2271",
+      "v_rot": 39.933277684991836,
+      "source": "ALFALFA"
+    },
+    {
+      "name": "ADBS",
+      "v_rot": 43.52776891441447,
+      "source": "ALFALFA"
+    },
+    {
+      "name": "N4789A",
+      "v_rot": 44.721359549995796,
+      "source": "ALFALFA"
+    },
+    {
+      "name": "AGC182568",
+      "v_rot": 45.31739916044021,
+      "source": "ALFALFA"
+    },
+    {
+      "name": "F500-3",
+      "v_rot": 49.47726750741193,
+      "source": "ALFALFA"
+    },
+    {
+      "name": "AGC171459",
+      "v_rot": 54.209470267349666,
+      "source": "ALFALFA"
+    },
+    {
+      "name": "AGC171559",
+      "v_rot": 54.79963503528103,
+      "source": "ALFALFA"
+    },
+    {
+      "name": "AGC732482",
+      "v_rot": 54.79963503528103,
+      "source": "ALFALFA"
+    },
+    {
+      "name": "AGC749235",
+      "v_rot": 55.38952969650492,
+      "source": "ALFALFA"
+    },
+    {
+      "name": "AGC182563",
+      "v_rot": 58.923679450624945,
+      "source": "ALFALFA"
+    },
+    {
+      "name": "M+255015",
+      "v_rot": 65.96969000988258,
+      "source": "ALFALFA"
+    },
+    {
+      "name": "F495-02",
+      "v_rot": 67.14164132637808,
+      "source": "ALFALFA"
+    },
+    {
+      "name": "N4393",
+      "v_rot": 68.89847603539575,
+      "source": "ALFALFA"
+    },
+    {
+      "name": "AGC174653",
+      "v_rot": 72.40856302952021,
+      "source": "ALFALFA"
+    },
+    {
+      "name": "I3308",
+      "v_rot": 72.40856302952021,
+      "source": "ALFALFA"
+    },
+    {
+      "name": "120-056",
+      "v_rot": 78.24960063795852,
+      "source": "ALFALFA"
+    },
+    {
+      "name": "AGC182564",
+      "v_rot": 79.41662294507367,
+      "source": "ALFALFA"
+    },
+    {
+      "name": "160-159",
+      "v_rot": 82.91561975888501,
+      "source": "ALFALFA"
+    },
+    {
+      "name": "N4080",
+      "v_rot": 84.08130985341907,
+      "source": "ALFALFA"
+    },
+    {
+      "name": "119-108",
+      "v_rot": 88.74119674649425,
+      "source": "ALFALFA"
+    },
+    {
+      "name": "I2520",
+      "v_rot": 89.90550594930212,
+      "source": "ALFALFA"
+    },
+    {
+      "name": "I2256",
+      "v_rot": 98.04930732374741,
+      "source": "ALFALFA"
+    },
+    {
+      "name": "149-050",
+      "v_rot": 105.02221987116187,
+      "source": "ALFALFA"
+    },
+    {
+      "name": "147-029",
+      "v_rot": 113.15034246523517,
+      "source": "ALFALFA"
+    },
+    {
+      "name": "149-024",
+      "v_rot": 121.85236969382254,
+      "source": "ALFALFA"
+    },
+    {
+      "name": "I2361",
+      "v_rot": 132.86710152128205,
+      "source": "ALFALFA"
+    },
+    {
+      "name": "118-015",
+      "v_rot": 136.34392786870512,
+      "source": "ALFALFA"
+    }
+  ],
+  "cluster_sample": [
+    {
+      "name": "LeG06",
+      "v_rot": 3.6968455021364726,
+      "source": "ALFALFA"
+    },
+    {
+      "name": "VCC1295",
+      "v_rot": 3.6968455021364726,
+      "source": "ALFALFA"
+    },
+    {
+      "name": "VCC1822",
+      "v_rot": 6.557438524302001,
+      "source": "ALFALFA"
+    },
+    {
+      "name": "VCC 477",
+      "v_rot": 7.659416862050705,
+      "source": "ALFALFA"
+    },
+    {
+      "name": "LeoRing",
+      "v_rot": 10.392304845413264,
+      "source": "ALFALFA"
+    },
+    {
+      "name": "LeoRing",
+      "v_rot": 10.472185381603339,
+      "source": "ALFALFA"
+    },
+    {
+      "name": "LeoRing",
+      "v_rot": 10.96965511460289,
+      "source": "ALFALFA"
+    },
+    {
+      "name": "LeoRing",
+      "v_rot": 11.547005383792516,
+      "source": "ALFALFA"
+    },
+    {
+      "name": "VCC 350",
+      "v_rot": 12.124355652982143,
+      "source": "ALFALFA"
+    },
+    {
+      "name": "LeoRing",
+      "v_rot": 12.909944487358057,
+      "source": "ALFALFA"
+    },
+    {
+      "name": "VC-BK5",
+      "v_rot": 12.909944487358057,
+      "source": "ALFALFA"
+    },
+    {
+      "name": "160-073",
+      "v_rot": 14.422205101855958,
+      "source": "ALFALFA"
+    },
+    {
+      "name": "042-174",
+      "v_rot": 15.154757228892409,
+      "source": "ALFALFA"
+    },
+    {
+      "name": "042-010",
+      "v_rot": 16.583123951777,
+      "source": "ALFALFA"
+    },
+    {
+      "name": "VCC   4",
+      "v_rot": 17.97220075561143,
+      "source": "ALFALFA"
+    },
+    {
+      "name": "AGC225878",
+      "v_rot": 17.97220075561143,
+      "source": "ALFALFA"
+    },
+    {
+      "name": "I3466",
+      "v_rot": 18.654758106177628,
+      "source": "ALFALFA"
+    },
+    {
+      "name": "AGC225876",
+      "v_rot": 19.330459556530638,
+      "source": "ALFALFA"
+    },
+    {
+      "name": "AGC225857",
+      "v_rot": 20.663978319771825,
+      "source": "ALFALFA"
+    },
+    {
+      "name": "VCC1313",
+      "v_rot": 21.322914122292634,
+      "source": "ALFALFA"
+    },
+    {
+      "name": "VCC2034",
+      "v_rot": 21.97726097583591,
+      "source": "ALFALFA"
+    },
+    {
+      "name": "I3023",
+      "v_rot": 22.62741699796952,
+      "source": "ALFALFA"
+    },
+    {
+      "name": "I3576",
+      "v_rot": 22.62741699796952,
+      "source": "ALFALFA"
+    },
+    {
+      "name": "I3483",
+      "v_rot": 23.9165214862028,
+      "source": "ALFALFA"
+    },
+    {
+      "name": "VCC1549",
+      "v_rot": 24.6,
+      "source": "Toloba+2015"
+    },
+    {
+      "name": "VCC 963",
+      "v_rot": 25.192591503588247,
+      "source": "ALFALFA"
+    },
+    {
+      "name": "ADBS",
+      "v_rot": 25.826343140289918,
+      "source": "ALFALFA"
+    },
+    {
+      "name": "VCC 446",
+      "v_rot": 26.457513110645905,
+      "source": "ALFALFA"
+    },
+    {
+      "name": "VCC1952",
+      "v_rot": 26.457513110645905,
+      "source": "ALFALFA"
+    },
+    {
+      "name": "I3077",
+      "v_rot": 27.086281890777606,
+      "source": "ALFALFA"
+    },
+    {
+      "name": "AGC227861",
+      "v_rot": 28.33725463060951,
+      "source": "ALFALFA"
+    },
+    {
+      "name": "VCC1261",
+      "v_rot": 28.9,
+      "source": "Toloba+2015"
+    },
+    {
+      "name": "VCC 428",
+      "v_rot": 29.580398915498083,
+      "source": "ALFALFA"
+    },
+    {
+      "name": "065-083",
+      "v_rot": 30.199337741083003,
+      "source": "ALFALFA"
+    },
+    {
+      "name": "KK172",
+      "v_rot": 30.199337741083003,
+      "source": "ALFALFA"
+    },
+    {
+      "name": "VCC0308",
+      "v_rot": 31.2,
+      "source": "Toloba+2015"
+    },
+    {
+      "name": "VCC1933",
+      "v_rot": 31.432467291003423,
+      "source": "ALFALFA"
+    },
+    {
+      "name": "AGC227896",
+      "v_rot": 32.046840717924134,
+      "source": "ALFALFA"
+    },
+    {
+      "name": "N4424",
+      "v_rot": 33.27160951922825,
+      "source": "ALFALFA"
+    },
+    {
+      "name": "N4694",
+      "v_rot": 36.31345021705686,
+      "source": "ALFALFA"
+    },
+    {
+      "name": "AGC228097",
+      "v_rot": 37.52332607858744,
+      "source": "ALFALFA"
+    },
+    {
+      "name": "I3718",
+      "v_rot": 39.331920878594275,
+      "source": "ALFALFA"
+    },
+    {
+      "name": "VCC 888",
+      "v_rot": 41.13392760240627,
+      "source": "ALFALFA"
+    },
+    {
+      "name": "VCC1873",
+      "v_rot": 41.73328008516305,
+      "source": "ALFALFA"
+    },
+    {
+      "name": "LeoRing",
+      "v_rot": 43.52776891441447,
+      "source": "ALFALFA"
+    },
+    {
+      "name": "N4411b",
+      "v_rot": 45.91296113299599,
+      "source": "ALFALFA"
+    },
+    {
+      "name": "I3716",
+      "v_rot": 45.91296113299599,
+      "source": "ALFALFA"
+    },
+    {
+      "name": "VCC1605",
+      "v_rot": 48.88421694848621,
+      "source": "ALFALFA"
+    },
+    {
+      "name": "I3521",
+      "v_rot": 49.47726750741193,
+      "source": "ALFALFA"
+    },
+    {
+      "name": "N4411",
+      "v_rot": 50.06995106848019,
+      "source": "ALFALFA"
+    },
+    {
+      "name": "I3617",
+      "v_rot": 52.437264103561574,
+      "source": "ALFALFA"
+    },
+    {
+      "name": "VCC 740",
+      "v_rot": 54.79963503528103,
+      "source": "ALFALFA"
+    },
+    {
+      "name": "098-106",
+      "v_rot": 55.9791627899763,
+      "source": "ALFALFA"
+    },
+    {
+      "name": "I3522",
+      "v_rot": 58.33523806414096,
+      "source": "ALFALFA"
+    },
+    {
+      "name": "N4299",
+      "v_rot": 59.51190357119042,
+      "source": "ALFALFA"
+    },
+    {
+      "name": "I3208",
+      "v_rot": 60.099916805266886,
+      "source": "ALFALFA"
+    },
+    {
+      "name": "VCC 421",
+      "v_rot": 63.037026156590436,
+      "source": "ALFALFA"
+    },
+    {
+      "name": "I 800",
+      "v_rot": 64.21059102671458,
+      "source": "ALFALFA"
+    },
+    {
+      "name": "I3115",
+      "v_rot": 66.5557410496395,
+      "source": "ALFALFA"
+    },
+    {
+      "name": "I3094",
+      "v_rot": 69.48381106416085,
+      "source": "ALFALFA"
+    },
+    {
+      "name": "069-095",
+      "v_rot": 71.8238586172218,
+      "source": "ALFALFA"
+    },
+    {
+      "name": "N4390",
+      "v_rot": 73.57762341001961,
+      "source": "ALFALFA"
+    },
+    {
+      "name": "N4416",
+      "v_rot": 76.49836599562111,
+      "source": "ALFALFA"
+    },
+    {
+      "name": "N4430",
+      "v_rot": 80.00000000000001,
+      "source": "ALFALFA"
+    },
+    {
+      "name": "N4405",
+      "v_rot": 82.91561975888501,
+      "source": "ALFALFA"
+    },
+    {
+      "name": "I3311",
+      "v_rot": 85.24670081592602,
+      "source": "ALFALFA"
+    },
+    {
+      "name": "N4571",
+      "v_rot": 86.99425268372617,
+      "source": "ALFALFA"
+    },
+    {
+      "name": "N4252",
+      "v_rot": 89.90550594930212,
+      "source": "ALFALFA"
+    },
+    {
+      "name": "N4519",
+      "v_rot": 96.88653157173087,
+      "source": "ALFALFA"
+    },
+    {
+      "name": "M+530111",
+      "v_rot": 103.860483341837,
+      "source": "ALFALFA"
+    },
+    {
+      "name": "N4689",
+      "v_rot": 105.02221987116187,
+      "source": "ALFALFA"
+    },
+    {
+      "name": "I3392",
+      "v_rot": 107.92590050585635,
+      "source": "ALFALFA"
+    },
+    {
+      "name": "N4294",
+      "v_rot": 112.56997823576232,
+      "source": "ALFALFA"
+    },
+    {
+      "name": "N4207",
+      "v_rot": 113.7306760142868,
+      "source": "ALFALFA"
+    },
+    {
+      "name": "N4152",
+      "v_rot": 120.69244660154449,
+      "source": "ALFALFA"
+    },
+    {
+      "name": "N4548",
+      "v_rot": 134.60559671375728,
+      "source": "ALFALFA"
+    },
+    {
+      "name": "N4402",
+      "v_rot": 137.5027272456805,
+      "source": "ALFALFA"
+    },
+    {
+      "name": "N4321",
+      "v_rot": 144.45414497341363,
+      "source": "ALFALFA"
+    },
+    {
+      "name": "N4313",
+      "v_rot": 150.82440120882296,
+      "source": "ALFALFA"
+    },
+    {
+      "name": "N3351",
+      "v_rot": 155.45631755148025,
+      "source": "ALFALFA"
+    },
+    {
+      "name": "N4591",
+      "v_rot": 172.81975195754296,
+      "source": "ALFALFA"
+    },
+    {
+      "name": "N3368",
+      "v_rot": 197.69420831172573,
+      "source": "ALFALFA"
+    }
+  ],
+  "statistics": {
+    "n_void": 82,
+    "n_cluster": 82,
+    "void_mean": 43.881991057777334,
+    "void_std": 28.85041824218926,
+    "void_sem": 3.1859957143825515,
+    "cluster_mean": 53.31984485342722,
+    "cluster_std": 43.43686538144992,
+    "cluster_sem": 4.796799331981186,
+    "delta_v": -9.437853795649886,
+    "delta_v_err": 5.758459214352319,
+    "delta_v_bootstrap_err": 5.786632145111024,
+    "sigma_from_zero": -1.6389547002654954,
+    "deviation_from_sdcg": 7.145951265216628,
+    "sdcg_prediction": 12.0,
+    "sdcg_error": 3.0
+  }
+}

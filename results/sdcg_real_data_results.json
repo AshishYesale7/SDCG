@@ -6,19 +6,19 @@
     "underdense": 33
   },
   "tully_fisher": {
-    "slope": 0.243456849121392,
-    "intercept": 1.3920138539660607
+    "slope": 0.24345684912139193,
+    "intercept": 1.3920138539660618
   },
   "residuals_by_environment": {
     "void": {
       "n": 142,
-      "pct_offset": 1.214676281658611,
-      "significance": 1.40162484011236
+      "pct_offset": 1.2146762816584111,
+      "significance": 1.4016248401121212
     },
     "underdense": {
       "n": 33,
-      "pct_offset": -5.0626507072670694,
-      "significance": -2.8782636950631444
+      "pct_offset": -5.06265070726728,
+      "significance": -2.8782636950632714
     }
   },
   "sdcg_parameters": {

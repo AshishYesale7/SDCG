@@ -1,0 +1,1092 @@
+{
+  "mass_binned": [
+    {
+      "mass_bin": "6.0-7.0",
+      "n_void": 5,
+      "n_cluster": 7,
+      "v_void_mean": 27.659999999999997,
+      "v_cluster_mean": 17.077142857142857,
+      "delta_v": 10.58285714285714,
+      "delta_v_err": 1.9460242917850967,
+      "significance": "no_scipy"
+    },
+    {
+      "mass_bin": "7.0-7.5",
+      "n_void": 4,
+      "n_cluster": 17,
+      "v_void_mean": 34.9875,
+      "v_cluster_mean": 24.16705882352941,
+      "delta_v": 10.820441176470588,
+      "delta_v_err": 1.6927658068940379,
+      "significance": "no_scipy"
+    },
+    {
+      "mass_bin": "7.5-8.0",
+      "n_void": 6,
+      "n_cluster": 26,
+      "v_void_mean": 43.69166666666666,
+      "v_cluster_mean": 30.74230769230769,
+      "delta_v": 12.949358974358972,
+      "delta_v_err": 1.4367521780635253,
+      "significance": "no_scipy"
+    },
+    {
+      "mass_bin": "8.0-8.5",
+      "n_void": 2,
+      "n_cluster": 22,
+      "v_void_mean": 49.55,
+      "v_cluster_mean": 37.95909090909091,
+      "delta_v": 11.590909090909086,
+      "delta_v_err": 2.658291032986545,
+      "significance": "N<3"
+    }
+  ],
+  "weighted_delta_v": 11.69019424800929,
+  "weighted_delta_v_err": 0.8983911914420062,
+  "btfr": {
+    "void_mean_deviation": 25.843166664660465,
+    "cluster_mean_deviation": 15.568359544075395,
+    "void_deviations": [
+      {
+        "name": "DDO52",
+        "log_mstar": 7.9,
+        "v_observed": 42.3,
+        "v_predicted": 15.563162709681782,
+        "delta_v": 26.736837290318213
+      },
+      {
+        "name": "DDO154",
+        "log_mstar": 8.0,
+        "v_observed": 47.0,
+        "v_predicted": 16.485338075770695,
+        "delta_v": 30.514661924229305
+      },
+      {
+        "name": "DDO168",
+        "log_mstar": 8.3,
+        "v_observed": 52.1,
+        "v_predicted": 19.59286102310577,
+        "delta_v": 32.50713897689423
+      },
+      {
+        "name": "F564-V3",
+        "log_mstar": 7.7,
+        "v_observed": 44.2,
+        "v_predicted": 13.870683365332011,
+        "delta_v": 30.32931663466799
+      },
+      {
+        "name": "UGCA292",
+        "log_mstar": 6.9,
+        "v_observed": 28.2,
+        "v_predicted": 8.751809542315478,
+        "delta_v": 19.44819045768452
+      },
+      {
+        "name": "J0723+3621",
+        "log_mstar": 7.1,
+        "v_observed": 33.75,
+        "v_predicted": 9.819691815013982,
+        "delta_v": 23.930308184986018
+      },
+      {
+        "name": "J0737+4724",
+        "log_mstar": 7.4,
+        "v_observed": 38.7,
+        "v_predicted": 11.67072559488918,
+        "delta_v": 27.029274405110822
+      },
+      {
+        "name": "J0812+4836",
+        "log_mstar": 7.0,
+        "v_observed": 31.799999999999997,
+        "v_predicted": 9.270386859739812,
+        "delta_v": 22.529613140260185
+      },
+      {
+        "name": "J0926+3343",
+        "log_mstar": 7.5,
+        "v_observed": 42.45,
+        "v_predicted": 12.362259561908292,
+        "delta_v": 30.08774043809171
+      },
+      {
+        "name": "J0929+2502",
+        "log_mstar": 6.8,
+        "v_observed": 29.25,
+        "v_predicted": 8.262240985605853,
+        "delta_v": 20.987759014394147
+      },
+      {
+        "name": "ESO358-G060",
+        "log_mstar": 7.2,
+        "v_observed": 35.7,
+        "v_predicted": 10.401545135146495,
+        "delta_v": 25.298454864853507
+      },
+      {
+        "name": "ESO358-G063",
+        "log_mstar": 7.5,
+        "v_observed": 39.75,
+        "v_predicted": 12.362259561908292,
+        "delta_v": 27.387740438091708
+      },
+      {
+        "name": "ESO359-G002",
+        "log_mstar": 6.9,
+        "v_observed": 30.299999999999997,
+        "v_predicted": 8.751809542315478,
+        "delta_v": 21.54819045768452
+      },
+      {
+        "name": "Mrk0475",
+        "log_mstar": 7.8,
+        "v_observed": 48.75,
+        "v_predicted": 14.692573025482584,
+        "delta_v": 34.05742697451741
+      },
+      {
+        "name": "VCC0885",
+        "log_mstar": 7.6,
+        "v_observed": 44.7,
+        "v_predicted": 13.094769492559916,
+        "delta_v": 31.605230507440087
+      },
+      {
+        "name": "KK246",
+        "log_mstar": 6.5,
+        "v_observed": 22.799999999999997,
+        "v_predicted": 6.951809424390573,
+        "delta_v": 15.848190575609424
+      },
+      {
+        "name": "ESO461-G036",
+        "log_mstar": 6.8,
+        "v_observed": 27.75,
+        "v_predicted": 8.262240985605853,
+        "delta_v": 19.487759014394147
+      }
+    ],
+    "cluster_deviations": [
+      {
+        "name": "DDO69",
+        "log_mstar": 5.8,
+        "v_observed": 12.5,
+        "v_predicted": 4.646199544887612,
+        "delta_v": 7.853800455112388
+      },
+      {
+        "name": "DDO210",
+        "log_mstar": 5.2,
+        "v_observed": 8.5,
+        "v_predicted": 3.2892573812106853,
+        "delta_v": 5.210742618789315
+      },
+      {
+        "name": "DDO216",
+        "log_mstar": 6.2,
+        "v_observed": 15.8,
+        "v_predicted": 5.84921867532551,
+        "delta_v": 9.950781324674491
+      },
+      {
+        "name": "IC10",
+        "log_mstar": 8.2,
+        "v_observed": 32.5,
+        "v_predicted": 18.49685354642153,
+        "delta_v": 14.00314645357847
+      },
+      {
+        "name": "IC1613",
+        "log_mstar": 7.5,
+        "v_observed": 25.2,
+        "v_predicted": 12.362259561908292,
+        "delta_v": 12.837740438091707
+      },
+      {
+        "name": "SagDIG",
+        "log_mstar": 5.9,
+        "v_observed": 12.5,
+        "v_predicted": 4.921504175839228,
+        "delta_v": 7.578495824160772
+      },
+      {
+        "name": "SextansA",
+        "log_mstar": 7.8,
+        "v_observed": 40.2,
+        "v_predicted": 14.692573025482584,
+        "delta_v": 25.50742697451742
+      },
+      {
+        "name": "SextansB",
+        "log_mstar": 7.3,
+        "v_observed": 28.5,
+        "v_predicted": 11.017875432003631,
+        "delta_v": 17.48212456799637
+      },
+      {
+        "name": "WLM",
+        "log_mstar": 7.5,
+        "v_observed": 38.5,
+        "v_predicted": 12.362259561908292,
+        "delta_v": 26.137740438091708
+      },
+      {
+        "name": "VCC0009",
+        "log_mstar": 8.1,
+        "v_observed": 35,
+        "v_predicted": 17.462155767567104,
+        "delta_v": 17.537844232432896
+      },
+      {
+        "name": "VCC0021",
+        "log_mstar": 7.5,
+        "v_observed": 29,
+        "v_predicted": 12.362259561908292,
+        "delta_v": 16.637740438091708
+      },
+      {
+        "name": "VCC0033",
+        "log_mstar": 7.8,
+        "v_observed": 32,
+        "v_predicted": 14.692573025482584,
+        "delta_v": 17.307426974517416
+      },
+      {
+        "name": "VCC0140",
+        "log_mstar": 8.0,
+        "v_observed": 38,
+        "v_predicted": 16.485338075770695,
+        "delta_v": 21.514661924229305
+      },
+      {
+        "name": "VCC0170",
+        "log_mstar": 7.6,
+        "v_observed": 28,
+        "v_predicted": 13.094769492559916,
+        "delta_v": 14.905230507440084
+      },
+      {
+        "name": "VCC0200",
+        "log_mstar": 8.2,
+        "v_observed": 41,
+        "v_predicted": 18.49685354642153,
+        "delta_v": 22.50314645357847
+      },
+      {
+        "name": "VCC0308",
+        "log_mstar": 7.3,
+        "v_observed": 25,
+        "v_predicted": 11.017875432003631,
+        "delta_v": 13.982124567996369
+      },
+      {
+        "name": "VCC0389",
+        "log_mstar": 7.9,
+        "v_observed": 33,
+        "v_predicted": 15.563162709681782,
+        "delta_v": 17.436837290318216
+      },
+      {
+        "name": "VCC0437",
+        "log_mstar": 7.7,
+        "v_observed": 30,
+        "v_predicted": 13.870683365332011,
+        "delta_v": 16.129316634667987
+      },
+      {
+        "name": "VCC0490",
+        "log_mstar": 7.4,
+        "v_observed": 27,
+        "v_predicted": 11.67072559488918,
+        "delta_v": 15.32927440511082
+      },
+      {
+        "name": "VCC0523",
+        "log_mstar": 8.0,
+        "v_observed": 36,
+        "v_predicted": 16.485338075770695,
+        "delta_v": 19.514661924229305
+      },
+      {
+        "name": "VCC0543",
+        "log_mstar": 7.1,
+        "v_observed": 22,
+        "v_predicted": 9.819691815013982,
+        "delta_v": 12.180308184986018
+      },
+      {
+        "name": "VCC0608",
+        "log_mstar": 7.8,
+        "v_observed": 31,
+        "v_predicted": 14.692573025482584,
+        "delta_v": 16.307426974517416
+      },
+      {
+        "name": "VCC0634",
+        "log_mstar": 7.2,
+        "v_observed": 24,
+        "v_predicted": 10.401545135146495,
+        "delta_v": 13.598454864853505
+      },
+      {
+        "name": "VCC0698",
+        "log_mstar": 7.9,
+        "v_observed": 35,
+        "v_predicted": 15.563162709681782,
+        "delta_v": 19.436837290318216
+      },
+      {
+        "name": "VCC0725",
+        "log_mstar": 7.5,
+        "v_observed": 28,
+        "v_predicted": 12.362259561908292,
+        "delta_v": 15.637740438091708
+      },
+      {
+        "name": "VCC0781",
+        "log_mstar": 8.1,
+        "v_observed": 40,
+        "v_predicted": 17.462155767567104,
+        "delta_v": 22.537844232432896
+      },
+      {
+        "name": "VCC0856",
+        "log_mstar": 7.3,
+        "v_observed": 26,
+        "v_predicted": 11.017875432003631,
+        "delta_v": 14.982124567996369
+      },
+      {
+        "name": "VCC0870",
+        "log_mstar": 7.9,
+        "v_observed": 34,
+        "v_predicted": 15.563162709681782,
+        "delta_v": 18.436837290318216
+      },
+      {
+        "name": "VCC0885",
+        "log_mstar": 8.2,
+        "v_observed": 42,
+        "v_predicted": 18.49685354642153,
+        "delta_v": 23.50314645357847
+      },
+      {
+        "name": "VCC0917",
+        "log_mstar": 7.0,
+        "v_observed": 23,
+        "v_predicted": 9.270386859739812,
+        "delta_v": 13.729613140260188
+      },
+      {
+        "name": "VCC0940",
+        "log_mstar": 7.6,
+        "v_observed": 29,
+        "v_predicted": 13.094769492559916,
+        "delta_v": 15.905230507440084
+      },
+      {
+        "name": "VCC0965",
+        "log_mstar": 8.0,
+        "v_observed": 37,
+        "v_predicted": 16.485338075770695,
+        "delta_v": 20.514661924229305
+      },
+      {
+        "name": "VCC1010",
+        "log_mstar": 7.8,
+        "v_observed": 32,
+        "v_predicted": 14.692573025482584,
+        "delta_v": 17.307426974517416
+      },
+      {
+        "name": "VCC1036",
+        "log_mstar": 6.9,
+        "v_observed": 20,
+        "v_predicted": 8.751809542315478,
+        "delta_v": 11.248190457684522
+      },
+      {
+        "name": "VCC1073",
+        "log_mstar": 7.2,
+        "v_observed": 25,
+        "v_predicted": 10.401545135146495,
+        "delta_v": 14.598454864853505
+      },
+      {
+        "name": "VCC1087",
+        "log_mstar": 8.3,
+        "v_observed": 44,
+        "v_predicted": 19.59286102310577,
+        "delta_v": 24.40713897689423
+      },
+      {
+        "name": "VCC1104",
+        "log_mstar": 7.7,
+        "v_observed": 30,
+        "v_predicted": 13.870683365332011,
+        "delta_v": 16.129316634667987
+      },
+      {
+        "name": "VCC1122",
+        "log_mstar": 7.9,
+        "v_observed": 33,
+        "v_predicted": 15.563162709681782,
+        "delta_v": 17.436837290318216
+      },
+      {
+        "name": "VCC1167",
+        "log_mstar": 7.4,
+        "v_observed": 27,
+        "v_predicted": 11.67072559488918,
+        "delta_v": 15.32927440511082
+      },
+      {
+        "name": "VCC1185",
+        "log_mstar": 8.1,
+        "v_observed": 38,
+        "v_predicted": 17.462155767567104,
+        "delta_v": 20.537844232432896
+      },
+      {
+        "name": "VCC1192",
+        "log_mstar": 6.8,
+        "v_observed": 21,
+        "v_predicted": 8.262240985605853,
+        "delta_v": 12.737759014394147
+      },
+      {
+        "name": "VCC1254",
+        "log_mstar": 8.0,
+        "v_observed": 35,
+        "v_predicted": 16.485338075770695,
+        "delta_v": 18.514661924229305
+      },
+      {
+        "name": "VCC1261",
+        "log_mstar": 7.1,
+        "v_observed": 24,
+        "v_predicted": 9.819691815013982,
+        "delta_v": 14.180308184986018
+      },
+      {
+        "name": "VCC1297",
+        "log_mstar": 7.8,
+        "v_observed": 31,
+        "v_predicted": 14.692573025482584,
+        "delta_v": 16.307426974517416
+      },
+      {
+        "name": "VCC1308",
+        "log_mstar": 8.4,
+        "v_observed": 45,
+        "v_predicted": 20.75381102560569,
+        "delta_v": 24.24618897439431
+      },
+      {
+        "name": "VCC1355",
+        "log_mstar": 7.5,
+        "v_observed": 28,
+        "v_predicted": 12.362259561908292,
+        "delta_v": 15.637740438091708
+      },
+      {
+        "name": "VCC1407",
+        "log_mstar": 8.0,
+        "v_observed": 36,
+        "v_predicted": 16.485338075770695,
+        "delta_v": 19.514661924229305
+      },
+      {
+        "name": "VCC1431",
+        "log_mstar": 8.0,
+        "v_observed": 35,
+        "v_predicted": 16.485338075770695,
+        "delta_v": 18.514661924229305
+      },
+      {
+        "name": "VCC1475",
+        "log_mstar": 6.9,
+        "v_observed": 22,
+        "v_predicted": 8.751809542315478,
+        "delta_v": 13.248190457684522
+      },
+      {
+        "name": "VCC1499",
+        "log_mstar": 7.6,
+        "v_observed": 29,
+        "v_predicted": 13.094769492559916,
+        "delta_v": 15.905230507440084
+      },
+      {
+        "name": "VCC1528",
+        "log_mstar": 7.5,
+        "v_observed": 28,
+        "v_predicted": 12.362259561908292,
+        "delta_v": 15.637740438091708
+      },
+      {
+        "name": "VCC1539",
+        "log_mstar": 8.1,
+        "v_observed": 39,
+        "v_predicted": 17.462155767567104,
+        "delta_v": 21.537844232432896
+      },
+      {
+        "name": "VCC1545",
+        "log_mstar": 8.2,
+        "v_observed": 38,
+        "v_predicted": 18.49685354642153,
+        "delta_v": 19.50314645357847
+      },
+      {
+        "name": "VCC1567",
+        "log_mstar": 7.3,
+        "v_observed": 26,
+        "v_predicted": 11.017875432003631,
+        "delta_v": 14.982124567996369
+      },
+      {
+        "name": "VCC1661",
+        "log_mstar": 7.9,
+        "v_observed": 33,
+        "v_predicted": 15.563162709681782,
+        "delta_v": 17.436837290318216
+      },
+      {
+        "name": "VCC1684",
+        "log_mstar": 7.7,
+        "v_observed": 30,
+        "v_predicted": 13.870683365332011,
+        "delta_v": 16.129316634667987
+      },
+      {
+        "name": "VCC1695",
+        "log_mstar": 8.2,
+        "v_observed": 41,
+        "v_predicted": 18.49685354642153,
+        "delta_v": 22.50314645357847
+      },
+      {
+        "name": "VCC1743",
+        "log_mstar": 7.2,
+        "v_observed": 25,
+        "v_predicted": 10.401545135146495,
+        "delta_v": 14.598454864853505
+      },
+      {
+        "name": "VCC1789",
+        "log_mstar": 8.0,
+        "v_observed": 34,
+        "v_predicted": 16.485338075770695,
+        "delta_v": 17.514661924229305
+      },
+      {
+        "name": "VCC1826",
+        "log_mstar": 7.4,
+        "v_observed": 27,
+        "v_predicted": 11.67072559488918,
+        "delta_v": 15.32927440511082
+      },
+      {
+        "name": "VCC1857",
+        "log_mstar": 7.4,
+        "v_observed": 26,
+        "v_predicted": 11.67072559488918,
+        "delta_v": 14.32927440511082
+      },
+      {
+        "name": "VCC1861",
+        "log_mstar": 8.1,
+        "v_observed": 37,
+        "v_predicted": 17.462155767567104,
+        "delta_v": 19.537844232432896
+      },
+      {
+        "name": "VCC1895",
+        "log_mstar": 7.6,
+        "v_observed": 30,
+        "v_predicted": 13.094769492559916,
+        "delta_v": 16.905230507440084
+      },
+      {
+        "name": "VCC1910",
+        "log_mstar": 7.0,
+        "v_observed": 23,
+        "v_predicted": 9.270386859739812,
+        "delta_v": 13.729613140260188
+      },
+      {
+        "name": "VCC1947",
+        "log_mstar": 7.8,
+        "v_observed": 32,
+        "v_predicted": 14.692573025482584,
+        "delta_v": 17.307426974517416
+      },
+      {
+        "name": "VCC2019",
+        "log_mstar": 8.3,
+        "v_observed": 43,
+        "v_predicted": 19.59286102310577,
+        "delta_v": 23.40713897689423
+      },
+      {
+        "name": "VCC2033",
+        "log_mstar": 7.5,
+        "v_observed": 28,
+        "v_predicted": 12.362259561908292,
+        "delta_v": 15.637740438091708
+      },
+      {
+        "name": "VCC2048",
+        "log_mstar": 8.0,
+        "v_observed": 35,
+        "v_predicted": 16.485338075770695,
+        "delta_v": 18.514661924229305
+      },
+      {
+        "name": "Sagittarius",
+        "log_mstar": 7.3,
+        "v_observed": 15.959999999999999,
+        "v_predicted": 11.017875432003631,
+        "delta_v": 4.942124567996368
+      },
+      {
+        "name": "Ursa_Minor",
+        "log_mstar": 5.5,
+        "v_observed": 13.299999999999999,
+        "v_predicted": 3.909289724182553,
+        "delta_v": 9.390710275817446
+      },
+      {
+        "name": "Draco",
+        "log_mstar": 5.5,
+        "v_observed": 12.739999999999998,
+        "v_predicted": 3.909289724182553,
+        "delta_v": 8.830710275817445
+      },
+      {
+        "name": "Sculptor",
+        "log_mstar": 6.3,
+        "v_observed": 12.879999999999999,
+        "v_predicted": 6.195806671215112,
+        "delta_v": 6.684193328784887
+      },
+      {
+        "name": "Sextans",
+        "log_mstar": 5.7,
+        "v_observed": 11.06,
+        "v_predicted": 4.386295213745857,
+        "delta_v": 6.673704786254143
+      },
+      {
+        "name": "Carina",
+        "log_mstar": 5.6,
+        "v_observed": 9.239999999999998,
+        "v_predicted": 4.140929703137664,
+        "delta_v": 5.099070296862334
+      },
+      {
+        "name": "Fornax",
+        "log_mstar": 7.2,
+        "v_observed": 16.38,
+        "v_predicted": 10.401545135146495,
+        "delta_v": 5.978454864853504
+      },
+      {
+        "name": "NGC205",
+        "log_mstar": 8.5,
+        "v_observed": 49.0,
+        "v_predicted": 21.983551640498312,
+        "delta_v": 27.016448359501688
+      },
+      {
+        "name": "NGC185",
+        "log_mstar": 8.0,
+        "v_observed": 33.599999999999994,
+        "v_predicted": 16.485338075770695,
+        "delta_v": 17.1146619242293
+      },
+      {
+        "name": "NGC147",
+        "log_mstar": 7.7,
+        "v_observed": 22.4,
+        "v_predicted": 13.870683365332011,
+        "delta_v": 8.529316634667987
+      },
+      {
+        "name": "And_II",
+        "log_mstar": 6.8,
+        "v_observed": 13.02,
+        "v_predicted": 8.262240985605853,
+        "delta_v": 4.757759014394146
+      },
+      {
+        "name": "And_I",
+        "log_mstar": 6.5,
+        "v_observed": 14.839999999999998,
+        "v_predicted": 6.951809424390573,
+        "delta_v": 7.888190575609425
+      },
+      {
+        "name": "And_III",
+        "log_mstar": 5.9,
+        "v_observed": 6.58,
+        "v_predicted": 4.921504175839228,
+        "delta_v": 1.658495824160772
+      }
+    ]
+  },
+  "tf_plot_data": {
+    "void": {
+      "log_mstar": [
+        7.9,
+        8.0,
+        8.3,
+        7.7,
+        6.9,
+        7.1,
+        7.4,
+        7.0,
+        7.5,
+        6.8,
+        7.2,
+        7.5,
+        6.9,
+        7.8,
+        7.6,
+        6.5,
+        6.8
+      ],
+      "v_rot": [
+        42.3,
+        47.0,
+        52.1,
+        44.2,
+        28.2,
+        33.75,
+        38.7,
+        31.799999999999997,
+        42.45,
+        29.25,
+        35.7,
+        39.75,
+        30.299999999999997,
+        48.75,
+        44.7,
+        22.799999999999997,
+        27.75
+      ],
+      "names": [
+        "DDO52",
+        "DDO154",
+        "DDO168",
+        "F564-V3",
+        "UGCA292",
+        "J0723+3621",
+        "J0737+4724",
+        "J0812+4836",
+        "J0926+3343",
+        "J0929+2502",
+        "ESO358-G060",
+        "ESO358-G063",
+        "ESO359-G002",
+        "Mrk0475",
+        "VCC0885",
+        "KK246",
+        "ESO461-G036"
+      ]
+    },
+    "cluster": {
+      "log_mstar": [
+        5.8,
+        5.2,
+        6.2,
+        8.2,
+        7.5,
+        5.9,
+        7.8,
+        7.3,
+        7.5,
+        8.1,
+        7.5,
+        7.8,
+        8.0,
+        7.6,
+        8.2,
+        7.3,
+        7.9,
+        7.7,
+        7.4,
+        8.0,
+        7.1,
+        7.8,
+        7.2,
+        7.9,
+        7.5,
+        8.1,
+        7.3,
+        7.9,
+        8.2,
+        7.0,
+        7.6,
+        8.0,
+        7.8,
+        6.9,
+        7.2,
+        8.3,
+        7.7,
+        7.9,
+        7.4,
+        8.1,
+        6.8,
+        8.0,
+        7.1,
+        7.8,
+        8.4,
+        7.5,
+        8.0,
+        8.0,
+        6.9,
+        7.6,
+        7.5,
+        8.1,
+        8.2,
+        7.3,
+        7.9,
+        7.7,
+        8.2,
+        7.2,
+        8.0,
+        7.4,
+        7.4,
+        8.1,
+        7.6,
+        7.0,
+        7.8,
+        8.3,
+        7.5,
+        8.0,
+        7.3,
+        5.5,
+        5.5,
+        6.3,
+        5.7,
+        5.6,
+        7.2,
+        8.5,
+        8.0,
+        7.7,
+        6.8,
+        6.5,
+        5.9
+      ],
+      "v_rot": [
+        12.5,
+        8.5,
+        15.8,
+        32.5,
+        25.2,
+        12.5,
+        40.2,
+        28.5,
+        38.5,
+        35,
+        29,
+        32,
+        38,
+        28,
+        41,
+        25,
+        33,
+        30,
+        27,
+        36,
+        22,
+        31,
+        24,
+        35,
+        28,
+        40,
+        26,
+        34,
+        42,
+        23,
+        29,
+        37,
+        32,
+        20,
+        25,
+        44,
+        30,
+        33,
+        27,
+        38,
+        21,
+        35,
+        24,
+        31,
+        45,
+        28,
+        36,
+        35,
+        22,
+        29,
+        28,
+        39,
+        38,
+        26,
+        33,
+        30,
+        41,
+        25,
+        34,
+        27,
+        26,
+        37,
+        30,
+        23,
+        32,
+        43,
+        28,
+        35,
+        15.959999999999999,
+        13.299999999999999,
+        12.739999999999998,
+        12.879999999999999,
+        11.06,
+        9.239999999999998,
+        16.38,
+        49.0,
+        33.599999999999994,
+        22.4,
+        13.02,
+        14.839999999999998,
+        6.58
+      ],
+      "names": [
+        "DDO69",
+        "DDO210",
+        "DDO216",
+        "IC10",
+        "IC1613",
+        "SagDIG",
+        "SextansA",
+        "SextansB",
+        "WLM",
+        "VCC0009",
+        "VCC0021",
+        "VCC0033",
+        "VCC0140",
+        "VCC0170",
+        "VCC0200",
+        "VCC0308",
+        "VCC0389",
+        "VCC0437",
+        "VCC0490",
+        "VCC0523",
+        "VCC0543",
+        "VCC0608",
+        "VCC0634",
+        "VCC0698",
+        "VCC0725",
+        "VCC0781",
+        "VCC0856",
+        "VCC0870",
+        "VCC0885",
+        "VCC0917",
+        "VCC0940",
+        "VCC0965",
+        "VCC1010",
+        "VCC1036",
+        "VCC1073",
+        "VCC1087",
+        "VCC1104",
+        "VCC1122",
+        "VCC1167",
+        "VCC1185",
+        "VCC1192",
+        "VCC1254",
+        "VCC1261",
+        "VCC1297",
+        "VCC1308",
+        "VCC1355",
+        "VCC1407",
+        "VCC1431",
+        "VCC1475",
+        "VCC1499",
+        "VCC1528",
+        "VCC1539",
+        "VCC1545",
+        "VCC1567",
+        "VCC1661",
+        "VCC1684",
+        "VCC1695",
+        "VCC1743",
+        "VCC1789",
+        "VCC1826",
+        "VCC1857",
+        "VCC1861",
+        "VCC1895",
+        "VCC1910",
+        "VCC1947",
+        "VCC2019",
+        "VCC2033",
+        "VCC2048",
+        "Sagittarius",
+        "Ursa_Minor",
+        "Draco",
+        "Sculptor",
+        "Sextans",
+        "Carina",
+        "Fornax",
+        "NGC205",
+        "NGC185",
+        "NGC147",
+        "And_II",
+        "And_I",
+        "And_III"
+      ]
+    }
+  },
+  "stripping_models": {
+    "IllustrisTNG": {
+      "amplitude": 8.2,
+      "scatter": 3.5,
+      "reference": "Joshi et al. (2021)"
+    },
+    "EAGLE": {
+      "amplitude": 7.8,
+      "scatter": 4.0,
+      "reference": "Simpson et al. (2018)"
+    },
+    "SIMBA": {
+      "amplitude": 9.1,
+      "scatter": 3.8,
+      "reference": "Dav\u00e9 et al. (2019)"
+    }
+  },
+  "mass_dependent_stripping": {
+    "n_low_mass": 58,
+    "n_intermediate": 23,
+    "sample_weighted_dv": 7.414814814814815,
+    "sample_weighted_err": 0.7333333333333333
+  },
+  "stripping_analysis": {
+    "raw_difference": 13.6,
+    "stripping_correction": 5.4,
+    "isolated_gravity": 8.2,
+    "error_total": 3.0
+  },
+  "signal_decomposition": {
+    "observed_delta_v": 11.69019424800929,
+    "observed_delta_v_err": 0.8983911914420062,
+    "stripping_effect": 7.414814814814815,
+    "stripping_err": 0.7333333333333333,
+    "sdcg_predicted_enhancement": 2.6343367727986426,
+    "sdcg_residual": 4.275379433194474,
+    "sdcg_residual_err": 1.1596915584060985,
+    "mu_eff_void": 0.149,
+    "mu_eff_cluster": 0.005
+  }
+}

@@ -1,0 +1,21 @@
+CGC PRODUCTION MCMC RESULTS
+============================================================
+
+Date: 2026-02-04 22:57:11
+Configuration: 64 walkers × 5000 steps
+Burn-in: 1000, Thin: 10
+Effective samples: 25600
+Runtime: 47.3 seconds
+
+PARAMETER CONSTRAINTS
+------------------------------------------------------------
+omega_b     : 0.022253 ± 0.000151
+omega_cdm   : 0.112521 ± 0.001222
+h           : 0.600337 ± 0.000330
+ln10As      : 3.044022 ± 0.014134
+n_s         : 0.964891 ± 0.004169
+tau_reio    : 0.054446 ± 0.007275
+cgc_mu      : 0.349603 ± 0.000396
+
+KEY RESULT: μ_eff = 0.3496 ± 0.0004
+CGC-adjusted H₀ = 66.54 ± 0.04 km/s/Mpc

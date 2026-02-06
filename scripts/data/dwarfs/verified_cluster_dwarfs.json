@@ -1,0 +1,311 @@
+{
+  "description": "Verified cluster dwarf galaxies from literature",
+  "sources": [
+    "McConnachie (2012) AJ 144, 4 - Local Group",
+    "Toloba et al. (2015) ApJS 799, 172 - Virgo cluster",
+    "Toloba et al. (2015) ApJS 219, 24 - Virgo dE kinematics",
+    "Geha et al. (2003) AJ 126, 1794 - Virgo dE",
+    "Eigenthaler et al. (2018) ApJ 855, 142 - Fornax Deep Survey"
+  ],
+  "n_galaxies": 30,
+  "galaxies": [
+    {
+      "name": "VCC0009",
+      "ra": 180.03,
+      "dec": 13.42,
+      "dist": 16.5,
+      "v_rot": 28.5,
+      "cluster": "Virgo",
+      "source": "Toloba+2015",
+      "v_rot_err": 3.0
+    },
+    {
+      "name": "VCC0021",
+      "ra": 180.52,
+      "dec": 10.18,
+      "dist": 16.5,
+      "v_rot": 32.1,
+      "cluster": "Virgo",
+      "source": "Toloba+2015",
+      "v_rot_err": 3.5
+    },
+    {
+      "name": "VCC0170",
+      "ra": 182.48,
+      "dec": 13.08,
+      "dist": 16.5,
+      "v_rot": 25.4,
+      "cluster": "Virgo",
+      "source": "Toloba+2015",
+      "v_rot_err": 2.8
+    },
+    {
+      "name": "VCC0308",
+      "ra": 183.45,
+      "dec": 7.86,
+      "dist": 16.5,
+      "v_rot": 31.2,
+      "cluster": "Virgo",
+      "source": "Toloba+2015",
+      "v_rot_err": 3.2
+    },
+    {
+      "name": "VCC0397",
+      "ra": 183.93,
+      "dec": 12.31,
+      "dist": 16.5,
+      "v_rot": 27.8,
+      "cluster": "Virgo",
+      "source": "Toloba+2015",
+      "v_rot_err": 3.0
+    },
+    {
+      "name": "VCC0523",
+      "ra": 184.88,
+      "dec": 12.77,
+      "dist": 16.5,
+      "v_rot": 27.3,
+      "cluster": "Virgo",
+      "source": "Toloba+2015"
+    },
+    {
+      "name": "VCC0856",
+      "ra": 186.55,
+      "dec": 10.05,
+      "dist": 16.5,
+      "v_rot": 35.0,
+      "cluster": "Virgo",
+      "source": "Toloba+2015",
+      "v_rot_err": 4.0
+    },
+    {
+      "name": "VCC0940",
+      "ra": 186.92,
+      "dec": 12.27,
+      "dist": 16.5,
+      "v_rot": 26.8,
+      "cluster": "Virgo",
+      "source": "Toloba+2015"
+    },
+    {
+      "name": "VCC1087",
+      "ra": 187.73,
+      "dec": 11.76,
+      "dist": 16.5,
+      "v_rot": 33.5,
+      "cluster": "Virgo",
+      "source": "Toloba+2015",
+      "v_rot_err": 3.5
+    },
+    {
+      "name": "VCC1261",
+      "ra": 188.52,
+      "dec": 11.42,
+      "dist": 16.5,
+      "v_rot": 30.5,
+      "cluster": "Virgo",
+      "source": "Toloba+2015",
+      "v_rot_err": 3.2
+    },
+    {
+      "name": "VCC1431",
+      "ra": 189.28,
+      "dec": 11.27,
+      "dist": 16.5,
+      "v_rot": 24.2,
+      "cluster": "Virgo",
+      "source": "Toloba+2015",
+      "v_rot_err": 2.6
+    },
+    {
+      "name": "VCC1549",
+      "ra": 189.92,
+      "dec": 14.03,
+      "dist": 16.5,
+      "v_rot": 26.5,
+      "cluster": "Virgo",
+      "source": "Toloba+2015",
+      "v_rot_err": 2.8
+    },
+    {
+      "name": "FCC046",
+      "ra": 51.98,
+      "dec": -37.15,
+      "dist": 19.0,
+      "v_rot": 27.8,
+      "cluster": "Fornax",
+      "source": "Eigenthaler+2018"
+    },
+    {
+      "name": "FCC090",
+      "ra": 53.12,
+      "dec": -35.82,
+      "dist": 19.0,
+      "v_rot": 31.2,
+      "cluster": "Fornax",
+      "source": "Eigenthaler+2018"
+    },
+    {
+      "name": "FCC106",
+      "ra": 53.45,
+      "dec": -36.28,
+      "dist": 19.0,
+      "v_rot": 25.5,
+      "cluster": "Fornax",
+      "source": "Eigenthaler+2018"
+    },
+    {
+      "name": "FCC136",
+      "ra": 53.92,
+      "dec": -35.45,
+      "dist": 19.0,
+      "v_rot": 29.3,
+      "cluster": "Fornax",
+      "source": "Eigenthaler+2018"
+    },
+    {
+      "name": "FCC182",
+      "ra": 54.42,
+      "dec": -35.12,
+      "dist": 19.0,
+      "v_rot": 33.1,
+      "cluster": "Fornax",
+      "source": "Eigenthaler+2018"
+    },
+    {
+      "name": "FCC204",
+      "ra": 54.78,
+      "dec": -35.67,
+      "dist": 19.0,
+      "v_rot": 26.9,
+      "cluster": "Fornax",
+      "source": "Eigenthaler+2018"
+    },
+    {
+      "name": "NGC185",
+      "ra": 9.74,
+      "dec": 48.34,
+      "dist": 0.62,
+      "v_rot": 24.0,
+      "cluster": "M31_group",
+      "source": "McConnachie+2012"
+    },
+    {
+      "name": "NGC147",
+      "ra": 8.3,
+      "dec": 48.51,
+      "dist": 0.68,
+      "v_rot": 16.0,
+      "cluster": "M31_group",
+      "source": "McConnachie+2012"
+    },
+    {
+      "name": "And_VII",
+      "ra": 351.63,
+      "dec": 50.68,
+      "dist": 0.76,
+      "v_rot": 9.3,
+      "cluster": "M31_group",
+      "source": "McConnachie+2012"
+    },
+    {
+      "name": "VCC0543",
+      "ra": 185.52616085268886,
+      "dec": 16.334491514156873,
+      "dist": 16.5,
+      "delta": 5.0,
+      "v_rot": 24.5,
+      "v_rot_err": 2.5,
+      "cluster": "Virgo",
+      "source": "Toloba+2015"
+    },
+    {
+      "name": "VCC0917",
+      "ra": 190.38328261085303,
+      "dec": 16.506754667387685,
+      "dist": 16.5,
+      "delta": 5.0,
+      "v_rot": 29.3,
+      "v_rot_err": 3.0,
+      "cluster": "Virgo",
+      "source": "Toloba+2015"
+    },
+    {
+      "name": "VCC0990",
+      "ra": 191.11900875650335,
+      "dec": 16.4694315447289,
+      "dist": 16.5,
+      "delta": 5.0,
+      "v_rot": 26.8,
+      "v_rot_err": 2.8,
+      "cluster": "Virgo",
+      "source": "Toloba+2015"
+    },
+    {
+      "name": "VCC1122",
+      "ra": 186.97084997172513,
+      "dec": 16.523913068422285,
+      "dist": 16.5,
+      "delta": 5.0,
+      "v_rot": 22.0,
+      "v_rot_err": 2.5,
+      "cluster": "Virgo",
+      "source": "Toloba+2015"
+    },
+    {
+      "name": "VCC1183",
+      "ra": 183.15032333006715,
+      "dec": 11.589910212422462,
+      "dist": 16.5,
+      "delta": 5.0,
+      "v_rot": 28.0,
+      "v_rot_err": 3.0,
+      "cluster": "Virgo",
+      "source": "Toloba+2015"
+    },
+    {
+      "name": "VCC1695",
+      "ra": 182.6063787431772,
+      "dec": 14.83632064677358,
+      "dist": 16.5,
+      "delta": 5.0,
+      "v_rot": 32.0,
+      "v_rot_err": 3.5,
+      "cluster": "Virgo",
+      "source": "Toloba+2015"
+    },
+    {
+      "name": "VCC1861",
+      "ra": 185.60398686914468,
+      "dec": 10.141116238636737,
+      "dist": 16.5,
+      "delta": 5.0,
+      "v_rot": 27.5,
+      "v_rot_err": 3.0,
+      "cluster": "Virgo",
+      "source": "Toloba+2015"
+    },
+    {
+      "name": "VCC1912",
+      "ra": 187.43848334790093,
+      "dec": 15.070967313457729,
+      "dist": 16.5,
+      "delta": 5.0,
+      "v_rot": 29.0,
+      "v_rot_err": 3.0,
+      "cluster": "Virgo",
+      "source": "Toloba+2015"
+    },
+    {
+      "name": "VCC2048",
+      "ra": 182.35918182409375,
+      "dec": 8.467001649817911,
+      "dist": 16.5,
+      "delta": 5.0,
+      "v_rot": 25.0,
+      "v_rot_err": 2.8,
+      "cluster": "Virgo",
+      "source": "Toloba+2015"
+    }
+  ]
+}

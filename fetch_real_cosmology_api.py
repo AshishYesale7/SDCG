@@ -19,7 +19,8 @@ import time
 # CONFIGURATION
 # ============================================================================
 
-BASE_DIR = "/Users/ashishyesale/Videos/EDU/Hypothesis/MCMC_cgc"
+# Base directory (relative to this script's location)
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 DATA_DIR = os.path.join(BASE_DIR, "data")
 
 # Subdirectories

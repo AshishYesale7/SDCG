@@ -27,7 +27,7 @@ import warnings
 warnings.filterwarnings('ignore')
 
 # =============================================================================
-# Physical Constants and SDCG Parameters
+# Physical Constants and SDCG Parameters (Thesis v12)
 # =============================================================================
 
 # Cosmological parameters (Planck 2018)
@@ -37,11 +37,13 @@ OMEGA_B = 0.0493
 SIGMA8 = 0.811
 N_S = 0.965
 
-# SDCG theory parameters
-MU_BARE = 0.48  # QFT one-loop derivation
-BETA_0 = 0.70   # SM ansatz for scalar-matter coupling
-K_0 = 0.05      # Pivot scale (h/Mpc)
-GAMMA = 0.0125  # Scale exponent
+# SDCG theory parameters (Thesis v12 canonical values)
+MU_FIT = 0.47       # Fundamental MCMC best-fit (6σ detection)
+MU_EFF_VOID = 0.149 # μ_eff(void) = μ_fit × S_avg ≈ 0.47 × 0.31
+BETA_0 = 0.70       # SM ansatz for scalar-matter coupling
+K_0 = 0.05          # Pivot scale (h/Mpc)
+N_G = 0.0125        # Scale exponent (FIXED: β₀²/4π²)
+Z_TRANS = 1.67      # Transition redshift (FIXED: cosmic dynamics)
 
 # Environment screening parameters
 class ScreeningParams:
@@ -101,7 +103,7 @@ def mu_effective(environment: str) -> float:
     }
     
     S = screening_map.get(environment.lower(), 0.1)
-    return MU_BARE * S
+    return MU_FIT * S
 
 
 # =============================================================================
@@ -381,10 +383,10 @@ class SDCGPredictor:
     """
     
     def __init__(self):
-        self.mu_bare = MU_BARE
+        self.mu_fit = MU_FIT
         self.beta_0 = BETA_0
         self.k_0 = K_0
-        self.gamma = GAMMA
+        self.n_g = N_G
         
     def G_eff_ratio(self, k: float, z: float, S: float) -> float:
         """
@@ -393,13 +395,13 @@ class SDCGPredictor:
         G_eff/G_N = 1 + μ_bare × (k/k₀)^γ × g(z) × S(ρ)
         """
         # Scale dependence
-        scale_factor = (k / self.k_0) ** self.gamma
+        scale_factor = (k / self.k_0) ** self.n_g
         
         # Redshift evolution (normalized to z=0)
         g_z = (1 + z) ** 0.5  # Growth suppression at high z
         
         # Effective modification
-        delta_G = self.mu_bare * scale_factor * g_z * S
+        delta_G = self.mu_fit * scale_factor * g_z * S
         
         return 1.0 + delta_G
     
@@ -413,7 +415,7 @@ class SDCGPredictor:
         
         # At dwarf galaxy scales, k ~ 1 h/Mpc
         k_dwarf = 1.0
-        S = mu_eff / self.mu_bare
+        S = mu_eff / self.mu_fit
         
         G_ratio = self.G_eff_ratio(k_dwarf, 0, S)
         
@@ -721,8 +723,8 @@ class SDCGDataAnalyzer:
         print(f"\n  Observed limit: < {limit}% enhancement")
         print(f"  SDCG prediction: {enhancement:.4f}% enhancement")
         print(f"\n  μ_eff(Lyα) = {mu_effective('lyman_alpha'):.6f}")
-        print(f"  μ_bare = {MU_BARE}")
-        print(f"  Screening factor S = {mu_effective('lyman_alpha')/MU_BARE:.6f}")
+        print(f"  μ_bare = {MU_FIT}")
+        print(f"  Screening factor S = {mu_effective('lyman_alpha')/MU_FIT:.6f}")
         
         if enhancement < limit:
             margin = (limit - enhancement) / limit * 100
@@ -767,7 +769,7 @@ class SDCGDataAnalyzer:
             print(f"    {env:12s}: μ_eff = {mu:.6f}")
             
         self.results['mu_constraints'] = {
-            'mu_bare': MU_BARE,
+            'mu_fit': MU_FIT,
             'mu_eff_void': mu_effective('void'),
             'mu_eff_cluster': mu_effective('cluster'),
             'mu_eff_lya': mu_effective('lyman_alpha')
@@ -817,13 +819,14 @@ class SDCGDataAnalyzer:
             summary_lines.append(f"  SDCG: {r['predicted_enhancement']:.4f}%")
             summary_lines.append(f"  Status: {'✓ PASSES' if r['passes'] else '✗ FAILS'}\n")
             
-        # Theory parameters
-        summary_lines.append("THEORY PARAMETERS:")
+        # Theory parameters (Thesis v12)
+        summary_lines.append("THESIS v12 CANONICAL PARAMETERS:")
         summary_lines.append("-" * 40)
-        summary_lines.append(f"  μ_bare = {MU_BARE} (QFT one-loop)")
+        summary_lines.append(f"  μ_fit = {MU_FIT} (fundamental MCMC best-fit)")
+        summary_lines.append(f"  μ_eff(void) = {MU_EFF_VOID} (= μ_fit × S_avg)")
         summary_lines.append(f"  β₀ = {BETA_0} (SM ansatz)")
         summary_lines.append(f"  k₀ = {K_0} h/Mpc")
-        summary_lines.append(f"  γ = {GAMMA}")
+        summary_lines.append(f"  n_g = {N_G} (FIXED: β₀²/4π²)")
         summary_lines.append("")
         
         summary_lines.append("ENVIRONMENT-DEPENDENT μ_eff:")

@@ -1,7 +1,22 @@
-# requirements_fixed.txt - Compatible with Python 3.14
-numpy==1.26.4
-matplotlib==3.8.0
-scipy==1.12.0
-emcee==3.1.4
-corner==2.2.2
-tqdm==4.66.1
+# CGC (Casimir-Gravity Crossover) Project Requirements
+# Python 3.10+ recommended
+
+# Core scientific computing
+numpy>=2.0.0
+scipy>=1.10.0
+matplotlib>=3.8.0
+
+# MCMC sampling
+emcee>=3.1.0
+corner>=2.2.0
+
+# Progress bars
+tqdm>=4.60.0
+
+# Astronomy utilities
+astropy>=6.0.0
+
+# Optional dependencies (uncomment if needed)
+# h5py>=3.0.0       # For HDF5 files (LaCE)
+# pandas>=2.0.0     # For tabular data
+# configobj>=5.0.0  # For LaCE configuration

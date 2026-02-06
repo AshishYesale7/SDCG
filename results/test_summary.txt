@@ -1,6 +1,6 @@
 SDCG VERIFIED REAL DATA TEST SUMMARY
 ==================================================
-Timestamp: 2026-02-02T19:00:34.218887
+Timestamp: 2026-02-06T02:09:38.674174
 
 Sample: 12 void + 12 cluster dwarfs
 Result: Δv = +14.9 ± 3.2 km/s (4.7σ)

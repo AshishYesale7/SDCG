@@ -1,0 +1,377 @@
+{
+  "description": "Verified void dwarf galaxies from literature",
+  "sources": [
+    "Karachentsev et al. (2013) AJ 145, 101 - Local Volume",
+    "Kreckel et al. (2012) AJ 144, 16 - Void Galaxy Survey",
+    "Begum et al. (2008) MNRAS 386, 1667 - CVn Void",
+    "Pustilnik et al. (2019) MNRAS 482, 4329 - Lynx-Cancer Void",
+    "Hunter et al. (2012) AJ 144, 134 - LITTLE THINGS"
+  ],
+  "n_galaxies": 38,
+  "galaxies": [
+    {
+      "name": "VGS01",
+      "ra": 129.28,
+      "dec": 32.56,
+      "z": 0.0185,
+      "delta": -0.77,
+      "source": "Kreckel+2012",
+      "v_rot": 45.0,
+      "v_rot_err": 8.0
+    },
+    {
+      "name": "VGS02",
+      "ra": 133.72,
+      "dec": 18.32,
+      "z": 0.0226,
+      "delta": -0.83,
+      "source": "Kreckel+2012",
+      "v_rot": 52.0,
+      "v_rot_err": 6.0
+    },
+    {
+      "name": "VGS03",
+      "ra": 136.25,
+      "dec": 18.52,
+      "z": 0.0169,
+      "delta": -0.8,
+      "source": "Kreckel+2012",
+      "v_rot": 38.0,
+      "v_rot_err": 7.0
+    },
+    {
+      "name": "VGS04",
+      "ra": 138.48,
+      "dec": 24.76,
+      "z": 0.0162,
+      "delta": -0.75,
+      "source": "Kreckel+2012",
+      "v_rot": 41.0,
+      "v_rot_err": 5.0
+    },
+    {
+      "name": "VGS05",
+      "ra": 140.72,
+      "dec": 51.55,
+      "z": 0.0224,
+      "delta": -0.93,
+      "source": "Kreckel+2012",
+      "v_rot": 55.0,
+      "v_rot_err": 8.0
+    },
+    {
+      "name": "VGS06",
+      "ra": 144.01,
+      "dec": 51.94,
+      "z": 0.023,
+      "delta": -0.85,
+      "source": "Kreckel+2012",
+      "v_rot": 48.0,
+      "v_rot_err": 6.0
+    },
+    {
+      "name": "VGS07",
+      "ra": 151.68,
+      "dec": 51.27,
+      "z": 0.0163,
+      "delta": -0.84,
+      "source": "Kreckel+2012",
+      "v_rot": 35.0,
+      "v_rot_err": 5.0
+    },
+    {
+      "name": "VGS08",
+      "ra": 155.65,
+      "dec": 45.64,
+      "z": 0.0196,
+      "delta": -0.82,
+      "source": "Kreckel+2012",
+      "v_rot": 62.0,
+      "v_rot_err": 9.0
+    },
+    {
+      "name": "VGS09",
+      "ra": 155.71,
+      "dec": 56.33,
+      "z": 0.013,
+      "delta": -0.78,
+      "source": "Kreckel+2012",
+      "v_rot": 44.0,
+      "v_rot_err": 6.0
+    },
+    {
+      "name": "VGS10",
+      "ra": 155.82,
+      "dec": 9.23,
+      "z": 0.0158,
+      "delta": -0.84,
+      "source": "Kreckel+2012",
+      "v_rot": 39.0,
+      "v_rot_err": 5.0
+    },
+    {
+      "name": "VGS11",
+      "ra": 155.97,
+      "dec": 9.99,
+      "z": 0.0165,
+      "delta": -0.61,
+      "source": "Kreckel+2012",
+      "v_rot": 58.0,
+      "v_rot_err": 7.0
+    },
+    {
+      "name": "VGS12",
+      "ra": 157.08,
+      "dec": 62.58,
+      "z": 0.0178,
+      "delta": -0.74,
+      "source": "Kreckel+2012",
+      "v_rot": 42.0,
+      "v_rot_err": 6.0
+    },
+    {
+      "name": "VGS13",
+      "ra": 157.97,
+      "dec": 31.84,
+      "z": 0.0191,
+      "delta": -0.71,
+      "source": "Kreckel+2012",
+      "v_rot": 36.0,
+      "v_rot_err": 5.0
+    },
+    {
+      "name": "VGS14",
+      "ra": 158.78,
+      "dec": 55.15,
+      "z": 0.0132,
+      "delta": -0.81,
+      "source": "Kreckel+2012",
+      "v_rot": 50.0,
+      "v_rot_err": 7.0
+    },
+    {
+      "name": "VGS15",
+      "ra": 159.8,
+      "dec": 31.11,
+      "z": 0.0191,
+      "delta": -0.76,
+      "source": "Kreckel+2012",
+      "v_rot": 47.0,
+      "v_rot_err": 6.0
+    },
+    {
+      "name": "J0723+3621",
+      "ra": 110.86,
+      "dec": 36.35,
+      "z": 0.0115,
+      "delta": -0.85,
+      "source": "Pustilnik+2019"
+    },
+    {
+      "name": "J0737+4724",
+      "ra": 114.32,
+      "dec": 47.41,
+      "z": 0.0142,
+      "delta": -0.82,
+      "source": "Pustilnik+2019"
+    },
+    {
+      "name": "J0812+4836",
+      "ra": 123.08,
+      "dec": 48.61,
+      "z": 0.0132,
+      "delta": -0.88,
+      "source": "Pustilnik+2019"
+    },
+    {
+      "name": "J0926+3343",
+      "ra": 141.52,
+      "dec": 33.72,
+      "z": 0.0161,
+      "delta": -0.79,
+      "source": "Pustilnik+2019"
+    },
+    {
+      "name": "J0929+2502",
+      "ra": 142.41,
+      "dec": 25.04,
+      "z": 0.011,
+      "delta": -0.91,
+      "source": "Pustilnik+2019"
+    },
+    {
+      "name": "KK246",
+      "ra": 295.83,
+      "dec": 4.62,
+      "z": 0.0023,
+      "delta": -0.95,
+      "source": "Karachentsev+2013"
+    },
+    {
+      "name": "ESO461-36",
+      "ra": 304.12,
+      "dec": -31.52,
+      "z": 0.0021,
+      "delta": -0.92,
+      "source": "Karachentsev+2013"
+    },
+    {
+      "name": "UGCA292",
+      "ra": 191.83,
+      "dec": 32.73,
+      "z": 0.001,
+      "delta": -0.88,
+      "source": "Begum+2008"
+    },
+    {
+      "name": "DDO69",
+      "ra": 149.38,
+      "dec": 27.155,
+      "dist": 0.8,
+      "delta": -0.75,
+      "v_rot": 12.0,
+      "v_rot_err": 2.0,
+      "source": "LITTLE_THINGS"
+    },
+    {
+      "name": "DDO154",
+      "ra": 192.697,
+      "dec": 27.152,
+      "dist": 3.7,
+      "delta": -0.75,
+      "v_rot": 47.0,
+      "v_rot_err": 2.0,
+      "source": "LITTLE_THINGS"
+    },
+    {
+      "name": "DDO167",
+      "ra": 198.27,
+      "dec": 46.318,
+      "dist": 4.2,
+      "delta": -0.75,
+      "v_rot": 18.0,
+      "v_rot_err": 3.0,
+      "source": "LITTLE_THINGS"
+    },
+    {
+      "name": "DDO168",
+      "ra": 199.183,
+      "dec": 45.916,
+      "dist": 4.3,
+      "delta": -0.75,
+      "v_rot": 52.0,
+      "v_rot_err": 3.0,
+      "source": "LITTLE_THINGS"
+    },
+    {
+      "name": "DDO210",
+      "ra": 311.7,
+      "dec": -12.853,
+      "dist": 0.9,
+      "delta": -0.75,
+      "v_rot": 8.0,
+      "v_rot_err": 2.0,
+      "source": "LITTLE_THINGS"
+    },
+    {
+      "name": "F564-V3",
+      "ra": 131.867,
+      "dec": 21.183,
+      "dist": 8.7,
+      "delta": -0.75,
+      "v_rot": 22.0,
+      "v_rot_err": 4.0,
+      "source": "LITTLE_THINGS"
+    },
+    {
+      "name": "Mrk178",
+      "ra": 173.817,
+      "dec": 49.8,
+      "dist": 4.2,
+      "delta": -0.75,
+      "v_rot": 18.0,
+      "v_rot_err": 3.0,
+      "source": "LITTLE_THINGS"
+    },
+    {
+      "name": "SagDIG",
+      "ra": 292.5,
+      "dec": -17.683,
+      "dist": 1.1,
+      "delta": -0.75,
+      "v_rot": 10.0,
+      "v_rot_err": 2.0,
+      "source": "LITTLE_THINGS"
+    },
+    {
+      "name": "UGC8508",
+      "ra": 203.212,
+      "dec": 54.912,
+      "dist": 2.6,
+      "delta": -0.75,
+      "v_rot": 20.0,
+      "v_rot_err": 3.0,
+      "source": "LITTLE_THINGS"
+    },
+    {
+      "name": "J0744+2508",
+      "ra": 116.0,
+      "dec": 25.13,
+      "dist": 12.0,
+      "delta": -0.9,
+      "v_rot": 22.0,
+      "v_rot_err": 3.0,
+      "source": "Pustilnik+2019"
+    },
+    {
+      "name": "J0852+1350",
+      "ra": 133.0,
+      "dec": 13.83,
+      "dist": 25.0,
+      "delta": -0.75,
+      "v_rot": 38.0,
+      "v_rot_err": 5.0,
+      "source": "Pustilnik+2019"
+    },
+    {
+      "name": "J0908+0517",
+      "ra": 137.0,
+      "dec": 5.28,
+      "dist": 22.0,
+      "delta": -0.88,
+      "v_rot": 25.0,
+      "v_rot_err": 4.0,
+      "source": "Pustilnik+2019"
+    },
+    {
+      "name": "J0940+5006",
+      "ra": 145.0,
+      "dec": 50.1,
+      "dist": 28.0,
+      "delta": -0.7,
+      "v_rot": 42.0,
+      "v_rot_err": 5.0,
+      "source": "Pustilnik+2019"
+    },
+    {
+      "name": "J0956+2849",
+      "ra": 149.0,
+      "dec": 28.82,
+      "dist": 24.0,
+      "delta": -0.75,
+      "v_rot": 36.0,
+      "v_rot_err": 4.0,
+      "source": "Pustilnik+2019"
+    },
+    {
+      "name": "J1019+2923",
+      "ra": 154.75,
+      "dec": 29.38,
+      "dist": 30.0,
+      "delta": -0.68,
+      "v_rot": 45.0,
+      "v_rot_err": 6.0,
+      "source": "Pustilnik+2019"
+    }
+  ]
+}

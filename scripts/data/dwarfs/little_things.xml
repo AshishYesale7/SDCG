@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VOTABLE version="1.4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns="http://www.ivoa.net/xml/VOTable/v1.3"
+  xsi:schemaLocation="http://www.ivoa.net/xml/VOTable/v1.3 http://www.ivoa.net/xml/VOTable/v1.3">
+ <DESCRIPTION>
+   VizieR Astronomical Server vizier.cds.unistra.fr
+    Date: 2026-02-05T20:23:34 [V7.5.4]
+   Explanations and Statistics of UCDs:			See LINK below
+   In case of problem, please report to:	cds-question@unistra.fr
+ </DESCRIPTION>
+<!-- VOTable description at http://www.ivoa.net/Documents/latest/VOT.html -->
+<INFO name="service_protocol" value="ASU">  IVOID of the protocol through which the data was retrieved</INFO>
+<INFO name="request_date" value="2026-02-05T20:23:34">  Query execution date</INFO>
+<INFO name="request" value="https://vizier.cds.unistra.fr/viz-bin/votable?-source=J/AJ/144/134/galaxies&amp;-out.max=unlimited">  Full request URL</INFO>
+<INFO name="contact" value="cds-question@unistra.fr">  Email or URL to contact publisher</INFO>
+<INFO name="server_software" value="VizieR/7.5.4">  Software version</INFO>
+<INFO name="publisher" value="CDS">  Data centre that produced the VOTable</INFO>
+
+<!--
+Execution Reports
+ -->
+
+<RESOURCE ID="yCat_51440134" name="J/AJ/144/134" type="results">
+  <DESCRIPTION>LITTLE THINGS survey of nearby dwarf galaxies (Hunter+, 2012)</DESCRIPTION>  <INFO name="ivoid" value="ivo://cds.vizier/j/aj/144/134">    IVOID of underlying data collection  </INFO>
+  <INFO name="data_ivoid" value="ivo://cds.vizier/j/aj/144/134">    IVOID of underlying data collection  </INFO>
+  <INFO name="creator" value="Hunter D.A.">    First author or institution  </INFO>
+  <INFO name="cites" value="bibcode:2012AJ....144..134H">    Article or Data origin sources  </INFO>
+  <INFO name="journal" value="AJ">    Journal name  </INFO>
+  <INFO name="original_date" value="2012">    Year of the article publication  </INFO>
+  <INFO name="reference_url" value="https://cdsarc.cds.unistra.fr/viz-bin/cat/J/AJ/144/134">    Dataset landing page  </INFO>
+  <INFO name="citation" value="doi:10.26093/cds/vizier.51440134">    Dataset identifier that can be used for citation  </INFO>
+  <INFO name="publication_date" value="2018-03-16">    Date of first publication in the data centre  </INFO>
+  <INFO name="rights_uri" value="https://cds.unistra.fr/vizier-org/licences_vizier.html">    Licence URI  </INFO>
+
+  <COOSYS ID="J2000" system="eq_FK5" equinox="J2000"/>
+  <TABLE ID="J_AJ_144_134_galaxies" name="J/AJ/144/134/galaxies">
+    <DESCRIPTION>HI data of the galaxies (tables 1, 4, and 6 of the paper)</DESCRIPTION>
+    <!-- Definitions of GROUPs and FIELDs -->
+    <FIELD name="recno" ucd="meta.record" datatype="int" width="8" type="hidden"><!-- ucd="RECORD" -->
+      <DESCRIPTION>Record number assigned by the VizieR team. Should Not be used for identification.</DESCRIPTION>
+      <LINK href="http://vizier.cds.unistra.fr/viz-bin/VizieR-5?-info=XML&amp;-out.add=.&amp;-source=J/AJ/144/134/galaxies&amp;recno=${recno}"/>
+    </FIELD>
+    <FIELD name="Cl" ucd="meta.code;src.morph" datatype="char" arraysize="3"><!-- ucd="MORPH_CODE" -->
+      <DESCRIPTION>Galaxy class: Im=dwarf irregular, BCD=Blue Compact Dwarf</DESCRIPTION>
+    </FIELD>
+    <FIELD name="Name" ucd="meta.id;meta.main" datatype="char" arraysize="9*"><!-- ucd="ID_MAIN" -->
+      <DESCRIPTION>Galaxy name</DESCRIPTION>
+      <LINK href="http://vizier.cds.unistra.fr/viz-bin/VizieR-5?-info=XML&amp;-out.add=.&amp;-source=J/AJ/144/134/galaxies&amp;recno=${recno}"/>
+    </FIELD>
+    <FIELD name="PGC" ucd="meta.id" datatype="int" width="5"><!-- ucd="ID_ALTERNATIVE" -->
+      <DESCRIPTION>? Galaxy PGC identifier (from NED)</DESCRIPTION>
+      <VALUES null="-2147483648" />
+    </FIELD>
+    <FIELD name="UGC" ucd="meta.id" datatype="int" width="5"><!-- ucd="ID_ALTERNATIVE" -->
+      <DESCRIPTION>? Galaxy UGC identifier (from NED)</DESCRIPTION>
+      <VALUES null="-2147483648" />
+    </FIELD>
+    <FIELD name="Dist" ucd="pos.distance;pos.heliocentric" datatype="float" width="4" precision="1" unit="Mpc"><!-- ucd="POS_GAL_HC" -->
+      <DESCRIPTION>Galaxy distance</DESCRIPTION>
+    </FIELD>
+    <FIELD name="VMag" ucd="phys.magAbs;em.opt.V" datatype="float" width="5" precision="1" unit="mag"><!-- ucd="PHOT_ABS-MAG_BAND" -->
+      <DESCRIPTION>Galaxy absolute magnitude</DESCRIPTION>
+    </FIELD>
+    <FIELD name="Rad" ucd="phys.angSize" datatype="float" width="5" precision="2" unit="arcmin"><!-- ucd="EXTENSION_RAD" -->
+      <DESCRIPTION>? Holmberg radius R_H_ (3)</DESCRIPTION>
+      <VALUES null="NaN" />
+    </FIELD>
+    <FIELD name="Rd" ucd="src.morph.scLength" datatype="float" width="5" precision="2" unit="kpc"><!-- ucd="PHYS_SIZE_LENGTH" -->
+      <DESCRIPTION>The disk scale length (4)</DESCRIPTION>
+    </FIELD>
+    <FIELD name="E(B-V)" ucd="phot.color.excess" datatype="float" width="5" precision="2" unit="mag"><!-- ucd="PHOT_COLOR_EXCESS" -->
+      <DESCRIPTION>Foreground reddening from Burstein &amp; Heiles (1984ApJS...54...33B)</DESCRIPTION>
+    </FIELD>
+    <FIELD name="logSFR1" ucd="phys.SFR" datatype="float" width="5" precision="2" unit="log(solMass.yr**-1.kpc**-2)"><!-- ucd="PHYS_STAR-FORM_RATE" -->
+      <DESCRIPTION>? Star formation rate from H{alpha} (log SFR^H{alpha}^_D_) (5)</DESCRIPTION>
+      <VALUES null="NaN" />
+    </FIELD>
+    <FIELD name="logSFR2" ucd="phys.SFR" datatype="float" width="5" precision="2" unit="log(solMass.yr**-1.kpc**-2)"><!-- ucd="PHYS_STAR-FORM_RATE" -->
+      <DESCRIPTION>? Star formation rate from UV (log SFR^FUV^_D_) (6)</DESCRIPTION>
+      <VALUES null="NaN" />
+    </FIELD>
+    <FIELD name="[O/H]" ucd="phys.abund" datatype="float" width="4" precision="1"><!-- ucd="PHYS_ABUND_MISC" -->
+      <DESCRIPTION>Oxygen abundance 12+log(O/H) (measure of the metallicity of the galaxy) (8)</DESCRIPTION>
+    </FIELD>
+    <FIELD name="Factor" ucd="arith.factor;arith.ratio" datatype="float" width="7" precision="2"><!-- ucd="OBS_CALIB_FACTOR" -->
+      <DESCRIPTION>? Conversion factor for mass estimation (in units of M{sun}/(Jy.m.s^-1^/beam)) (9)</DESCRIPTION>
+      <VALUES null="NaN" />
+    </FIELD>
+    <FIELD name="Flux" ucd="phot.flux" datatype="float" width="5" precision="2" unit="log(Jy.m.s**-1)"><!-- ucd="SPECT_FLUX_VALUE" -->
+      <DESCRIPTION>? Integrated flux logS_{nu}_ (in units of (Jy/beam).m/s) (10)</DESCRIPTION>
+      <VALUES null="NaN" />
+    </FIELD>
+    <FIELD name="MHI" ucd="phys.mass" datatype="float" width="5" precision="2" unit="log(solMass)"><!-- ucd="PHYS_MASS_MISC" -->
+      <DESCRIPTION>? Log of the HI mass (logM_HI_)</DESCRIPTION>
+      <VALUES null="NaN" />
+    </FIELD>
+    <FIELD name="PA" ucd="pos.posAng" datatype="float" width="5" precision="1" unit="deg"><!-- ucd="POS_POS-ANG" -->
+      <DESCRIPTION>[-90/90]? Position angle</DESCRIPTION>
+      <VALUES null="NaN" />
+    </FIELD>
+    <FIELD name="b/a" ucd="phys.angSize;arith.ratio" datatype="float" width="5" precision="2"><!-- ucd="PHYS_AXIS-RATIO" -->
+      <DESCRIPTION>? Minor-to-major axis ratio as measured in an outer V-band surface brightness isophote</DESCRIPTION>
+      <VALUES null="NaN" />
+    </FIELD>
+    <FIELD name="i" ucd="src.orbital.inclination" datatype="float" width="4" precision="1" unit="deg"><!-- ucd="POS_INCLIN_LOS" -->
+      <DESCRIPTION>? Inclination (11)</DESCRIPTION>
+      <VALUES null="NaN" />
+    </FIELD>
+    <FIELD name="SimbadName" ucd="meta.id" datatype="char" arraysize="10*"><!-- ucd="ID_ALTERNATIVE" -->
+      <DESCRIPTION>Simbad column added by the CDS</DESCRIPTION>
+<!-- Designation understandable by the {\bf\fg{FireBrick}Simbad} data-base -->
+
+      <LINK href="http://simbad.cds.unistra.fr/simbad/sim-id?Ident=${SimbadName}"/>
+    </FIELD>
+    <FIELD name="NED" ucd="meta.ref.url" datatype="char" arraysize="3"><!-- ucd="DATA_LINK" -->
+      <DESCRIPTION>NED column added by the CDS</DESCRIPTION>
+<!-- ask the {\bf\fg{FireBrick}NED} data-base about this object -->
+
+    </FIELD>
+    <FIELD name="LEDA" ucd="meta.ref.url" datatype="char" arraysize="4"><!-- ucd="DATA_LINK" -->
+      <DESCRIPTION>VizieR added column, not part of original data</DESCRIPTION>
+<!-- ask the {\bf\fg{FireBrick}LEDA} data-base about this object -->
+
+    </FIELD>
+    <FIELD name="_RA" ucd="pos.eq.ra;meta.main" ref="J2000" datatype="double" width="9" precision="5" unit="deg"><!-- ucd="POS_EQ_RA_MAIN" -->
+      <DESCRIPTION>Positions from table 6 of this paper or from SIMBAD for NGC 6822 (right ascension part)</DESCRIPTION>
+    </FIELD>
+    <FIELD name="_DE" ucd="pos.eq.dec;meta.main" ref="J2000" datatype="double" width="9" precision="5" unit="deg"><!-- ucd="POS_EQ_DEC_MAIN" -->
+      <DESCRIPTION>Positions from table 6 of this paper or from SIMBAD for NGC 6822 (declination part)</DESCRIPTION>
+    </FIELD>
+<DATA><TABLEDATA>
+<TR><TD>1</TD><TD>Im</TD><TD>CVn I dwA</TD><TD></TD><TD></TD><TD>3.6</TD><TD>-12.4</TD><TD>0.87</TD><TD>0.57</TD><TD>0.01</TD><TD>-2.58</TD><TD>-2.48</TD><TD>7.3</TD><TD>52.98</TD><TD>5.95</TD><TD>7.67</TD><TD>80.0</TD><TD>0.78</TD><TD>41.0</TD><TD>UGCA 292</TD><TD>NED</TD><TD>LEDA</TD><TD>189.66750</TD><TD>+32.76111</TD></TR>
+<TR><TD>2</TD><TD>Im</TD><TD>DDO 43</TD><TD>21073</TD><TD>3860</TD><TD>7.8</TD><TD>-15.1</TD><TD>0.89</TD><TD>0.41</TD><TD>0.05</TD><TD>-1.78</TD><TD>-1.55</TD><TD>8.3</TD><TD>595.15</TD><TD>5.45</TD><TD>8.23</TD><TD>6.5</TD><TD>0.70</TD><TD>48.5</TD><TD>DDO 43</TD><TD>NED</TD><TD>LEDA</TD><TD>112.07417</TD><TD>+40.77028</TD></TR>
+<TR><TD>3</TD><TD>Im</TD><TD>DDO 46</TD><TD>21585</TD><TD>3966</TD><TD>6.1</TD><TD>-14.7</TD><TD></TD><TD>1.14</TD><TD>0.05</TD><TD>-2.89</TD><TD>-2.46</TD><TD>8.1</TD><TD>530.30</TD><TD>5.55</TD><TD>8.27</TD><TD>84.0</TD><TD>0.89</TD><TD>28.6</TD><TD>DDO 46</TD><TD>NED</TD><TD>LEDA</TD><TD>115.36083</TD><TD>+40.11083</TD></TR>
+<TR><TD>4</TD><TD>Im</TD><TD>DDO 47</TD><TD>21600</TD><TD>3974</TD><TD>5.2</TD><TD>-15.5</TD><TD>2.24</TD><TD>1.37</TD><TD>0.02</TD><TD>-2.70</TD><TD>-2.40</TD><TD>7.8</TD><TD>134.65</TD><TD>6.46</TD><TD>8.59</TD><TD>-70.0</TD><TD>0.51</TD><TD>64.4</TD><TD>DDO 47</TD><TD>NED</TD><TD>LEDA</TD><TD>115.48042</TD><TD>+16.80222</TD></TR>
+<TR><TD>5</TD><TD>Im</TD><TD>DDO 50</TD><TD>23324</TD><TD>4305</TD><TD>3.4</TD><TD>-16.6</TD><TD>3.97</TD><TD>1.10</TD><TD>0.02</TD><TD>-1.67</TD><TD>-1.55</TD><TD>7.7</TD><TD>125.49</TD><TD>6.75</TD><TD>8.85</TD><TD>18.0</TD><TD>0.72</TD><TD>46.7</TD><TD>DDO 50</TD><TD>NED</TD><TD>LEDA</TD><TD>124.78625</TD><TD>+70.72361</TD></TR>
+<TR><TD>6</TD><TD>Im</TD><TD>DDO 52</TD><TD>23769</TD><TD>4426</TD><TD>10.3</TD><TD>-15.4</TD><TD>1.08</TD><TD>1.30</TD><TD>0.03</TD><TD>-3.20</TD><TD>-2.43</TD><TD>7.7</TD><TD>1404.03</TD><TD>5.28</TD><TD>8.43</TD><TD>5.0</TD><TD>0.67</TD><TD>51.1</TD><TD>DDO 52</TD><TD>NED</TD><TD>LEDA</TD><TD>127.11875</TD><TD>+41.85583</TD></TR>
+<TR><TD>7</TD><TD>Im</TD><TD>DDO 53</TD><TD>24050</TD><TD>4459</TD><TD>3.6</TD><TD>-13.8</TD><TD>1.37</TD><TD>0.72</TD><TD>0.03</TD><TD>-2.42</TD><TD>-2.41</TD><TD>7.6</TD><TD>169.40</TD><TD>5.49</TD><TD>7.72</TD><TD>81.0</TD><TD>0.51</TD><TD>64.4</TD><TD>DDO 53</TD><TD>NED</TD><TD>LEDA</TD><TD>128.53333</TD><TD>+66.17694</TD></TR>
+<TR><TD>8</TD><TD>Im</TD><TD>DDO 63</TD><TD>27605</TD><TD>5139</TD><TD>3.9</TD><TD>-14.8</TD><TD>2.17</TD><TD>0.68</TD><TD>0.01</TD><TD>-2.32</TD><TD>-1.95</TD><TD>7.6</TD><TD>152.10</TD><TD>6.01</TD><TD>8.19</TD><TD>0.0</TD><TD>1.00</TD><TD>0.0</TD><TD>DDO 63</TD><TD>NED</TD><TD>LEDA</TD><TD>145.12667</TD><TD>+71.18389</TD></TR>
+<TR><TD>9</TD><TD>Im</TD><TD>DDO 69</TD><TD>28868</TD><TD>5364</TD><TD>0.8</TD><TD>-11.7</TD><TD>2.40</TD><TD>0.19</TD><TD>0.00</TD><TD>-2.83</TD><TD>-2.22</TD><TD>7.4</TD><TD>9.66</TD><TD>5.86</TD><TD>6.84</TD><TD>-64.0</TD><TD>0.56</TD><TD>60.3</TD><TD>DDO 69</TD><TD>NED</TD><TD>LEDA</TD><TD>149.85417</TD><TD>+30.74500</TD></TR>
+<TR><TD>10</TD><TD>Im</TD><TD>DDO 70</TD><TD>28913</TD><TD>5373</TD><TD>1.3</TD><TD>-14.1</TD><TD>3.71</TD><TD>0.48</TD><TD>0.01</TD><TD>-2.85</TD><TD>-2.16</TD><TD>7.5</TD><TD>4.35</TD><TD>6.97</TD><TD>7.61</TD><TD>88.0</TD><TD>0.59</TD><TD>57.8</TD><TD>DDO 70</TD><TD>NED</TD><TD>LEDA</TD><TD>150.00375</TD><TD>+05.33056</TD></TR>
+<TR><TD>11</TD><TD>Im</TD><TD>DDO 75</TD><TD>29653</TD><TD></TD><TD>1.3</TD><TD>-13.9</TD><TD>3.09</TD><TD>0.22</TD><TD>0.02</TD><TD>-1.28</TD><TD>-1.07</TD><TD>7.5</TD><TD>16.28</TD><TD>6.65</TD><TD>7.86</TD><TD>41.0</TD><TD>0.85</TD><TD>33.5</TD><TD>DDO 75</TD><TD>NED</TD><TD>LEDA</TD><TD>152.74667</TD><TD>-04.69889</TD></TR>
+<TR><TD>12</TD><TD>Im</TD><TD>DDO 87</TD><TD>32405</TD><TD>5918</TD><TD>7.7</TD><TD>-15.0</TD><TD>1.15</TD><TD>1.31</TD><TD>0.00</TD><TD>-1.36</TD><TD>-1.00</TD><TD>7.8</TD><TD>592.62</TD><TD>5.62</TD><TD>8.39</TD><TD>76.5</TD><TD>0.58</TD><TD>58.6</TD><TD>DDO 87</TD><TD>NED</TD><TD>LEDA</TD><TD>162.39458</TD><TD>+65.52944</TD></TR>
+<TR><TD>13</TD><TD>Im</TD><TD>DDO 101</TD><TD>37449</TD><TD>6900</TD><TD>6.4</TD><TD>-15.0</TD><TD>1.05</TD><TD>0.94</TD><TD>0.01</TD><TD>-2.85</TD><TD>-2.81</TD><TD>8.7</TD><TD>331.75</TD><TD>4.84</TD><TD>7.36</TD><TD>-69.0</TD><TD>0.69</TD><TD>49.4</TD><TD>DDO 101</TD><TD>NED</TD><TD>LEDA</TD><TD>178.91417</TD><TD>+31.51889</TD></TR>
+<TR><TD>14</TD><TD>Im</TD><TD>DDO 126</TD><TD>40791</TD><TD>7559</TD><TD>4.9</TD><TD>-14.9</TD><TD>1.76</TD><TD>0.87</TD><TD>0.00</TD><TD>-2.37</TD><TD>-2.10</TD><TD>7.8</TD><TD>293.50</TD><TD>5.69</TD><TD>8.16</TD><TD>-41.0</TD><TD>0.47</TD><TD>67.7</TD><TD>DDO 126</TD><TD>NED</TD><TD>LEDA</TD><TD>186.77708</TD><TD>+37.13972</TD></TR>
+<TR><TD>15</TD><TD>Im</TD><TD>DDO 133</TD><TD>41636</TD><TD>7698</TD><TD>3.5</TD><TD>-14.8</TD><TD>2.33</TD><TD>1.24</TD><TD>0.00</TD><TD>-2.88</TD><TD>-2.62</TD><TD>8.2</TD><TD>43.13</TD><TD>6.39</TD><TD>8.02</TD><TD>-6.0</TD><TD>0.69</TD><TD>49.4</TD><TD>DDO 133</TD><TD>NED</TD><TD>LEDA</TD><TD>188.23083</TD><TD>+31.53722</TD></TR>
+<TR><TD>16</TD><TD>Im</TD><TD>DDO 154</TD><TD>43869</TD><TD>8024</TD><TD>3.7</TD><TD>-14.2</TD><TD>1.55</TD><TD>0.59</TD><TD>0.01</TD><TD>-2.50</TD><TD>-1.93</TD><TD>7.5</TD><TD>129.01</TD><TD>6.35</TD><TD>8.46</TD><TD>46.0</TD><TD>0.50</TD><TD>65.2</TD><TD>DDO 154</TD><TD>NED</TD><TD>LEDA</TD><TD>193.52583</TD><TD>+27.15056</TD></TR>
+<TR><TD>17</TD><TD>Im</TD><TD>DDO 155</TD><TD>44491</TD><TD>8091</TD><TD>2.2</TD><TD>-12.5</TD><TD>0.95</TD><TD>0.15</TD><TD>0.01</TD><TD>-1.44</TD><TD></TD><TD>7.7</TD><TD>19.85</TD><TD>5.70</TD><TD>7.00</TD><TD>51.0</TD><TD>0.71</TD><TD>47.6</TD><TD>DDO 155</TD><TD>NED</TD><TD>LEDA</TD><TD>194.66583</TD><TD>+14.21944</TD></TR>
+<TR><TD>18</TD><TD>Im</TD><TD>DDO 165</TD><TD>45372</TD><TD>8201</TD><TD>4.6</TD><TD>-15.6</TD><TD>2.14</TD><TD>2.26</TD><TD>0.01</TD><TD>-3.67</TD><TD></TD><TD>7.6</TD><TD>131.87</TD><TD>6.01</TD><TD>8.13</TD><TD>89.0</TD><TD>0.54</TD><TD>61.9</TD><TD>DDO 165</TD><TD>NED</TD><TD>LEDA</TD><TD>196.60542</TD><TD>+67.70694</TD></TR>
+<TR><TD>19</TD><TD>Im</TD><TD>DDO 167</TD><TD>45939</TD><TD>8308</TD><TD>4.2</TD><TD>-13.0</TD><TD>0.75</TD><TD>0.33</TD><TD>0.00</TD><TD>-2.36</TD><TD>-1.83</TD><TD>7.7</TD><TD>215.81</TD><TD>4.84</TD><TD>7.17</TD><TD>-23.0</TD><TD>0.65</TD><TD>52.8</TD><TD>DDO 167</TD><TD>NED</TD><TD>LEDA</TD><TD>198.34542</TD><TD>+46.31972</TD></TR>
+<TR><TD>20</TD><TD>Im</TD><TD>DDO 168</TD><TD>46039</TD><TD>8320</TD><TD>4.3</TD><TD>-15.7</TD><TD>2.32</TD><TD>0.82</TD><TD>0.00</TD><TD>-2.27</TD><TD>-2.04</TD><TD>8.3</TD><TD>191.09</TD><TD>6.17</TD><TD>8.47</TD><TD>-24.5</TD><TD>0.63</TD><TD>54.5</TD><TD>DDO 168</TD><TD>NED</TD><TD>LEDA</TD><TD>198.61333</TD><TD>+45.92944</TD></TR>
+<TR><TD>21</TD><TD>Im</TD><TD>DDO 187</TD><TD>50961</TD><TD>9128</TD><TD>2.2</TD><TD>-12.7</TD><TD>1.06</TD><TD>0.18</TD><TD>0.00</TD><TD>-2.52</TD><TD>-1.98</TD><TD>7.7</TD><TD>66.04</TD><TD>5.30</TD><TD>7.12</TD><TD>37.0</TD><TD>0.80</TD><TD>39.0</TD><TD>DDO 187</TD><TD>NED</TD><TD>LEDA</TD><TD>213.98625</TD><TD>+23.05528</TD></TR>
+<TR><TD>22</TD><TD>Im</TD><TD>DDO 210</TD><TD>65367</TD><TD></TD><TD>0.9</TD><TD>-10.9</TD><TD>1.31</TD><TD>0.17</TD><TD>0.03</TD><TD></TD><TD>-2.71</TD><TD>7.2</TD><TD>3.79</TD><TD>5.72</TD><TD>6.30</TD><TD>-85.0</TD><TD>0.48</TD><TD>66.9</TD><TD>DDO 210</TD><TD>NED</TD><TD>LEDA</TD><TD>311.71667</TD><TD>-12.84750</TD></TR>
+<TR><TD>23</TD><TD>Im</TD><TD>DDO 216</TD><TD>71538</TD><TD>12613</TD><TD>1.1</TD><TD>-13.7</TD><TD>4.00</TD><TD>0.54</TD><TD>0.02</TD><TD>-4.10</TD><TD>-3.21</TD><TD>7.9</TD><TD>12.41</TD><TD>5.65</TD><TD>6.75</TD><TD>-58.0</TD><TD>0.45</TD><TD>69.4</TD><TD>DDO 216</TD><TD>NED</TD><TD>LEDA</TD><TD>352.14583</TD><TD>+14.74167</TD></TR>
+<TR><TD>24</TD><TD>Im</TD><TD>F564-V3</TD><TD></TD><TD></TD><TD>8.7</TD><TD>-14.0</TD><TD></TD><TD>0.53</TD><TD>0.02</TD><TD></TD><TD>-2.79</TD><TD>7.6</TD><TD>351.11</TD><TD>5.07</TD><TD>7.61</TD><TD>8.5</TD><TD>0.83</TD><TD>35.8</TD><TD>LEDA 86668</TD><TD>NED</TD><TD>LEDA</TD><TD>135.72458</TD><TD>+20.07472</TD></TR>
+<TR><TD>25</TD><TD>Im</TD><TD>IC 10</TD><TD>1305</TD><TD>192</TD><TD>0.7</TD><TD>-16.3</TD><TD></TD><TD>0.40</TD><TD>0.75</TD><TD>-1.11</TD><TD></TD><TD>8.2</TD><TD>7.08</TD><TD>6.93</TD><TD>7.78</TD><TD>-38.0</TD><TD>0.78</TD><TD>41.0</TD><TD>IC 10</TD><TD>NED</TD><TD>LEDA</TD><TD>005.09125</TD><TD>+59.29417</TD></TR>
+<TR><TD>26</TD><TD>Im</TD><TD>IC 1613</TD><TD>3844</TD><TD>668</TD><TD>0.7</TD><TD>-14.6</TD><TD>9.10</TD><TD>0.58</TD><TD>0.00</TD><TD>-2.56</TD><TD>-1.99</TD><TD>7.6</TD><TD>4.61</TD><TD>6.86</TD><TD>7.53</TD><TD>71.0</TD><TD>0.81</TD><TD>37.9</TD><TD>IC 1613</TD><TD>NED</TD><TD>LEDA</TD><TD>016.20500</TD><TD>+02.13000</TD></TR>
+<TR><TD>27</TD><TD>Im</TD><TD>LGS 3</TD><TD>3792</TD><TD></TD><TD>0.7</TD><TD>-9.7</TD><TD>0.96</TD><TD>0.23</TD><TD>0.04</TD><TD></TD><TD>-3.88</TD><TD>7.0</TD><TD>2.09</TD><TD>4.87</TD><TD>5.19</TD><TD>-3.5</TD><TD>0.51</TD><TD>64.4</TD><TD>LGS 3</TD><TD>NED</TD><TD>LEDA</TD><TD>015.98000</TD><TD>+21.87750</TD></TR>
+<TR><TD>28</TD><TD>Im</TD><TD>M81dwA</TD><TD>23521</TD><TD></TD><TD>3.5</TD><TD>-11.7</TD><TD></TD><TD>0.26</TD><TD>0.02</TD><TD></TD><TD>-2.26</TD><TD>7.3</TD><TD>124.28</TD><TD>5.09</TD><TD>7.18</TD><TD>86.0</TD><TD>0.73</TD><TD>45.8</TD><TD>PGC 023521</TD><TD>NED</TD><TD>LEDA</TD><TD>125.98833</TD><TD>+71.03083</TD></TR>
+<TR><TD>29</TD><TD>Im</TD><TD>NGC 1569</TD><TD>15345</TD><TD>3056</TD><TD>3.4</TD><TD>-18.2</TD><TD></TD><TD>0.38</TD><TD>0.51</TD><TD>0.19</TD><TD>-0.01</TD><TD>8.2</TD><TD>179.04</TD><TD>6.14</TD><TD>8.39</TD><TD>-59.0</TD><TD>0.55</TD><TD>61.1</TD><TD>NGC 1569</TD><TD>NED</TD><TD>LEDA</TD><TD>067.70750</TD><TD>+64.84750</TD></TR>
+<TR><TD>30</TD><TD>Im</TD><TD>NGC 2366</TD><TD>21102</TD><TD>3851</TD><TD>3.4</TD><TD>-16.8</TD><TD>4.72</TD><TD>1.36</TD><TD>0.04</TD><TD>-1.67</TD><TD>-1.66</TD><TD>7.9</TD><TD>132.41</TD><TD>6.72</TD><TD>8.84</TD><TD>32.5</TD><TD>0.42</TD><TD>72.1</TD><TD>NGC 2366</TD><TD>NED</TD><TD>LEDA</TD><TD>112.20333</TD><TD>+69.20611</TD></TR>
+<TR><TD>31</TD><TD>Im</TD><TD>NGC 3738</TD><TD>35856</TD><TD>6565</TD><TD>4.9</TD><TD>-17.1</TD><TD>2.40</TD><TD>0.78</TD><TD>0.00</TD><TD>-1.66</TD><TD>-1.53</TD><TD>8.4</TD><TD>326.55</TD><TD>5.54</TD><TD>8.06</TD><TD>0.0</TD><TD>1.00</TD><TD>0.0</TD><TD>NGC 3738</TD><TD>NED</TD><TD>LEDA</TD><TD>173.95417</TD><TD>+54.52306</TD></TR>
+<TR><TD>32</TD><TD>Im</TD><TD>NGC 4163</TD><TD>38881</TD><TD>7199</TD><TD>2.9</TD><TD>-14.4</TD><TD>1.47</TD><TD>0.27</TD><TD>0.00</TD><TD>-2.28</TD><TD>-1.74</TD><TD>7.9</TD><TD>69.27</TD><TD>5.32</TD><TD>7.16</TD><TD>18.0</TD><TD>0.64</TD><TD>53.7</TD><TD>NGC 4163</TD><TD>NED</TD><TD>LEDA</TD><TD>183.03833</TD><TD>+36.17028</TD></TR>
+<TR><TD>33</TD><TD>Im</TD><TD>NGC 4214</TD><TD>39225</TD><TD>7278</TD><TD>3.0</TD><TD>-17.6</TD><TD>4.67</TD><TD>0.75</TD><TD>0.00</TD><TD>-1.03</TD><TD>-1.08</TD><TD>8.2</TD><TD>87.28</TD><TD>6.82</TD><TD>8.76</TD><TD>16.0</TD><TD>0.91</TD><TD>25.8</TD><TD>NGC 4214</TD><TD>NED</TD><TD>LEDA</TD><TD>183.91333</TD><TD>+36.32722</TD></TR>
+<TR><TD>34</TD><TD>Im</TD><TD>NGC 6822</TD><TD>63616</TD><TD></TD><TD>0.5</TD><TD>-15.2</TD><TD></TD><TD>0.57</TD><TD>0.22</TD><TD>-2.06</TD><TD>-1.82</TD><TD>8.1</TD><TD></TD><TD></TD><TD></TD><TD></TD><TD></TD><TD></TD><TD>NGC 6822</TD><TD>NED</TD><TD>LEDA</TD><TD>296.23416</TD><TD>-14.79758</TD></TR>
+<TR><TD>35</TD><TD>Im</TD><TD>SagDIG</TD><TD>63287</TD><TD></TD><TD>1.1</TD><TD>-12.5</TD><TD></TD><TD>0.23</TD><TD>0.14</TD><TD>-2.97</TD><TD>-2.11</TD><TD>7.3</TD><TD>6.47</TD><TD>6.13</TD><TD>6.94</TD><TD>87.5</TD><TD>0.53</TD><TD>62.7</TD><TD>LEDA 63287</TD><TD>NED</TD><TD>LEDA</TD><TD>292.50250</TD><TD>-17.68222</TD></TR>
+<TR><TD>36</TD><TD>Im</TD><TD>UGC 8508</TD><TD>47495</TD><TD></TD><TD>2.6</TD><TD>-13.6</TD><TD>1.28</TD><TD>0.27</TD><TD>0.00</TD><TD>-2.03</TD><TD></TD><TD>7.9</TD><TD>109.21</TD><TD>5.24</TD><TD>7.28</TD><TD>-60.0</TD><TD>0.54</TD><TD>61.9</TD><TD>UGC 8508</TD><TD>NED</TD><TD>LEDA</TD><TD>202.68708</TD><TD>+54.90806</TD></TR>
+<TR><TD>37</TD><TD>Im</TD><TD>WLM</TD><TD>143</TD><TD></TD><TD>1.0</TD><TD>-14.4</TD><TD>5.81</TD><TD>0.57</TD><TD>0.02</TD><TD>-2.77</TD><TD>-2.05</TD><TD>7.8</TD><TD>12.21</TD><TD>6.76</TD><TD>7.85</TD><TD>-2.0</TD><TD>0.44</TD><TD>70.3</TD><TD>PGC 143</TD><TD>NED</TD><TD>LEDA</TD><TD>000.49667</TD><TD>-15.46139</TD></TR>
+<TR><TD>38</TD><TD>BCD</TD><TD>Haro 29</TD><TD>40665</TD><TD></TD><TD>5.8</TD><TD>-14.6</TD><TD>0.84</TD><TD>0.29</TD><TD>0.00</TD><TD>-0.77</TD><TD>-1.07</TD><TD>7.9</TD><TD>416.32</TD><TD>5.18</TD><TD>7.80</TD><TD>86.0</TD><TD>0.58</TD><TD>58.6</TD><TD>PGC 40665</TD><TD>NED</TD><TD>LEDA</TD><TD>186.56958</TD><TD>+48.49389</TD></TR>
+<TR><TD>39</TD><TD>BCD</TD><TD>Haro 36</TD><TD>43124</TD><TD>7950</TD><TD>9.3</TD><TD>-15.9</TD><TD></TD><TD>0.69</TD><TD>0.00</TD><TD>-1.86</TD><TD>-1.55</TD><TD>8.4</TD><TD>1010.34</TD><TD>5.15</TD><TD>8.16</TD><TD>2.0</TD><TD>0.81</TD><TD>37.9</TD><TD>PGC 43124</TD><TD>NED</TD><TD>LEDA</TD><TD>191.73458</TD><TD>+51.61333</TD></TR>
+<TR><TD>40</TD><TD>BCD</TD><TD>Mrk 178</TD><TD>35684</TD><TD>6541</TD><TD>3.9</TD><TD>-14.1</TD><TD>1.01</TD><TD>0.33</TD><TD>0.00</TD><TD>-1.60</TD><TD>-1.66</TD><TD>7.7</TD><TD>210.35</TD><TD>4.67</TD><TD>6.99</TD><TD>-50.0</TD><TD>0.46</TD><TD>68.6</TD><TD>Mrk 178</TD><TD>NED</TD><TD>LEDA</TD><TD>173.37083</TD><TD>+49.24000</TD></TR>
+<TR><TD>41</TD><TD>BCD</TD><TD>VIIZw 403</TD><TD>35286</TD><TD>6456</TD><TD>4.4</TD><TD>-14.3</TD><TD>1.11</TD><TD>0.52</TD><TD>0.02</TD><TD>-1.71</TD><TD>-1.67</TD><TD>7.7</TD><TD>125.27</TD><TD>5.59</TD><TD>7.69</TD><TD>-10.0</TD><TD>0.49</TD><TD>66.0</TD><TD>UGC  6456</TD><TD>NED</TD><TD>LEDA</TD><TD>171.99250</TD><TD>+78.99417</TD></TR>
+</TABLEDATA></DATA>
+</TABLE>
+<INFO name="matches" value="41">matching records</INFO>
+
+<INFO name="Warning" value="unsolved tested-link for col NED"/>
+<INFO name="Warning" value="unsolved tested-link for col LEDA"/>
+</RESOURCE>
+</VOTABLE>

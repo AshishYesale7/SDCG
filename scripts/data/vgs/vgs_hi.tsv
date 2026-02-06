@@ -1,0 +1,129 @@
+#
+#   VizieR Astronomical Server vizier.cds.unistra.fr
+#    Date: 2026-02-05T20:23:36 [V7.5.4]
+#   In case of problem, please report to:	cds-question@unistra.fr
+#
+#
+#Coosys	J2000:	eq_FK5 J2000
+#INFO	service_protocol=ASU	  IVOID of the protocol through which the data was retrieved
+#INFO	request_date=2026-02-05T20:23:36	  Query execution date
+#INFO	request=https://vizier.cds.unistra.fr/viz-bin/asu-tsv?-source=J/AJ/144/16/table4&-out.max=100	  Full request URL
+#INFO	contact=cds-question@unistra.fr	  Email or URL to contact publisher
+#INFO	server_software=VizieR/7.5.4	  Software version
+#INFO	publisher=CDS	  Data centre that produced the VOTable
+
+#RESOURCE=yCat_51440016
+#Name: J/AJ/144/16
+#Title: Optical and HI properties of galaxies in voids (Kreckel+, 2012)
+#INFO	ivoid=ivo://cds.vizier/j/aj/144/16	    IVOID of underlying data collection
+#INFO	data_ivoid=ivo://cds.vizier/j/aj/144/16	    IVOID of underlying data collection
+#INFO	creator=Kreckel K.	    First author or institution
+#INFO	cites=bibcode:2012AJ....144...16K	    Article or Data origin sources
+#INFO	journal=AJ	    Journal name
+#INFO	original_date=2012	    Year of the article publication
+#INFO	reference_url=https://cdsarc.cds.unistra.fr/viz-bin/cat/J/AJ/144/16	    Dataset landing page
+#INFO	citation=doi:10.26093/cds/vizier.51440016	    Dataset identifier that can be used for citation
+#INFO	publication_date=2017-06-26	    Date of first publication in the data centre
+#INFO	rights_uri=https://cds.unistra.fr/vizier-org/licences_vizier.html	    Licence URI
+#Table	J_AJ_144_16_table4:
+#Name: J/AJ/144/16/table4
+#Title: HI properties of targeted void galaxies and companions
+#Column	VGS	(A3)	Void galaxy identifier <[KPA2011] VGS NN> in Simbad or companion galaxy identifier <[KPA2011] VGS NNa> in Simbad	[ucd=meta.id;meta.main]
+#Column	Time	(F4.1)	Total integration time for each object	[ucd=time.expo]
+#Column	l_MHI	(A1)	3{sigma} upper limit on MHI (non-detections)	[ucd=meta.code.error]
+#Column	MHI	(F6.2)	? HI mass (see Section 3.1 for more details)	[ucd=phys.mass]
+#Column	e_MHI	(F5.2)	? Error in MHI	[ucd=stat.error]
+#Column	Vsys	(I4)	? Systemic HI velocity, using the optical definition	[ucd=spect.dopplerVeloc.opt;em.line.HI]
+#Column	Dist	(I3)	? Distance to the target galaxy	[ucd=pos.distance;pos.galactocentric]
+#Column	r90	(F4.1)	Optical galaxy radius (containing 90% of the light)	[ucd=phys.size.radius]
+#Column	l_rHI	(A1)	Upper limit on rHI (listed for poorly resolved systems when possible)	[ucd=meta.code.error]
+#Column	rHI	(F4.1)	? HI radius	[ucd=phys.size.radius]
+#Column	W50	(I3)	? The 50% HI line widths, corrected for instrumental broadening	[ucd=spect.line.width]
+#Column	W20	(I3)	? The 20% HI line widths, corrected for instrumental broadening	[ucd=spect.line.width]
+#Column	i	(I2)	? Inclination angle, calculated such that 90{deg} is edge-on (see Section 3.1 and equation (1) for further details)	[ucd=src.orbital.inclination;meta.modelled]
+#Column	PA	(I3)	? Position angle	[ucd=pos.posAng]
+#Column	l_Mdyn	(A1)	Upper limit on Mdyn (listed for poorly resolved systems when possible)	[ucd=meta.code.error]
+#Column	Mdyn	(F5.2)	? Dynamical mass	[ucd=phys.mass]
+#Column	MHI/L	(F5.2)	? HI mass-to-light ratio	[ucd=phys.composition.massLightRatio]
+VGS	Time	l_MHI	MHI	e_MHI	Vsys	Dist	r90	l_rHI	rHI	W50	W20	i	PA	l_Mdyn	Mdyn	MHI/L
+ 	h	 	10+8Msun	10+8Msun	km/s	Mpc	kpc	 	kpc	km/s	km/s	deg	deg	 	10+10Msun	Msun/Lsun
+---	----	-	------	-----	----	---	----	-	----	---	---	--	---	-	-----	-----
+01 	12.0	<	  2.10	     	    	   	 2.4	 	    	   	   	60	   	 	     	
+02 	12.0	 	  6.49	 1.85	6637	 95	 3.4	<	 7.6	111	136	47	 80	<	 1.00	 0.80
+03 	12.0	<	  1.85	     	    	   	 1.8	 	    	   	   	55	   	 	     	
+04 	12.0	<	  1.71	     	    	   	 1.5	 	    	   	   	46	   	 	     	
+05 	12.0	<	  3.27	     	    	   	 6.1	 	    	   	   	37	   	 	     	
+06 	12.0	 	 15.63	 2.52	6883	 98	 3.9	 	12.9	180	187	71	282	 	 2.71	 1.90
+07 	12.0	 	  8.60	 0.80	4901	 70	 2.6	 	 9.2	119	144	50	270	 	 1.28	 1.90
+07a	12.0	 	  3.23	 0.65	4880	 69	 3.5	 	    	 41	 49	  	   	 	     	 9.70
+08 	12.0	 	  3.95	 1.51	5853	 84	 4.4	<	 5.7	 84	126	51	 12	<	 0.39	 0.89
+09 	12.0	 	 10.30	 1.00	3881	 55	 3.1	 	 9.1	110	126	68	105	 	 0.74	 4.40
+09a	12.0	 	  0.57	 0.14	3796	 54	 1.5	 	    	 41	 49	  	   	 	     	20.20
+10 	12.0	 	 15.01	 2.00	4737	 68	 5.4	 	10.2	152	176	87	310	 	 1.36	 2.21
+10a	12.0	 	 16.73	 1.91	6637	 95	 6.5	 	    	177	193	  	   	 	     	 1.50
+11 	12.0	 	 21.73	 2.11	4907	 70	 4.2	 	17.0	 75	100	18	  5	 	 6.16	 1.38
+12 	12.0	 	 29.90	 4.20	5316	 76	 2.4	 	18.0	154	179	29	  5	 	10.55	 6.20
+13 	12.0	 	 12.35	 2.45	5691	 81	 3.5	 	12.8	213	229	68	275	 	 3.89	 0.82
+14 	12.0	 	  6.40	 1.00	3933	 56	 3.3	 	 8.7	110	134	67	 40	 	 0.72	 1.30
+15 	 0.0	 	      	     	    	   	 7.6	 	    	   	   	53	   	 	     	
+16 	12.0	<	  1.16	     	    	   	 1.7	 	    	   	   	60	   	 	     	
+17 	 0.0	 	      	     	    	   	 3.4	 	    	   	   	79	   	 	     	
+18 	 5.0	 	  3.91	 1.17	4850	 69	 3.5	<	 7.1	118	134	82	312	<	 0.58	 0.99
+19 	12.0	 	  3.16	 0.76	4318	 62	 1.7	<	 1.5	 32	125	60	230	<	 0.01	 0.43
+20 	 0.0	 	      	     	    	   	 1.1	 	    	   	   	43	   	 	     	
+21 	 8.0	 	 21.45	 3.58	5171	 74	 8.8	 	15.8	314	330	79	288	 	 9.38	 0.51
+22 	12.0	<	  2.62	     	    	   	 1.6	 	    	   	   	63	   	 	     	
+23 	 8.5	 	 38.52	 4.57	4990	 71	 4.5	 	16.9	203	236	49	 75	 	 7.11	 1.16
+24 	12.0	<	  3.35	     	    	   	 4.6	 	    	   	   	35	   	 	     	
+25 	12.0	 	  1.69	 0.64	5680	 81	 2.3	<	 2.0	135	135	43	325	<	 0.46	 0.37
+26 	10.5	 	 14.90	 3.23	6942	 99	 5.8	 	12.5	206	231	69	 75	 	 3.55	 0.69
+26a	10.5	 	100.25	18.28	4907	 70	 6.8	 	    	171	257	  	   	 	     	 0.60
+27 	12.0	 	  3.32	 0.75	4421	 63	 1.7	<	 3.7	 41	 91	55	 55	<	 0.05	 1.31
+28 	12.0	<	  1.67	     	    	   	 4.2	 	    	   	   	54	   	 	     	
+29 	 0.0	 	      	     	    	   	 3.8	 	    	   	   	65	   	 	     	
+30 	12.0	 	  5.50	 1.00	5666	 81	 3.7	<	 7.5	 50	 93	77	180	<	 0.12	 1.70
+30a	12.0	 	  4.52	 0.79	5592	 79	 2.1	 	    	 24	 41	  	   	 	     	 2.10
+31 	12.0	 	 19.89	 2.90	6247	 89	 4.0	<	10.4	153	178	52	155	<	 2.31	 0.25
+31a	12.0	 	 14.63	 1.97	5691	 81	 6.5	 	    	196	298	  	   	 	     	 0.10
+31b	12.0	 	  1.66	 0.95	4850	 69	 2.1	 	    	110	170	  	   	 	     	 0.10
+32 	12.0	 	 38.00	 4.50	3522	 50	 4.1	 	19.0	171	187	46	310	 	 6.29	 0.90
+33 	12.0	 	  8.39	 1.81	5443	 78	 2.0	<	 8.3	110	117	60	285	<	 0.77	 1.97
+34 	12.0	 	 23.90	 2.90	4917	 70	 3.6	 	10.2	231	299	50	280	 	 5.34	 0.70
+34a	12.0	 	  0.50	 0.16	4959	 70	 1.1	 	    	 33	 58	  	   	 	     	 1.70
+35 	12.0	 	 10.70	 1.30	5191	 74	 3.0	 	10.8	145	187	65	340	 	 1.61	 0.90
+36 	12.0	 	 19.80	 2.70	6684	 95	 5.0	 	13.0	190	224	79	190	 	 2.82	 1.10
+36a	12.0	 	      	     	6684	 95	 1.6	 	    	   	   	  	   	 	     	
+37 	12.0	 	 13.46	 1.89	5787	 83	 5.6	 	12.8	153	186	67	195	 	 2.05	 1.70
+37a	12.0	 	  8.57	 1.67	4318	 62	 3.1	 	    	 50	 92	  	   	 	     	 0.50
+38 	12.0	 	  9.10	 0.70	3853	 55	 2.8	 	 6.9	 50	 92	39	130	 	 0.26	 2.00
+38a	12.0	 	  0.86	 0.14	3832	 54	 1.3	 	    	 67	 75	  	   	 	     	 0.40
+38b	12.0	 	  1.39	 0.22	3863	 55	 1.4	 	    	 41	 66	  	   	 	     	 2.00
+39 	11.0	<	  2.59	     	    	   	 3.7	 	    	   	   	66	   	 	     	
+39a	11.0	 	  2.56	 0.39	5171	 74	 1.1	 	    	 16	 32	  	   	 	     	 3.00
+40 	12.0	 	  6.00	 1.40	7091	101	 2.8	<	 4.2	206	231	42	 77	<	 2.32	 0.43
+41 	10.5	<	  2.86	     	    	   	 1.8	 	    	   	   	29	   	 	     	
+42 	12.0	 	  4.00	 1.50	5601	 80	 3.5	<	 8.1	128	171	58	310	<	 1.08	 0.20
+43 	14.0	<	  2.87	     	    	   	 2.0	 	    	   	   	30	   	 	     	
+44 	12.0	 	  4.90	 1.10	5295	 76	 3.6	<	 7.0	 76	110	31	145	<	 0.90	 0.10
+45 	12.0	 	  3.50	 1.30	4316	 62	 4.0	<	 6.9	 68	102	66	320	<	 0.22	 1.00
+46 	12.0	 	  5.55	 1.66	4751	 68	 2.9	<	 4.9	186	202	71	260	<	 1.10	 0.80
+47 	12.0	 	 13.02	 2.71	6630	 95	 8.0	 	12.4	317	325	72	340	 	 7.97	 0.12
+48 	 0.0	 	      	     	    	   	 3.6	 	    	   	   	68	   	 	     	
+49 	12.0	<	  3.60	     	    	   	 3.9	 	    	   	   	40	   	 	     	
+50 	12.0	 	 55.27	 7.30	6129	 88	 3.2	 	16.1	287	330	83	349	 	 7.85	 1.29
+51 	12.0	 	 19.01	 2.46	7476	107	 4.3	<	10.1	172	206	63	285	<	 2.18	 1.27
+51a	12.0	 	  1.00	 0.21	4990	 71	 1.4	 	    	 68	 68	  	   	 	     	 2.00
+52 	12.0	 	  9.00	 2.25	5426	 78	 3.8	 	10.0	118	117	70	275	 	 0.92	 2.07
+53 	13.0	 	  5.19	 1.66	6450	 92	 5.4	<	 2.2	162	178	64	155	<	 0.42	 0.14
+53a	13.0	 	  4.38	 2.16	6942	 99	 6.2	 	    	119	119	  	   	 	     	 0.30
+54 	 9.0	 	 33.18	 4.00	7028	100	 6.7	 	16.5	240	265	80	 38	 	 5.72	 1.21
+54a	 9.0	 	      	     	4421	 63	 3.0	 	    	   	   	  	   	 	     	
+55 	 8.5	 	 17.33	 3.56	7485	107	 5.7	 	13.2	154	197	55	145	 	 2.71	 0.60
+56 	12.0	<	  2.67	     	    	   	 3.3	 	    	   	   	59	   	 	     	
+56a	12.0	 	  2.15	 0.66	6247	 89	 2.1	 	    	101	109	  	   	 	     	 1.50
+57 	13.0	 	  6.37	 1.48	6630	 95	 5.7	<	 9.0	119	187	30	330	<	 3.01	 0.06
+57a	13.0	 	  1.72	 0.49	5443	 78	 1.9	 	    	 59	101	  	   	 	     	 0.30
+58 	12.0	 	  7.00	 0.60	3351	 48	 2.6	 	 7.4	143	151	38	280	 	 2.39	 0.70
+59 	12.0	<	  2.59	     	    	   	 3.1	 	    	   	   	67	   	 	     	
+60 	12.0	 	  2.51	 1.61	5890	 84	 4.9	<	 5.7	273	281	81	106	<	 2.53	 0.09
+

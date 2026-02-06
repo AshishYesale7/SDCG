@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-02-02T19:05:33.562187",
+  "timestamp": "2026-02-06T02:09:29.171814",
   "dataset_version": "expanded_v2",
   "total_galaxies": 72,
   "void_galaxies": [
@@ -722,7 +722,7 @@
     "delta_v": 14.652618135376756,
     "error": 2.1677317901877746,
     "t_statistic": 6.818085260628473,
-    "p_value": 8.133418474172215e-09,
+    "p_value": 8.133418474172197e-09,
     "sdcg_prediction": 5.564202911877395
   },
   "data_sources": {

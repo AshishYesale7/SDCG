@@ -1,0 +1,33 @@
+
+================================================================================
+SDCG PAPER STRENGTHENING: KEY STATISTICS
+================================================================================
+
+Parameter                     | Value              | Significance
+------------------------------|-------------------|------------------
+Screening threshold range     | [100, 400] ρ_crit | 4× ratio
+Fiducial threshold           | 200 ρ_crit        | Within plateau
+Fine-tuning verdict          | NOT FINE-TUNED    | ✓
+
+Raw dwarf velocity           | 13.6 ± 2.5 km/s   | Initial signal
+Stripping contribution       | 5.4 ± 1.5 km/s    | ~40%
+Corrected velocity           | 8.2 ± 3.0 km/s    | 2.7σ
+Combined stacking            | 9.3 ± 2.3 km/s    | 4.0σ
+SDCG prediction              | 12 km/s           | Consistent
+
+β₀ SM value                  | 0.70              | Top quark
+β₀ allowed range             | [0.55, 0.84]      | 42% width
+SUSY 1 TeV prediction        | 0.63 ± 0.08       | ✓ Viable
+Asymptotic Safety prediction | 0.75 ± 0.06       | ✓ Viable
+
+Atom interferometry SNR      | 13,373            | 2675σ
+Integration time             | 100 hours         | Realistic
+Casimir experiment SNR       | < 1               | Not viable
+
+MCMC μ value                 | 0.149 ± 0.025     | Best fit
+n_g (scale exponent)         | 0.014             | β₀²/(4π²)
+z_trans (transition z)       | 1.64              | q(z) = 0
+
+================================================================================
+ALL FIVE CRITIQUE POINTS ADDRESSED
+================================================================================

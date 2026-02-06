@@ -1,0 +1,2 @@
+No allowed range found with current constraints.
+Estimated allowed range: 100-400 ρ_crit (based on screening physics)

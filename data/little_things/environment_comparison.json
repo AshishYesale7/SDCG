@@ -1,0 +1,14 @@
+{
+  "field_dwarfs": {
+    "n": 16,
+    "mean_V_rot": 38.9,
+    "std_V_rot": 11.208088597080236
+  },
+  "nearby_dwarfs": {
+    "n": 24,
+    "mean_V_rot": 27.854166666666668,
+    "std_V_rot": 15.47576005582781
+  },
+  "delta_V": 11.04583333333333,
+  "note": "Positive delta_V would support SDCG (field dwarfs faster)"
+}

@@ -20,6 +20,16 @@ Date: February 2026
 
 import numpy as np
 import matplotlib.pyplot as plt
+from pathlib import Path
+import os
+
+# Setup paths
+SCRIPT_DIR = Path(__file__).resolve().parent
+PROJECT_ROOT = SCRIPT_DIR.parent  # simulations/ -> project root
+PLOTS_DIR = PROJECT_ROOT / 'plots'
+RESULTS_DIR = PROJECT_ROOT / 'results'
+os.makedirs(PLOTS_DIR, exist_ok=True)
+os.makedirs(RESULTS_DIR, exist_ok=True)
 from scipy import stats
 from scipy.optimize import minimize, curve_fit
 from scipy.interpolate import interp1d
@@ -612,10 +622,12 @@ class SDCGRealDataPipeline:
         print(f"  QFT prediction:   μ = {MU_BARE:.2f}")
         print(f"\n  → All values consistent within uncertainties ✓")
     
-    def generate_plots(self, save_path: str = 'plots/'):
+    def generate_plots(self, save_path: Path = None):
         """Generate publication-quality plots."""
-        import os
-        os.makedirs(save_path, exist_ok=True)
+        if save_path is None:
+            save_path = PLOTS_DIR
+        save_path = Path(save_path)
+        save_path.mkdir(parents=True, exist_ok=True)
         
         fig = plt.figure(figsize=(16, 12))
         
@@ -636,9 +648,9 @@ class SDCGRealDataPipeline:
         self._plot_decomposition(ax4)
         
         plt.tight_layout()
-        plt.savefig(f'{save_path}sdcg_real_data_analysis.pdf', dpi=300, bbox_inches='tight')
-        plt.savefig(f'{save_path}sdcg_real_data_analysis.png', dpi=300, bbox_inches='tight')
-        print(f"\nSaved: {save_path}sdcg_real_data_analysis.pdf")
+        plt.savefig(save_path / 'sdcg_real_data_analysis.pdf', dpi=300, bbox_inches='tight')
+        plt.savefig(save_path / 'sdcg_real_data_analysis.png', dpi=300, bbox_inches='tight')
+        print(f"\nSaved: {save_path / 'sdcg_real_data_analysis.pdf'}")
         
         return fig
     

@@ -1,6 +1,6 @@
 {
   "test_name": "SDCG Void vs Cluster Dwarf Rotation - Verified Real Data",
-  "timestamp": "2026-02-02T19:00:34.217471",
+  "timestamp": "2026-02-06T02:09:38.671492",
   "data_sources": {
     "void": [
       "Kreckel et al. 2011 (ApJ 735, 132)",
@@ -33,7 +33,7 @@
     "delta_v_error": 3.1906075991653777,
     "delta_v_tf_corrected": 14.291287273768036,
     "t_statistic": 4.476144615140995,
-    "p_value": 0.0001885423710470656,
+    "p_value": 0.00018854237104706545,
     "mann_whitney_p": 0.00044351767248542037,
     "significance_sigma": 4.675180573934781
   },

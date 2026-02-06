@@ -19,8 +19,9 @@ import json
 import os
 from datetime import datetime
 
-# Create data directory structure
-DATA_DIR = "/Users/ashishyesale/Videos/EDU/Hypothesis/MCMC_cgc/data"
+# Create data directory structure (relative to this script's location)
+SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
+DATA_DIR = os.path.join(SCRIPT_DIR, "data")
 os.makedirs(f"{DATA_DIR}/sparc", exist_ok=True)
 os.makedirs(f"{DATA_DIR}/sdss_voids", exist_ok=True)
 os.makedirs(f"{DATA_DIR}/dwarfs", exist_ok=True)

@@ -17,6 +17,13 @@ import os
 import sys
 from pathlib import Path
 
+# Setup paths - allow running from any directory
+SCRIPT_DIR = Path(__file__).resolve().parent
+PROJECT_ROOT = SCRIPT_DIR  # Script is at project root
+DATA_DIR = PROJECT_ROOT / 'data'
+RESULTS_DIR = PROJECT_ROOT / 'results'
+os.makedirs(RESULTS_DIR, exist_ok=True)
+
 print("=" * 80)
 print("PRECISE DWARF GALAXY ANALYSIS - DATA SCIENCE VERIFICATION")
 print("=" * 80)
@@ -28,7 +35,7 @@ print("\n" + "=" * 80)
 print("STEP 1: VERIFYING DATA FILES")
 print("=" * 80)
 
-data_dir = Path("data/misc")
+data_dir = DATA_DIR / "misc"
 required_files = [
     "a40.datafile1.csv",  # ALFALFA HI catalog
     "voids_catalog.csv",  # Void positions
@@ -55,7 +62,7 @@ print("\n" + "=" * 80)
 print("STEP 2: EXAMINING STORED RESULTS")
 print("=" * 80)
 
-results_file = Path("results/cgc_dwarf_analysis.npz")
+results_file = RESULTS_DIR / "cgc_dwarf_analysis.npz"
 if results_file.exists():
     data = np.load(results_file, allow_pickle=True)
     print(f"Results file: {results_file}")

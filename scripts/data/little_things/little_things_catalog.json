@@ -1,0 +1,381 @@
+{
+  "description": "LITTLE THINGS - Local Irregulars That Trace Luminosity Extremes",
+  "reference": "Hunter et al. (2012) AJ 144, 134",
+  "n_galaxies": 41,
+  "galaxies": [
+    {
+      "name": "CVnIdwA",
+      "ra": 182.927,
+      "dec": 32.908,
+      "dist": 3.6,
+      "v_rot": 13.0,
+      "v_rot_err": 2.0,
+      "environment": "field"
+    },
+    {
+      "name": "DDO43",
+      "ra": 112.227,
+      "dec": 40.77,
+      "dist": 7.8,
+      "v_rot": 35.0,
+      "v_rot_err": 4.0,
+      "environment": "field"
+    },
+    {
+      "name": "DDO46",
+      "ra": 113.403,
+      "dec": 40.113,
+      "dist": 6.1,
+      "v_rot": 42.0,
+      "v_rot_err": 5.0,
+      "environment": "field"
+    },
+    {
+      "name": "DDO47",
+      "ra": 114.183,
+      "dec": 16.817,
+      "dist": 5.2,
+      "v_rot": 58.0,
+      "v_rot_err": 4.0,
+      "environment": "field"
+    },
+    {
+      "name": "DDO50",
+      "ra": 118.994,
+      "dec": 70.722,
+      "dist": 3.4,
+      "v_rot": 38.0,
+      "v_rot_err": 3.0,
+      "environment": "field"
+    },
+    {
+      "name": "DDO52",
+      "ra": 121.553,
+      "dec": 41.86,
+      "dist": 10.3,
+      "v_rot": 45.0,
+      "v_rot_err": 5.0,
+      "environment": "field"
+    },
+    {
+      "name": "DDO53",
+      "ra": 123.047,
+      "dec": 66.178,
+      "dist": 3.6,
+      "v_rot": 22.0,
+      "v_rot_err": 3.0,
+      "environment": "field"
+    },
+    {
+      "name": "DDO63",
+      "ra": 148.82,
+      "dec": 71.181,
+      "dist": 3.9,
+      "v_rot": 50.0,
+      "v_rot_err": 4.0,
+      "environment": "field"
+    },
+    {
+      "name": "DDO69",
+      "ra": 149.38,
+      "dec": 27.155,
+      "dist": 0.8,
+      "v_rot": 12.0,
+      "v_rot_err": 2.0,
+      "environment": "void"
+    },
+    {
+      "name": "DDO70",
+      "ra": 150.025,
+      "dec": 5.327,
+      "dist": 1.3,
+      "v_rot": 25.0,
+      "v_rot_err": 3.0,
+      "environment": "field"
+    },
+    {
+      "name": "DDO75",
+      "ra": 152.635,
+      "dec": -4.707,
+      "dist": 1.3,
+      "v_rot": 20.0,
+      "v_rot_err": 2.0,
+      "environment": "field"
+    },
+    {
+      "name": "DDO87",
+      "ra": 163.633,
+      "dec": 65.535,
+      "dist": 7.7,
+      "v_rot": 40.0,
+      "v_rot_err": 4.0,
+      "environment": "field"
+    },
+    {
+      "name": "DDO101",
+      "ra": 178.323,
+      "dec": 31.526,
+      "dist": 6.4,
+      "v_rot": 48.0,
+      "v_rot_err": 5.0,
+      "environment": "field"
+    },
+    {
+      "name": "DDO126",
+      "ra": 188.342,
+      "dec": 37.145,
+      "dist": 4.9,
+      "v_rot": 35.0,
+      "v_rot_err": 3.0,
+      "environment": "field"
+    },
+    {
+      "name": "DDO133",
+      "ra": 190.375,
+      "dec": 31.537,
+      "dist": 3.5,
+      "v_rot": 32.0,
+      "v_rot_err": 3.0,
+      "environment": "field"
+    },
+    {
+      "name": "DDO154",
+      "ra": 192.697,
+      "dec": 27.152,
+      "dist": 3.7,
+      "v_rot": 47.0,
+      "v_rot_err": 2.0,
+      "environment": "void"
+    },
+    {
+      "name": "DDO155",
+      "ra": 193.535,
+      "dec": 14.165,
+      "dist": 2.2,
+      "v_rot": 28.0,
+      "v_rot_err": 3.0,
+      "environment": "field"
+    },
+    {
+      "name": "DDO165",
+      "ra": 197.2,
+      "dec": 67.703,
+      "dist": 4.6,
+      "v_rot": 42.0,
+      "v_rot_err": 4.0,
+      "environment": "field"
+    },
+    {
+      "name": "DDO167",
+      "ra": 198.27,
+      "dec": 46.318,
+      "dist": 4.2,
+      "v_rot": 18.0,
+      "v_rot_err": 3.0,
+      "environment": "void"
+    },
+    {
+      "name": "DDO168",
+      "ra": 199.183,
+      "dec": 45.916,
+      "dist": 4.3,
+      "v_rot": 52.0,
+      "v_rot_err": 3.0,
+      "environment": "void"
+    },
+    {
+      "name": "DDO187",
+      "ra": 221.867,
+      "dec": 23.052,
+      "dist": 2.2,
+      "v_rot": 15.0,
+      "v_rot_err": 2.0,
+      "environment": "field"
+    },
+    {
+      "name": "DDO210",
+      "ra": 311.7,
+      "dec": -12.853,
+      "dist": 0.9,
+      "v_rot": 8.0,
+      "v_rot_err": 2.0,
+      "environment": "void"
+    },
+    {
+      "name": "DDO216",
+      "ra": 351.05,
+      "dec": 14.732,
+      "dist": 1.1,
+      "v_rot": 16.0,
+      "v_rot_err": 2.0,
+      "environment": "field"
+    },
+    {
+      "name": "F564-V3",
+      "ra": 131.867,
+      "dec": 21.183,
+      "dist": 8.7,
+      "v_rot": 22.0,
+      "v_rot_err": 4.0,
+      "environment": "void"
+    },
+    {
+      "name": "Haro29",
+      "ra": 186.117,
+      "dec": 48.497,
+      "dist": 5.9,
+      "v_rot": 28.0,
+      "v_rot_err": 3.0,
+      "environment": "field"
+    },
+    {
+      "name": "Haro36",
+      "ra": 194.633,
+      "dec": 51.61,
+      "dist": 9.3,
+      "v_rot": 50.0,
+      "v_rot_err": 5.0,
+      "environment": "field"
+    },
+    {
+      "name": "IC10",
+      "ra": 5.1,
+      "dec": 59.288,
+      "dist": 0.7,
+      "v_rot": 30.0,
+      "v_rot_err": 3.0,
+      "environment": "field"
+    },
+    {
+      "name": "IC1613",
+      "ra": 16.2,
+      "dec": 2.117,
+      "dist": 0.7,
+      "v_rot": 22.0,
+      "v_rot_err": 2.0,
+      "environment": "field"
+    },
+    {
+      "name": "LGS3",
+      "ra": 15.183,
+      "dec": 21.883,
+      "dist": 0.6,
+      "v_rot": 8.0,
+      "v_rot_err": 2.0,
+      "environment": "field"
+    },
+    {
+      "name": "M81dwA",
+      "ra": 131.958,
+      "dec": 71.275,
+      "dist": 3.6,
+      "v_rot": 12.0,
+      "v_rot_err": 3.0,
+      "environment": "field"
+    },
+    {
+      "name": "Mrk178",
+      "ra": 173.817,
+      "dec": 49.8,
+      "dist": 4.2,
+      "v_rot": 18.0,
+      "v_rot_err": 3.0,
+      "environment": "void"
+    },
+    {
+      "name": "NGC1569",
+      "ra": 67.7,
+      "dec": 64.847,
+      "dist": 3.4,
+      "v_rot": 45.0,
+      "v_rot_err": 4.0,
+      "environment": "field"
+    },
+    {
+      "name": "NGC2366",
+      "ra": 112.233,
+      "dec": 69.215,
+      "dist": 3.4,
+      "v_rot": 55.0,
+      "v_rot_err": 3.0,
+      "environment": "field"
+    },
+    {
+      "name": "NGC3738",
+      "ra": 173.958,
+      "dec": 54.523,
+      "dist": 4.9,
+      "v_rot": 60.0,
+      "v_rot_err": 5.0,
+      "environment": "field"
+    },
+    {
+      "name": "NGC4163",
+      "ra": 183.105,
+      "dec": 36.162,
+      "dist": 2.9,
+      "v_rot": 25.0,
+      "v_rot_err": 3.0,
+      "environment": "field"
+    },
+    {
+      "name": "NGC4214",
+      "ra": 183.913,
+      "dec": 36.327,
+      "dist": 2.9,
+      "v_rot": 70.0,
+      "v_rot_err": 4.0,
+      "environment": "field"
+    },
+    {
+      "name": "SagDIG",
+      "ra": 292.5,
+      "dec": -17.683,
+      "dist": 1.1,
+      "v_rot": 10.0,
+      "v_rot_err": 2.0,
+      "environment": "void"
+    },
+    {
+      "name": "UGC8508",
+      "ra": 203.212,
+      "dec": 54.912,
+      "dist": 2.6,
+      "v_rot": 20.0,
+      "v_rot_err": 3.0,
+      "environment": "void"
+    },
+    {
+      "name": "UGCA292",
+      "ra": 195.067,
+      "dec": 32.733,
+      "dist": 3.6,
+      "v_rot": 15.0,
+      "v_rot_err": 2.0,
+      "environment": "void"
+    },
+    {
+      "name": "VIIZw403",
+      "ra": 173.972,
+      "dec": 78.995,
+      "dist": 4.4,
+      "v_rot": 35.0,
+      "v_rot_err": 4.0,
+      "environment": "field"
+    },
+    {
+      "name": "WLM",
+      "ra": 0.492,
+      "dec": -15.461,
+      "dist": 1.0,
+      "v_rot": 38.0,
+      "v_rot_err": 3.0,
+      "environment": "field"
+    }
+  ],
+  "environment_counts": {
+    "void": 10,
+    "cluster": 0,
+    "field": 31
+  }
+}

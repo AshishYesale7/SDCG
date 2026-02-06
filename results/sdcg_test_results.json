@@ -3,15 +3,15 @@
     "n_void": 58,
     "n_dense": 117,
     "mean_void": 127.15385016347398,
-    "mean_dense": 125.85304118191928,
-    "delta_v_percent": 1.0335936019808925,
-    "predicted_percent": 7.4466241483962525,
-    "t_statistic": 0.15441730680156454,
+    "mean_dense": 125.85304118191927,
+    "delta_v_percent": 1.0335936019809038,
+    "predicted_percent": 7.296757573881285,
+    "t_statistic": 0.1544173068015662,
     "by_mass_bin": []
   },
   "growth_rate": {
     "chi2_lcdm": 14.72825848427332,
-    "chi2_sdcg": 12.51004008822834,
+    "chi2_sdcg": 12.542612630430744,
     "dof": 20,
     "mean_tension": 0.36005087861569807,
     "z_range": [
@@ -21,15 +21,15 @@
     "n_measurements": 21
   },
   "lyman_alpha": {
-    "predicted_enhancement": 3.3177599999999997e-07,
+    "predicted_enhancement": 3.180959999999999e-07,
     "limit": 7.5,
     "passes": true,
-    "mu_eff": 5.76e-05
+    "mu_eff": 5.6399999999999995e-05
   },
   "mu_constraints": {
-    "mu_bare": 0.48,
-    "mu_eff_void": 0.1488,
-    "mu_eff_cluster": 0.00096,
-    "mu_eff_lya": 5.76e-05
+    "mu_fit": 0.47,
+    "mu_eff_void": 0.1457,
+    "mu_eff_cluster": 0.00094,
+    "mu_eff_lya": 5.6399999999999995e-05
   }
 }

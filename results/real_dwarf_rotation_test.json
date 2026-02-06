@@ -14,7 +14,7 @@
   "delta_v_void_minus_cluster": 14.1451252941632,
   "error": 3.1043802525848623,
   "t_statistic": 4.322680542833292,
-  "p_value": 0.00040996118297840746,
+  "p_value": 0.0004099611829784074,
   "significance_sigma": 4.556505370882083,
   "sdcg_prediction_km_s": 6.6528,
   "correct_sign": true,

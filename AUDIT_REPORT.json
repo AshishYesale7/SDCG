@@ -1,0 +1,161 @@
+{
+  "generated": "2026-02-06T03:10:23.337885",
+  "project": "/Users/ashishyesale/Videos/EDU/Hypothesis/MCMC_cgc",
+  "critical_issues": [
+    {
+      "type": "Parameter Inconsistency",
+      "severity": "HIGH",
+      "description": "H0 has multiple values across files",
+      "files_affected": 29,
+      "v12_expected": 67.4,
+      "values_found": [
+        70.0,
+        73.04,
+        65.1,
+        69.49,
+        72.77,
+        74.61,
+        61.71
+      ],
+      "recommendation": "Standardize to Planck 2018 value: H0 = 67.4 km/s/Mpc"
+    },
+    {
+      "type": "Result Inconsistency",
+      "severity": "HIGH",
+      "description": "Multiple result files with different H0 values",
+      "files_affected": 33,
+      "recommendation": "Review which result file represents the correct analysis"
+    },
+    {
+      "type": "JSON Config Mismatch",
+      "severity": "MEDIUM",
+      "description": "Tully-Fisher slope/intercept differ between sdcg_real_data_results.json and sdcg_complete_analysis.json",
+      "recommendation": "Determine which file has correct values"
+    }
+  ],
+  "result_file_summary": {
+    "h0_range": "H0 values range from 61.71 to 76.33 km/s/Mpc across result files",
+    "files_that_matter": [
+      {
+        "file": "cgc_dwarf_mcmc_results.npz",
+        "date": "2026-02-06",
+        "status": "LATEST",
+        "summary": "delta_v = -1.85 \u00b1 2.92 km/s"
+      },
+      {
+        "file": "cgc_lace_comprehensive_v6.npz",
+        "date": "2026-02-06",
+        "status": "LATEST",
+        "summary": "mu = 0.41, n_g = 0.65"
+      },
+      {
+        "file": "sdcg_definitive_analysis.npz",
+        "date": "2026-02-01",
+        "status": "KEY",
+        "summary": "mu_no_lya = 0.48, tension = 3.9\u03c3"
+      }
+    ],
+    "potentially_obsolete": [
+      "cgc_mcmc_results.npz (H0 = 76.33 - way off from expected)",
+      "cgc_results_20260130_*.npz (early runs with varying H0)",
+      "cgc_results_20260204_034957.npz (H0 = 65.11, S8 = 0.96 - S8 too high)"
+    ]
+  },
+  "json_inconsistencies": {
+    "tully_fisher": {
+      "sdcg_real_data_results.json": {
+        "slope": 0.243,
+        "intercept": 1.392
+      },
+      "sdcg_complete_analysis.json": {
+        "slope": 0.24,
+        "intercept": -0.191
+      },
+      "recommendation": "Slope similar, intercept very different - check data sources"
+    },
+    "lyman_alpha_mu_eff": {
+      "sdcg_real_data_results.json": 5.76e-05,
+      "sdcg_test_results.json": 5.64e-05,
+      "difference_pct": 2.1,
+      "status": "MINOR"
+    },
+    "mean_velocities": {
+      "verified_real_data_test.json": {
+        "void": 47.17,
+        "cluster": 32.25,
+        "field": 46.92
+      },
+      "expanded_dwarf_dataset.json": {
+        "void": 44.96,
+        "cluster": 30.31,
+        "field": 47.06
+      },
+      "status": "DIFFERENT DATASETS - NOT A BUG"
+    }
+  },
+  "files_to_update_for_v12": [
+    {
+      "file": "fetch_real_cosmology_api.py",
+      "issue": "Contains H0 = 70.0 and 73.04",
+      "fix": "Update to H0 = 67.4 (Planck 2018)"
+    },
+    {
+      "file": "scripts/_verification/verify_equations.py",
+      "issue": "Contains Omega_m = 2.0 (clearly wrong)",
+      "fix": "Correct to Omega_m = 0.315"
+    }
+  ],
+  "data_directory_status": {
+    "planck": {
+      "status": "OK",
+      "files": 2,
+      "size_mb": 0.16
+    },
+    "bao": {
+      "status": "OK",
+      "files": 1,
+      "size_mb": 0.0
+    },
+    "sne": {
+      "status": "OK",
+      "files": 5,
+      "size_mb": 32.3
+    },
+    "growth": {
+      "status": "OK",
+      "files": 1,
+      "size_mb": 0.0
+    },
+    "lyalpha": {
+      "status": "OK",
+      "files": 13,
+      "size_mb": 0.29
+    },
+    "little_things": {
+      "status": "OK",
+      "files": 6,
+      "size_mb": 0.02
+    },
+    "cgc_simulations": {
+      "status": "OK",
+      "files": 2,
+      "size_mb": 0.01
+    }
+  },
+  "recommendations": {
+    "immediate": [
+      "1. Standardize H0 = 67.4 km/s/Mpc across all files",
+      "2. Review cgc_dwarf_mcmc_results.npz as the latest definitive dwarf analysis",
+      "3. Fix Omega_m in verify_equations.py (currently 2.0, should be 0.315)"
+    ],
+    "cleanup": [
+      "1. Archive old result files (cgc_results_20260130_*)",
+      "2. Consolidate duplicate JSON configs",
+      "3. Create a single source-of-truth config file for v12 parameters"
+    ],
+    "documentation": [
+      "1. Document which result file is the \"official\" one for each analysis type",
+      "2. Add version tags to result files"
+    ]
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "date": "2026-02-03",
+  "analyses": {
+    "all_sources": {
+      "n_void": 18,
+      "n_cluster": 18,
+      "delta_v": 23.958188089573405,
+      "delta_v_err": 6.802792612905094,
+      "sigma_from_zero": 3.5218166204455548,
+      "sigma_from_sdcg": 1.6083822407314672
+    }
+  }
+}

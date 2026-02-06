@@ -1,4 +1,21 @@
+# =============================================================================
+# CGC (Casimir-Gravity Crossover) Project .gitignore
+# =============================================================================
+
+# -----------------------------------------------------------------------------
+# Secrets & API Keys - NEVER COMMIT THESE
+# -----------------------------------------------------------------------------
+.env
+.env.*
+*.env
+.secrets
+secrets.json
+*_api_key*
+~/.tng_api_key
+
+# -----------------------------------------------------------------------------
 # Python
+# -----------------------------------------------------------------------------
 __pycache__/
 *.py[cod]
 *$py.class
@@ -19,14 +36,24 @@ wheels/
 *.egg-info/
 .installed.cfg
 *.egg
+*.pyo
+*.pyd
 
-# Virtual environments
-cgc_env/
-lace_env/
-venv/
-ENV/
+# -----------------------------------------------------------------------------
+# Virtual Environments (all locations)
+# -----------------------------------------------------------------------------
+**/cgc_env/
+**/lace_env/
+**/venv/
+**/.venv/
+**/ENV/
+**/env/
+simulations/cgc_env/
+simulations/lace_env/
 
+# -----------------------------------------------------------------------------
 # LaTeX auxiliary files
+# -----------------------------------------------------------------------------
 *.aux
 *.log
 *.out
@@ -36,11 +63,18 @@ ENV/
 *.fdb_latexmk
 *.blg
 *.bbl
+*.nav
+*.snm
+*.vrb
+*.lot
+*.lof
+*.idx
+*.ind
+*.ilg
 
-# Keep PDFs but ignore large intermediate files
-# *.pdf  # We want to keep the thesis PDFs
-
+# -----------------------------------------------------------------------------
 # OS files
+# -----------------------------------------------------------------------------
 .DS_Store
 .DS_Store?
 ._*
@@ -48,25 +82,127 @@ ENV/
 .Trashes
 ehthumbs.db
 Thumbs.db
-
-# IDE
-.vscode/
-.idea/
 *.swp
 *.swo
 *~
 
+# -----------------------------------------------------------------------------
+# IDE / Editor
+# -----------------------------------------------------------------------------
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+.spyderproject
+.spyproject
+
+# -----------------------------------------------------------------------------
 # Jupyter
+# -----------------------------------------------------------------------------
 .ipynb_checkpoints/
+*.ipynb_checkpoints
 
-# Large data files (keep structure but not huge files)
-# data/**/*.fits
-# data/**/*.gz
+# -----------------------------------------------------------------------------
+# Large data files (keep structure, ignore large binaries)
+# -----------------------------------------------------------------------------
+*.fits
+*.fits.gz
+*.hdf5
+*.h5
+!data/**/*.txt
+!data/**/*.dat
+!data/**/*.csv
 
+# -----------------------------------------------------------------------------
 # CLASS build files
-class_cgc/build/
-class_cgc/*.o
-class_cgc/class
+# -----------------------------------------------------------------------------
+simulations/class_cgc/build/
+simulations/class_cgc/*.o
+simulations/class_cgc/class
+simulations/class_cgc/libclass.a
 
-# LaCE (external dependency)
-LaCE/
+# -----------------------------------------------------------------------------
+# MCMC output files (large, regeneratable)
+# -----------------------------------------------------------------------------
+results/_archive/
+results/_old_runs/
+results/chains/
+results/sdcg_mcmc_*/
+# Ignore all binary chain/result files (large, regeneratable)
+results/*.npy
+results/*.npz
+results/*.pkl
+results/*.h5
+# Keep important analysis results (JSON summaries, text files)
+!results/*.json
+!results/*.txt
+!results/PROJECT_STATUS.md
+
+# -----------------------------------------------------------------------------
+# Thesis materials - only keep v13, older versions local only
+# -----------------------------------------------------------------------------
+thesis_materials/DRAFT/v1_base/
+thesis_materials/DRAFT/v2/
+thesis_materials/DRAFT/v3/
+thesis_materials/DRAFT/v4/
+thesis_materials/DRAFT/v5/
+thesis_materials/DRAFT/v6/
+thesis_materials/DRAFT/v7/
+thesis_materials/DRAFT/v8/
+thesis_materials/DRAFT/v9/
+thesis_materials/DRAFT/v10/
+thesis_materials/DRAFT/v11/
+thesis_materials/DRAFT/v12/
+# Keep v13 source files (PDF generated locally)
+!thesis_materials/DRAFT/v13/*.tex
+thesis_materials/DRAFT/v13/*.pdf
+thesis_materials/DRAFT/v13/*.aux
+thesis_materials/DRAFT/v13/*.toc
+thesis_materials/DRAFT/v13/*.out
+thesis_materials/DRAFT/v13/*.log
+!thesis_materials/*.tex
+
+# -----------------------------------------------------------------------------
+# Archive folders (not for distribution)
+# -----------------------------------------------------------------------------
+_archive_root/
+
+# -----------------------------------------------------------------------------
+# Temporary and log files
+# -----------------------------------------------------------------------------
+*.tmp
+*.temp
+*.bak
+*.cache
+.cache/
+logs/
+*.log
+
+# -----------------------------------------------------------------------------
+# Coverage and testing
+# -----------------------------------------------------------------------------
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.pytest_cache/
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+
+# -----------------------------------------------------------------------------
+# Documentation build
+# -----------------------------------------------------------------------------
+docs/_build/
+site/
+
+# -----------------------------------------------------------------------------
+# Path update summary (temporary)
+# -----------------------------------------------------------------------------
+PATH_UPDATE_SUMMARY.md
+
+# Added by ggshield
+.cache_ggshield
+simulations/LaCE/

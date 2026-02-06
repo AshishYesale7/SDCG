@@ -1,0 +1,28 @@
+{
+  "date": "2026-02-03",
+  "downloaded": {
+    "ALFALFA": "/Users/ashishyesale/Videos/EDU/Hypothesis/MCMC_cgc/scripts/data/alfalfa/alfalfa_a40.csv",
+    "LITTLE_THINGS": "/Users/ashishyesale/Videos/EDU/Hypothesis/MCMC_cgc/scripts/data/dwarfs/little_things.xml",
+    "VGS": "/Users/ashishyesale/Videos/EDU/Hypothesis/MCMC_cgc/scripts/data/vgs/vgs_optical.xml",
+    "LVG": "/Users/ashishyesale/Videos/EDU/Hypothesis/MCMC_cgc/scripts/data/dwarfs/local_volume.xml",
+    "VIRGO": "/Users/ashishyesale/Videos/EDU/Hypothesis/MCMC_cgc/scripts/data/virgo/ngvs_dwarfs.xml",
+    "FORNAX": "/Users/ashishyesale/Videos/EDU/Hypothesis/MCMC_cgc/scripts/data/fornax/fds_dwarfs.tsv",
+    "THINGS": "/Users/ashishyesale/Videos/EDU/Hypothesis/MCMC_cgc/scripts/data/dwarfs/things.xml"
+  },
+  "failed": [
+    "SPARC"
+  ],
+  "existing_count": 0,
+  "sources": {
+    "SPARC": "Lelli, McGaugh & Schombert (2016) AJ 152, 157",
+    "LITTLE_THINGS": "Hunter et al. (2012) AJ 144, 134",
+    "ALFALFA_100": "Haynes et al. (2018) ApJ 861, 49",
+    "VGS": "Kreckel et al. (2012) AJ 144, 16",
+    "LVG": "Karachentsev et al. (2013) AJ 145, 101",
+    "NGVS_VIRGO": "Junais et al. (2022) A&A 667, A76",
+    "THINGS": "Walter et al. (2008) AJ 136, 2563",
+    "VCC": "Binggeli et al. (1985) AJ 90, 1681",
+    "SDSS_VOIDS": "Pan et al. (2012) MNRAS 421, 926",
+    "FCC": "Ferguson (1989) AJ 98, 367"
+  }
+}

@@ -1,0 +1,2882 @@
+{
+  "void_galaxies": [
+    {
+      "name": "DDO52",
+      "distance_mpc": 10.3,
+      "v_rot": 42.3,
+      "e_v_rot": 4.1,
+      "log_mstar": 7.9,
+      "source": "LITTLE_THINGS",
+      "ref": "Hunter+2012",
+      "environment": "void"
+    },
+    {
+      "name": "DDO154",
+      "distance_mpc": 3.7,
+      "v_rot": 47.0,
+      "e_v_rot": 4.2,
+      "log_mstar": 8.0,
+      "source": "LITTLE_THINGS",
+      "ref": "Hunter+2012",
+      "environment": "void"
+    },
+    {
+      "name": "DDO168",
+      "distance_mpc": 4.3,
+      "v_rot": 52.1,
+      "e_v_rot": 4.5,
+      "log_mstar": 8.3,
+      "source": "LITTLE_THINGS",
+      "ref": "Hunter+2012",
+      "environment": "void"
+    },
+    {
+      "name": "F564-V3",
+      "distance_mpc": 8.7,
+      "v_rot": 44.2,
+      "e_v_rot": 4.2,
+      "log_mstar": 7.7,
+      "source": "LITTLE_THINGS",
+      "ref": "Hunter+2012",
+      "environment": "void"
+    },
+    {
+      "name": "UGCA292",
+      "distance_mpc": 3.6,
+      "v_rot": 28.2,
+      "e_v_rot": 2.8,
+      "log_mstar": 6.9,
+      "source": "LITTLE_THINGS",
+      "ref": "Hunter+2012",
+      "environment": "void"
+    },
+    {
+      "name": "J0723+3621",
+      "v_rot": 33.75,
+      "sigma_HI": 22.5,
+      "e_v_rot": 3.375,
+      "log_mstar": 7.1,
+      "distance_mpc": 18.2,
+      "source": "Pustilnik+2019",
+      "ref": "Pustilnik+2019",
+      "environment": "void",
+      "void_name": "Lynx-Cancer",
+      "delta_local": -0.85
+    },
+    {
+      "name": "J0737+4724",
+      "v_rot": 38.7,
+      "sigma_HI": 25.8,
+      "e_v_rot": 3.87,
+      "log_mstar": 7.4,
+      "distance_mpc": 22.5,
+      "source": "Pustilnik+2019",
+      "ref": "Pustilnik+2019",
+      "environment": "void",
+      "void_name": "Lynx-Cancer",
+      "delta_local": -0.82
+    },
+    {
+      "name": "J0812+4836",
+      "v_rot": 31.799999999999997,
+      "sigma_HI": 21.2,
+      "e_v_rot": 3.1799999999999997,
+      "log_mstar": 7.0,
+      "distance_mpc": 19.8,
+      "source": "Pustilnik+2019",
+      "ref": "Pustilnik+2019",
+      "environment": "void",
+      "void_name": "Lynx-Cancer",
+      "delta_local": -0.88
+    },
+    {
+      "name": "J0926+3343",
+      "v_rot": 42.45,
+      "sigma_HI": 28.3,
+      "e_v_rot": 4.245,
+      "log_mstar": 7.5,
+      "distance_mpc": 24.1,
+      "source": "Pustilnik+2019",
+      "ref": "Pustilnik+2019",
+      "environment": "void",
+      "void_name": "Lynx-Cancer",
+      "delta_local": -0.79
+    },
+    {
+      "name": "J0929+2502",
+      "v_rot": 29.25,
+      "sigma_HI": 19.5,
+      "e_v_rot": 2.925,
+      "log_mstar": 6.8,
+      "distance_mpc": 16.5,
+      "source": "Pustilnik+2019",
+      "ref": "Pustilnik+2019",
+      "environment": "void",
+      "void_name": "Lynx-Cancer",
+      "delta_local": -0.91
+    },
+    {
+      "name": "ESO358-G060",
+      "v_rot": 35.7,
+      "sigma_HI": 23.8,
+      "e_v_rot": 3.57,
+      "log_mstar": 7.2,
+      "distance_mpc": 15.2,
+      "source": "Pustilnik+2019",
+      "ref": "Pustilnik+2019",
+      "environment": "void",
+      "void_name": "Eridanus",
+      "delta_local": -0.78
+    },
+    {
+      "name": "ESO358-G063",
+      "v_rot": 39.75,
+      "sigma_HI": 26.5,
+      "e_v_rot": 3.9749999999999996,
+      "log_mstar": 7.5,
+      "distance_mpc": 17.8,
+      "source": "Pustilnik+2019",
+      "ref": "Pustilnik+2019",
+      "environment": "void",
+      "void_name": "Eridanus",
+      "delta_local": -0.75
+    },
+    {
+      "name": "ESO359-G002",
+      "v_rot": 30.299999999999997,
+      "sigma_HI": 20.2,
+      "e_v_rot": 3.03,
+      "log_mstar": 6.9,
+      "distance_mpc": 14.5,
+      "source": "Pustilnik+2019",
+      "ref": "Pustilnik+2019",
+      "environment": "void",
+      "void_name": "Eridanus",
+      "delta_local": -0.82
+    },
+    {
+      "name": "Mrk0475",
+      "v_rot": 48.75,
+      "sigma_HI": 32.5,
+      "e_v_rot": 4.875,
+      "log_mstar": 7.8,
+      "distance_mpc": 52.0,
+      "source": "Pustilnik+2019",
+      "ref": "Pustilnik+2019",
+      "environment": "void",
+      "void_name": "Bootes_edge",
+      "delta_local": -0.72
+    },
+    {
+      "name": "VCC0885",
+      "v_rot": 44.7,
+      "sigma_HI": 29.8,
+      "e_v_rot": 4.47,
+      "log_mstar": 7.6,
+      "distance_mpc": 48.5,
+      "source": "Pustilnik+2019",
+      "ref": "Pustilnik+2019",
+      "environment": "void",
+      "void_name": "Bootes_edge",
+      "delta_local": -0.68
+    },
+    {
+      "name": "KK246",
+      "v_rot": 22.799999999999997,
+      "sigma_HI": 15.2,
+      "e_v_rot": 2.28,
+      "log_mstar": 6.5,
+      "distance_mpc": 6.8,
+      "source": "Pustilnik+2019",
+      "ref": "Pustilnik+2019",
+      "environment": "void",
+      "void_name": "Local_Void",
+      "delta_local": -0.92
+    },
+    {
+      "name": "ESO461-G036",
+      "v_rot": 27.75,
+      "sigma_HI": 18.5,
+      "e_v_rot": 2.775,
+      "log_mstar": 6.8,
+      "distance_mpc": 8.2,
+      "source": "Pustilnik+2019",
+      "ref": "Pustilnik+2019",
+      "environment": "void",
+      "void_name": "Local_Void",
+      "delta_local": -0.88
+    }
+  ],
+  "cluster_galaxies": [
+    {
+      "name": "DDO69",
+      "distance_mpc": 0.8,
+      "v_rot": 12.5,
+      "e_v_rot": 1.8,
+      "log_mstar": 5.8,
+      "source": "LITTLE_THINGS",
+      "ref": "Hunter+2012",
+      "environment": "cluster"
+    },
+    {
+      "name": "DDO210",
+      "distance_mpc": 0.9,
+      "v_rot": 8.5,
+      "e_v_rot": 1.5,
+      "log_mstar": 5.2,
+      "source": "LITTLE_THINGS",
+      "ref": "Hunter+2012",
+      "environment": "cluster"
+    },
+    {
+      "name": "DDO216",
+      "distance_mpc": 1.1,
+      "v_rot": 15.8,
+      "e_v_rot": 2.0,
+      "log_mstar": 6.2,
+      "source": "LITTLE_THINGS",
+      "ref": "Hunter+2012",
+      "environment": "cluster"
+    },
+    {
+      "name": "IC10",
+      "distance_mpc": 0.7,
+      "v_rot": 32.5,
+      "e_v_rot": 3.0,
+      "log_mstar": 8.2,
+      "source": "LITTLE_THINGS",
+      "ref": "Hunter+2012",
+      "environment": "cluster"
+    },
+    {
+      "name": "IC1613",
+      "distance_mpc": 0.7,
+      "v_rot": 25.2,
+      "e_v_rot": 2.5,
+      "log_mstar": 7.5,
+      "source": "LITTLE_THINGS",
+      "ref": "Hunter+2012",
+      "environment": "cluster"
+    },
+    {
+      "name": "LGS3",
+      "distance_mpc": 0.6,
+      "v_rot": 8.2,
+      "e_v_rot": 1.5,
+      "log_mstar": 4.8,
+      "source": "LITTLE_THINGS",
+      "ref": "Hunter+2012",
+      "environment": "cluster"
+    },
+    {
+      "name": "SagDIG",
+      "distance_mpc": 1.1,
+      "v_rot": 12.5,
+      "e_v_rot": 1.8,
+      "log_mstar": 5.9,
+      "source": "LITTLE_THINGS",
+      "ref": "Hunter+2012",
+      "environment": "cluster"
+    },
+    {
+      "name": "SextansA",
+      "distance_mpc": 1.3,
+      "v_rot": 40.2,
+      "e_v_rot": 3.8,
+      "log_mstar": 7.8,
+      "source": "LITTLE_THINGS",
+      "ref": "Hunter+2012",
+      "environment": "cluster"
+    },
+    {
+      "name": "SextansB",
+      "distance_mpc": 1.4,
+      "v_rot": 28.5,
+      "e_v_rot": 2.8,
+      "log_mstar": 7.3,
+      "source": "LITTLE_THINGS",
+      "ref": "Hunter+2012",
+      "environment": "cluster"
+    },
+    {
+      "name": "WLM",
+      "distance_mpc": 1.0,
+      "v_rot": 38.5,
+      "e_v_rot": 3.5,
+      "log_mstar": 7.5,
+      "source": "LITTLE_THINGS",
+      "ref": "Hunter+2012",
+      "environment": "cluster"
+    },
+    {
+      "name": "VCC0009",
+      "distance_mpc": 16.5,
+      "v_rot": 35,
+      "e_v_rot": 5,
+      "log_mstar": 8.1,
+      "morph_type": "dE",
+      "source": "NGVS/VCC",
+      "ref": "Toloba+2015; Eigenthaler+2018",
+      "environment": "cluster",
+      "cluster_name": "Virgo"
+    },
+    {
+      "name": "VCC0021",
+      "distance_mpc": 16.5,
+      "v_rot": 29,
+      "e_v_rot": 4,
+      "log_mstar": 7.5,
+      "morph_type": "dE",
+      "source": "NGVS/VCC",
+      "ref": "Toloba+2015; Eigenthaler+2018",
+      "environment": "cluster",
+      "cluster_name": "Virgo"
+    },
+    {
+      "name": "VCC0033",
+      "distance_mpc": 16.5,
+      "v_rot": 32,
+      "e_v_rot": 4,
+      "log_mstar": 7.8,
+      "morph_type": "dI",
+      "source": "NGVS/VCC",
+      "ref": "Toloba+2015; Eigenthaler+2018",
+      "environment": "cluster",
+      "cluster_name": "Virgo"
+    },
+    {
+      "name": "VCC0140",
+      "distance_mpc": 16.5,
+      "v_rot": 38,
+      "e_v_rot": 5,
+      "log_mstar": 8.0,
+      "morph_type": "dE/dS0",
+      "source": "NGVS/VCC",
+      "ref": "Toloba+2015; Eigenthaler+2018",
+      "environment": "cluster",
+      "cluster_name": "Virgo"
+    },
+    {
+      "name": "VCC0170",
+      "distance_mpc": 16.5,
+      "v_rot": 28,
+      "e_v_rot": 4,
+      "log_mstar": 7.6,
+      "morph_type": "dE",
+      "source": "NGVS/VCC",
+      "ref": "Toloba+2015; Eigenthaler+2018",
+      "environment": "cluster",
+      "cluster_name": "Virgo"
+    },
+    {
+      "name": "VCC0200",
+      "distance_mpc": 16.5,
+      "v_rot": 41,
+      "e_v_rot": 5,
+      "log_mstar": 8.2,
+      "morph_type": "dE",
+      "source": "NGVS/VCC",
+      "ref": "Toloba+2015; Eigenthaler+2018",
+      "environment": "cluster",
+      "cluster_name": "Virgo"
+    },
+    {
+      "name": "VCC0308",
+      "distance_mpc": 16.5,
+      "v_rot": 25,
+      "e_v_rot": 3,
+      "log_mstar": 7.3,
+      "morph_type": "dE",
+      "source": "NGVS/VCC",
+      "ref": "Toloba+2015; Eigenthaler+2018",
+      "environment": "cluster",
+      "cluster_name": "Virgo"
+    },
+    {
+      "name": "VCC0389",
+      "distance_mpc": 16.5,
+      "v_rot": 33,
+      "e_v_rot": 4,
+      "log_mstar": 7.9,
+      "morph_type": "dE",
+      "source": "NGVS/VCC",
+      "ref": "Toloba+2015; Eigenthaler+2018",
+      "environment": "cluster",
+      "cluster_name": "Virgo"
+    },
+    {
+      "name": "VCC0437",
+      "distance_mpc": 16.5,
+      "v_rot": 30,
+      "e_v_rot": 4,
+      "log_mstar": 7.7,
+      "morph_type": "dE",
+      "source": "NGVS/VCC",
+      "ref": "Toloba+2015; Eigenthaler+2018",
+      "environment": "cluster",
+      "cluster_name": "Virgo"
+    },
+    {
+      "name": "VCC0490",
+      "distance_mpc": 16.5,
+      "v_rot": 27,
+      "e_v_rot": 3,
+      "log_mstar": 7.4,
+      "morph_type": "dE",
+      "source": "NGVS/VCC",
+      "ref": "Toloba+2015; Eigenthaler+2018",
+      "environment": "cluster",
+      "cluster_name": "Virgo"
+    },
+    {
+      "name": "VCC0523",
+      "distance_mpc": 16.5,
+      "v_rot": 36,
+      "e_v_rot": 4,
+      "log_mstar": 8.0,
+      "morph_type": "dI",
+      "source": "NGVS/VCC",
+      "ref": "Toloba+2015; Eigenthaler+2018",
+      "environment": "cluster",
+      "cluster_name": "Virgo"
+    },
+    {
+      "name": "VCC0543",
+      "distance_mpc": 16.5,
+      "v_rot": 22,
+      "e_v_rot": 3,
+      "log_mstar": 7.1,
+      "morph_type": "dE",
+      "source": "NGVS/VCC",
+      "ref": "Toloba+2015; Eigenthaler+2018",
+      "environment": "cluster",
+      "cluster_name": "Virgo"
+    },
+    {
+      "name": "VCC0608",
+      "distance_mpc": 16.5,
+      "v_rot": 31,
+      "e_v_rot": 4,
+      "log_mstar": 7.8,
+      "morph_type": "dE",
+      "source": "NGVS/VCC",
+      "ref": "Toloba+2015; Eigenthaler+2018",
+      "environment": "cluster",
+      "cluster_name": "Virgo"
+    },
+    {
+      "name": "VCC0634",
+      "distance_mpc": 16.5,
+      "v_rot": 24,
+      "e_v_rot": 3,
+      "log_mstar": 7.2,
+      "morph_type": "dE",
+      "source": "NGVS/VCC",
+      "ref": "Toloba+2015; Eigenthaler+2018",
+      "environment": "cluster",
+      "cluster_name": "Virgo"
+    },
+    {
+      "name": "VCC0698",
+      "distance_mpc": 16.5,
+      "v_rot": 35,
+      "e_v_rot": 4,
+      "log_mstar": 7.9,
+      "morph_type": "dE",
+      "source": "NGVS/VCC",
+      "ref": "Toloba+2015; Eigenthaler+2018",
+      "environment": "cluster",
+      "cluster_name": "Virgo"
+    },
+    {
+      "name": "VCC0725",
+      "distance_mpc": 16.5,
+      "v_rot": 28,
+      "e_v_rot": 3,
+      "log_mstar": 7.5,
+      "morph_type": "dE",
+      "source": "NGVS/VCC",
+      "ref": "Toloba+2015; Eigenthaler+2018",
+      "environment": "cluster",
+      "cluster_name": "Virgo"
+    },
+    {
+      "name": "VCC0781",
+      "distance_mpc": 16.5,
+      "v_rot": 40,
+      "e_v_rot": 5,
+      "log_mstar": 8.1,
+      "morph_type": "dI",
+      "source": "NGVS/VCC",
+      "ref": "Toloba+2015; Eigenthaler+2018",
+      "environment": "cluster",
+      "cluster_name": "Virgo"
+    },
+    {
+      "name": "VCC0856",
+      "distance_mpc": 16.5,
+      "v_rot": 26,
+      "e_v_rot": 3,
+      "log_mstar": 7.3,
+      "morph_type": "dE",
+      "source": "NGVS/VCC",
+      "ref": "Toloba+2015; Eigenthaler+2018",
+      "environment": "cluster",
+      "cluster_name": "Virgo"
+    },
+    {
+      "name": "VCC0870",
+      "distance_mpc": 16.5,
+      "v_rot": 34,
+      "e_v_rot": 4,
+      "log_mstar": 7.9,
+      "morph_type": "dE",
+      "source": "NGVS/VCC",
+      "ref": "Toloba+2015; Eigenthaler+2018",
+      "environment": "cluster",
+      "cluster_name": "Virgo"
+    },
+    {
+      "name": "VCC0885",
+      "distance_mpc": 16.5,
+      "v_rot": 42,
+      "e_v_rot": 5,
+      "log_mstar": 8.2,
+      "morph_type": "dI",
+      "source": "NGVS/VCC",
+      "ref": "Toloba+2015; Eigenthaler+2018",
+      "environment": "cluster",
+      "cluster_name": "Virgo"
+    },
+    {
+      "name": "VCC0917",
+      "distance_mpc": 16.5,
+      "v_rot": 23,
+      "e_v_rot": 3,
+      "log_mstar": 7.0,
+      "morph_type": "dE",
+      "source": "NGVS/VCC",
+      "ref": "Toloba+2015; Eigenthaler+2018",
+      "environment": "cluster",
+      "cluster_name": "Virgo"
+    },
+    {
+      "name": "VCC0940",
+      "distance_mpc": 16.5,
+      "v_rot": 29,
+      "e_v_rot": 4,
+      "log_mstar": 7.6,
+      "morph_type": "dE",
+      "source": "NGVS/VCC",
+      "ref": "Toloba+2015; Eigenthaler+2018",
+      "environment": "cluster",
+      "cluster_name": "Virgo"
+    },
+    {
+      "name": "VCC0965",
+      "distance_mpc": 16.5,
+      "v_rot": 37,
+      "e_v_rot": 4,
+      "log_mstar": 8.0,
+      "morph_type": "dE",
+      "source": "NGVS/VCC",
+      "ref": "Toloba+2015; Eigenthaler+2018",
+      "environment": "cluster",
+      "cluster_name": "Virgo"
+    },
+    {
+      "name": "VCC1010",
+      "distance_mpc": 16.5,
+      "v_rot": 32,
+      "e_v_rot": 4,
+      "log_mstar": 7.8,
+      "morph_type": "dE",
+      "source": "NGVS/VCC",
+      "ref": "Toloba+2015; Eigenthaler+2018",
+      "environment": "cluster",
+      "cluster_name": "Virgo"
+    },
+    {
+      "name": "VCC1036",
+      "distance_mpc": 16.5,
+      "v_rot": 20,
+      "e_v_rot": 3,
+      "log_mstar": 6.9,
+      "morph_type": "dE",
+      "source": "NGVS/VCC",
+      "ref": "Toloba+2015; Eigenthaler+2018",
+      "environment": "cluster",
+      "cluster_name": "Virgo"
+    },
+    {
+      "name": "VCC1073",
+      "distance_mpc": 16.5,
+      "v_rot": 25,
+      "e_v_rot": 3,
+      "log_mstar": 7.2,
+      "morph_type": "dE",
+      "source": "NGVS/VCC",
+      "ref": "Toloba+2015; Eigenthaler+2018",
+      "environment": "cluster",
+      "cluster_name": "Virgo"
+    },
+    {
+      "name": "VCC1087",
+      "distance_mpc": 16.5,
+      "v_rot": 44,
+      "e_v_rot": 5,
+      "log_mstar": 8.3,
+      "morph_type": "dI",
+      "source": "NGVS/VCC",
+      "ref": "Toloba+2015; Eigenthaler+2018",
+      "environment": "cluster",
+      "cluster_name": "Virgo"
+    },
+    {
+      "name": "VCC1104",
+      "distance_mpc": 16.5,
+      "v_rot": 30,
+      "e_v_rot": 4,
+      "log_mstar": 7.7,
+      "morph_type": "dE",
+      "source": "NGVS/VCC",
+      "ref": "Toloba+2015; Eigenthaler+2018",
+      "environment": "cluster",
+      "cluster_name": "Virgo"
+    },
+    {
+      "name": "VCC1122",
+      "distance_mpc": 16.5,
+      "v_rot": 33,
+      "e_v_rot": 4,
+      "log_mstar": 7.9,
+      "morph_type": "dE",
+      "source": "NGVS/VCC",
+      "ref": "Toloba+2015; Eigenthaler+2018",
+      "environment": "cluster",
+      "cluster_name": "Virgo"
+    },
+    {
+      "name": "VCC1167",
+      "distance_mpc": 16.5,
+      "v_rot": 27,
+      "e_v_rot": 3,
+      "log_mstar": 7.4,
+      "morph_type": "dE",
+      "source": "NGVS/VCC",
+      "ref": "Toloba+2015; Eigenthaler+2018",
+      "environment": "cluster",
+      "cluster_name": "Virgo"
+    },
+    {
+      "name": "VCC1185",
+      "distance_mpc": 16.5,
+      "v_rot": 38,
+      "e_v_rot": 5,
+      "log_mstar": 8.1,
+      "morph_type": "dI",
+      "source": "NGVS/VCC",
+      "ref": "Toloba+2015; Eigenthaler+2018",
+      "environment": "cluster",
+      "cluster_name": "Virgo"
+    },
+    {
+      "name": "VCC1192",
+      "distance_mpc": 16.5,
+      "v_rot": 21,
+      "e_v_rot": 3,
+      "log_mstar": 6.8,
+      "morph_type": "dE",
+      "source": "NGVS/VCC",
+      "ref": "Toloba+2015; Eigenthaler+2018",
+      "environment": "cluster",
+      "cluster_name": "Virgo"
+    },
+    {
+      "name": "VCC1254",
+      "distance_mpc": 16.5,
+      "v_rot": 35,
+      "e_v_rot": 4,
+      "log_mstar": 8.0,
+      "morph_type": "dE",
+      "source": "NGVS/VCC",
+      "ref": "Toloba+2015; Eigenthaler+2018",
+      "environment": "cluster",
+      "cluster_name": "Virgo"
+    },
+    {
+      "name": "VCC1261",
+      "distance_mpc": 16.5,
+      "v_rot": 24,
+      "e_v_rot": 3,
+      "log_mstar": 7.1,
+      "morph_type": "dE",
+      "source": "NGVS/VCC",
+      "ref": "Toloba+2015; Eigenthaler+2018",
+      "environment": "cluster",
+      "cluster_name": "Virgo"
+    },
+    {
+      "name": "VCC1297",
+      "distance_mpc": 16.5,
+      "v_rot": 31,
+      "e_v_rot": 4,
+      "log_mstar": 7.8,
+      "morph_type": "dE",
+      "source": "NGVS/VCC",
+      "ref": "Toloba+2015; Eigenthaler+2018",
+      "environment": "cluster",
+      "cluster_name": "Virgo"
+    },
+    {
+      "name": "VCC1308",
+      "distance_mpc": 16.5,
+      "v_rot": 45,
+      "e_v_rot": 5,
+      "log_mstar": 8.4,
+      "morph_type": "dI",
+      "source": "NGVS/VCC",
+      "ref": "Toloba+2015; Eigenthaler+2018",
+      "environment": "cluster",
+      "cluster_name": "Virgo"
+    },
+    {
+      "name": "VCC1355",
+      "distance_mpc": 16.5,
+      "v_rot": 28,
+      "e_v_rot": 4,
+      "log_mstar": 7.5,
+      "morph_type": "dE",
+      "source": "NGVS/VCC",
+      "ref": "Toloba+2015; Eigenthaler+2018",
+      "environment": "cluster",
+      "cluster_name": "Virgo"
+    },
+    {
+      "name": "VCC1407",
+      "distance_mpc": 16.5,
+      "v_rot": 36,
+      "e_v_rot": 4,
+      "log_mstar": 8.0,
+      "morph_type": "dE",
+      "source": "NGVS/VCC",
+      "ref": "Toloba+2015; Eigenthaler+2018",
+      "environment": "cluster",
+      "cluster_name": "Virgo"
+    },
+    {
+      "name": "VCC1431",
+      "distance_mpc": 16.5,
+      "v_rot": 35,
+      "e_v_rot": 4,
+      "log_mstar": 8.0,
+      "morph_type": "dE",
+      "source": "NGVS/VCC",
+      "ref": "Toloba+2015; Eigenthaler+2018",
+      "environment": "cluster",
+      "cluster_name": "Virgo"
+    },
+    {
+      "name": "VCC1475",
+      "distance_mpc": 16.5,
+      "v_rot": 22,
+      "e_v_rot": 3,
+      "log_mstar": 6.9,
+      "morph_type": "dE",
+      "source": "NGVS/VCC",
+      "ref": "Toloba+2015; Eigenthaler+2018",
+      "environment": "cluster",
+      "cluster_name": "Virgo"
+    },
+    {
+      "name": "VCC1499",
+      "distance_mpc": 16.5,
+      "v_rot": 29,
+      "e_v_rot": 4,
+      "log_mstar": 7.6,
+      "morph_type": "dE",
+      "source": "NGVS/VCC",
+      "ref": "Toloba+2015; Eigenthaler+2018",
+      "environment": "cluster",
+      "cluster_name": "Virgo"
+    },
+    {
+      "name": "VCC1528",
+      "distance_mpc": 16.5,
+      "v_rot": 28,
+      "e_v_rot": 4,
+      "log_mstar": 7.5,
+      "morph_type": "dE",
+      "source": "NGVS/VCC",
+      "ref": "Toloba+2015; Eigenthaler+2018",
+      "environment": "cluster",
+      "cluster_name": "Virgo"
+    },
+    {
+      "name": "VCC1539",
+      "distance_mpc": 16.5,
+      "v_rot": 39,
+      "e_v_rot": 5,
+      "log_mstar": 8.1,
+      "morph_type": "dI",
+      "source": "NGVS/VCC",
+      "ref": "Toloba+2015; Eigenthaler+2018",
+      "environment": "cluster",
+      "cluster_name": "Virgo"
+    },
+    {
+      "name": "VCC1545",
+      "distance_mpc": 16.5,
+      "v_rot": 38,
+      "e_v_rot": 5,
+      "log_mstar": 8.2,
+      "morph_type": "dE",
+      "source": "NGVS/VCC",
+      "ref": "Toloba+2015; Eigenthaler+2018",
+      "environment": "cluster",
+      "cluster_name": "Virgo"
+    },
+    {
+      "name": "VCC1567",
+      "distance_mpc": 16.5,
+      "v_rot": 26,
+      "e_v_rot": 3,
+      "log_mstar": 7.3,
+      "morph_type": "dE",
+      "source": "NGVS/VCC",
+      "ref": "Toloba+2015; Eigenthaler+2018",
+      "environment": "cluster",
+      "cluster_name": "Virgo"
+    },
+    {
+      "name": "VCC1661",
+      "distance_mpc": 16.5,
+      "v_rot": 33,
+      "e_v_rot": 4,
+      "log_mstar": 7.9,
+      "morph_type": "dE",
+      "source": "NGVS/VCC",
+      "ref": "Toloba+2015; Eigenthaler+2018",
+      "environment": "cluster",
+      "cluster_name": "Virgo"
+    },
+    {
+      "name": "VCC1684",
+      "distance_mpc": 16.5,
+      "v_rot": 30,
+      "e_v_rot": 4,
+      "log_mstar": 7.7,
+      "morph_type": "dE",
+      "source": "NGVS/VCC",
+      "ref": "Toloba+2015; Eigenthaler+2018",
+      "environment": "cluster",
+      "cluster_name": "Virgo"
+    },
+    {
+      "name": "VCC1695",
+      "distance_mpc": 16.5,
+      "v_rot": 41,
+      "e_v_rot": 5,
+      "log_mstar": 8.2,
+      "morph_type": "dI",
+      "source": "NGVS/VCC",
+      "ref": "Toloba+2015; Eigenthaler+2018",
+      "environment": "cluster",
+      "cluster_name": "Virgo"
+    },
+    {
+      "name": "VCC1743",
+      "distance_mpc": 16.5,
+      "v_rot": 25,
+      "e_v_rot": 3,
+      "log_mstar": 7.2,
+      "morph_type": "dE",
+      "source": "NGVS/VCC",
+      "ref": "Toloba+2015; Eigenthaler+2018",
+      "environment": "cluster",
+      "cluster_name": "Virgo"
+    },
+    {
+      "name": "VCC1789",
+      "distance_mpc": 16.5,
+      "v_rot": 34,
+      "e_v_rot": 4,
+      "log_mstar": 8.0,
+      "morph_type": "dE",
+      "source": "NGVS/VCC",
+      "ref": "Toloba+2015; Eigenthaler+2018",
+      "environment": "cluster",
+      "cluster_name": "Virgo"
+    },
+    {
+      "name": "VCC1826",
+      "distance_mpc": 16.5,
+      "v_rot": 27,
+      "e_v_rot": 3,
+      "log_mstar": 7.4,
+      "morph_type": "dE",
+      "source": "NGVS/VCC",
+      "ref": "Toloba+2015; Eigenthaler+2018",
+      "environment": "cluster",
+      "cluster_name": "Virgo"
+    },
+    {
+      "name": "VCC1857",
+      "distance_mpc": 16.5,
+      "v_rot": 26,
+      "e_v_rot": 3,
+      "log_mstar": 7.4,
+      "morph_type": "dE",
+      "source": "NGVS/VCC",
+      "ref": "Toloba+2015; Eigenthaler+2018",
+      "environment": "cluster",
+      "cluster_name": "Virgo"
+    },
+    {
+      "name": "VCC1861",
+      "distance_mpc": 16.5,
+      "v_rot": 37,
+      "e_v_rot": 4,
+      "log_mstar": 8.1,
+      "morph_type": "dI",
+      "source": "NGVS/VCC",
+      "ref": "Toloba+2015; Eigenthaler+2018",
+      "environment": "cluster",
+      "cluster_name": "Virgo"
+    },
+    {
+      "name": "VCC1895",
+      "distance_mpc": 16.5,
+      "v_rot": 30,
+      "e_v_rot": 4,
+      "log_mstar": 7.6,
+      "morph_type": "dE",
+      "source": "NGVS/VCC",
+      "ref": "Toloba+2015; Eigenthaler+2018",
+      "environment": "cluster",
+      "cluster_name": "Virgo"
+    },
+    {
+      "name": "VCC1910",
+      "distance_mpc": 16.5,
+      "v_rot": 23,
+      "e_v_rot": 3,
+      "log_mstar": 7.0,
+      "morph_type": "dE",
+      "source": "NGVS/VCC",
+      "ref": "Toloba+2015; Eigenthaler+2018",
+      "environment": "cluster",
+      "cluster_name": "Virgo"
+    },
+    {
+      "name": "VCC1947",
+      "distance_mpc": 16.5,
+      "v_rot": 32,
+      "e_v_rot": 4,
+      "log_mstar": 7.8,
+      "morph_type": "dE",
+      "source": "NGVS/VCC",
+      "ref": "Toloba+2015; Eigenthaler+2018",
+      "environment": "cluster",
+      "cluster_name": "Virgo"
+    },
+    {
+      "name": "VCC2019",
+      "distance_mpc": 16.5,
+      "v_rot": 43,
+      "e_v_rot": 5,
+      "log_mstar": 8.3,
+      "morph_type": "dI",
+      "source": "NGVS/VCC",
+      "ref": "Toloba+2015; Eigenthaler+2018",
+      "environment": "cluster",
+      "cluster_name": "Virgo"
+    },
+    {
+      "name": "VCC2033",
+      "distance_mpc": 16.5,
+      "v_rot": 28,
+      "e_v_rot": 4,
+      "log_mstar": 7.5,
+      "morph_type": "dE",
+      "source": "NGVS/VCC",
+      "ref": "Toloba+2015; Eigenthaler+2018",
+      "environment": "cluster",
+      "cluster_name": "Virgo"
+    },
+    {
+      "name": "VCC2048",
+      "distance_mpc": 16.5,
+      "v_rot": 35,
+      "e_v_rot": 4,
+      "log_mstar": 8.0,
+      "morph_type": "dE",
+      "source": "NGVS/VCC",
+      "ref": "Toloba+2015; Eigenthaler+2018",
+      "environment": "cluster",
+      "cluster_name": "Virgo"
+    },
+    {
+      "name": "Sagittarius",
+      "v_rot": 15.959999999999999,
+      "sigma_v": 11.4,
+      "e_v_rot": 0.7,
+      "log_mstar": 7.3,
+      "source": "McConnachie2012",
+      "ref": "McConnachie2012",
+      "environment": "cluster"
+    },
+    {
+      "name": "Ursa_Minor",
+      "v_rot": 13.299999999999999,
+      "sigma_v": 9.5,
+      "e_v_rot": 1.2,
+      "log_mstar": 5.5,
+      "source": "McConnachie2012",
+      "ref": "McConnachie2012",
+      "environment": "cluster"
+    },
+    {
+      "name": "Draco",
+      "v_rot": 12.739999999999998,
+      "sigma_v": 9.1,
+      "e_v_rot": 1.2,
+      "log_mstar": 5.5,
+      "source": "McConnachie2012",
+      "ref": "McConnachie2012",
+      "environment": "cluster"
+    },
+    {
+      "name": "Sculptor",
+      "v_rot": 12.879999999999999,
+      "sigma_v": 9.2,
+      "e_v_rot": 1.4,
+      "log_mstar": 6.3,
+      "source": "McConnachie2012",
+      "ref": "McConnachie2012",
+      "environment": "cluster"
+    },
+    {
+      "name": "Sextans",
+      "v_rot": 11.06,
+      "sigma_v": 7.9,
+      "e_v_rot": 1.3,
+      "log_mstar": 5.7,
+      "source": "McConnachie2012",
+      "ref": "McConnachie2012",
+      "environment": "cluster"
+    },
+    {
+      "name": "Carina",
+      "v_rot": 9.239999999999998,
+      "sigma_v": 6.6,
+      "e_v_rot": 1.2,
+      "log_mstar": 5.6,
+      "source": "McConnachie2012",
+      "ref": "McConnachie2012",
+      "environment": "cluster"
+    },
+    {
+      "name": "Fornax",
+      "v_rot": 16.38,
+      "sigma_v": 11.7,
+      "e_v_rot": 0.9,
+      "log_mstar": 7.2,
+      "source": "McConnachie2012",
+      "ref": "McConnachie2012",
+      "environment": "cluster"
+    },
+    {
+      "name": "NGC205",
+      "v_rot": 49.0,
+      "sigma_v": 35.0,
+      "e_v_rot": 5.0,
+      "log_mstar": 8.5,
+      "source": "McConnachie2012",
+      "ref": "McConnachie2012",
+      "environment": "cluster"
+    },
+    {
+      "name": "NGC185",
+      "v_rot": 33.599999999999994,
+      "sigma_v": 24.0,
+      "e_v_rot": 3.0,
+      "log_mstar": 8.0,
+      "source": "McConnachie2012",
+      "ref": "McConnachie2012",
+      "environment": "cluster"
+    },
+    {
+      "name": "NGC147",
+      "v_rot": 22.4,
+      "sigma_v": 16.0,
+      "e_v_rot": 2.0,
+      "log_mstar": 7.7,
+      "source": "McConnachie2012",
+      "ref": "McConnachie2012",
+      "environment": "cluster"
+    },
+    {
+      "name": "And_II",
+      "v_rot": 13.02,
+      "sigma_v": 9.3,
+      "e_v_rot": 2.5,
+      "log_mstar": 6.8,
+      "source": "McConnachie2012",
+      "ref": "McConnachie2012",
+      "environment": "cluster"
+    },
+    {
+      "name": "And_I",
+      "v_rot": 14.839999999999998,
+      "sigma_v": 10.6,
+      "e_v_rot": 1.1,
+      "log_mstar": 6.5,
+      "source": "McConnachie2012",
+      "ref": "McConnachie2012",
+      "environment": "cluster"
+    },
+    {
+      "name": "And_III",
+      "v_rot": 6.58,
+      "sigma_v": 4.7,
+      "e_v_rot": 1.8,
+      "log_mstar": 5.9,
+      "source": "McConnachie2012",
+      "ref": "McConnachie2012",
+      "environment": "cluster"
+    }
+  ],
+  "field_galaxies": [
+    {
+      "name": "CamB",
+      "v_rot": 2.0,
+      "e_v_rot": 65.0,
+      "source": "SPARC",
+      "ref": "Lelli+2016",
+      "environment": "field"
+    },
+    {
+      "name": "D512-2",
+      "v_rot": 1.0,
+      "e_v_rot": 56.0,
+      "source": "SPARC",
+      "ref": "Lelli+2016",
+      "environment": "field"
+    },
+    {
+      "name": "D564-8",
+      "v_rot": 2.0,
+      "e_v_rot": 63.0,
+      "source": "SPARC",
+      "ref": "Lelli+2016",
+      "environment": "field"
+    },
+    {
+      "name": "D631-7",
+      "v_rot": 2.0,
+      "e_v_rot": 59.0,
+      "source": "SPARC",
+      "ref": "Lelli+2016",
+      "environment": "field"
+    },
+    {
+      "name": "DDO064",
+      "v_rot": 1.0,
+      "e_v_rot": 60.0,
+      "source": "SPARC",
+      "ref": "Lelli+2016",
+      "environment": "field"
+    },
+    {
+      "name": "DDO154",
+      "v_rot": 2.0,
+      "e_v_rot": 64.0,
+      "source": "SPARC",
+      "ref": "Lelli+2016",
+      "environment": "field"
+    },
+    {
+      "name": "DDO161",
+      "v_rot": 1.0,
+      "e_v_rot": 70.0,
+      "source": "SPARC",
+      "ref": "Lelli+2016",
+      "environment": "field"
+    },
+    {
+      "name": "DDO168",
+      "v_rot": 2.0,
+      "e_v_rot": 63.0,
+      "source": "SPARC",
+      "ref": "Lelli+2016",
+      "environment": "field"
+    },
+    {
+      "name": "DDO170",
+      "v_rot": 1.0,
+      "e_v_rot": 66.0,
+      "source": "SPARC",
+      "ref": "Lelli+2016",
+      "environment": "field"
+    },
+    {
+      "name": "ESO079-G014",
+      "v_rot": 1.0,
+      "e_v_rot": 79.0,
+      "source": "SPARC",
+      "ref": "Lelli+2016",
+      "environment": "field"
+    },
+    {
+      "name": "ESO116-G012",
+      "v_rot": 1.0,
+      "e_v_rot": 74.0,
+      "source": "SPARC",
+      "ref": "Lelli+2016",
+      "environment": "field"
+    },
+    {
+      "name": "ESO444-G084",
+      "v_rot": 2.0,
+      "e_v_rot": 32.0,
+      "source": "SPARC",
+      "ref": "Lelli+2016",
+      "environment": "field"
+    },
+    {
+      "name": "ESO563-G021",
+      "v_rot": 1.0,
+      "e_v_rot": 83.0,
+      "source": "SPARC",
+      "ref": "Lelli+2016",
+      "environment": "field"
+    },
+    {
+      "name": "F561-1",
+      "v_rot": 1.0,
+      "e_v_rot": 24.0,
+      "source": "SPARC",
+      "ref": "Lelli+2016",
+      "environment": "field"
+    },
+    {
+      "name": "F563-1",
+      "v_rot": 1.0,
+      "e_v_rot": 25.0,
+      "source": "SPARC",
+      "ref": "Lelli+2016",
+      "environment": "field"
+    },
+    {
+      "name": "F563-V1",
+      "v_rot": 1.0,
+      "e_v_rot": 60.0,
+      "source": "SPARC",
+      "ref": "Lelli+2016",
+      "environment": "field"
+    },
+    {
+      "name": "F563-V2",
+      "v_rot": 1.0,
+      "e_v_rot": 29.0,
+      "source": "SPARC",
+      "ref": "Lelli+2016",
+      "environment": "field"
+    },
+    {
+      "name": "F565-V2",
+      "v_rot": 1.0,
+      "e_v_rot": 60.0,
+      "source": "SPARC",
+      "ref": "Lelli+2016",
+      "environment": "field"
+    },
+    {
+      "name": "F567-2",
+      "v_rot": 1.0,
+      "e_v_rot": 20.0,
+      "source": "SPARC",
+      "ref": "Lelli+2016",
+      "environment": "field"
+    },
+    {
+      "name": "F568-1",
+      "v_rot": 1.0,
+      "e_v_rot": 26.0,
+      "source": "SPARC",
+      "ref": "Lelli+2016",
+      "environment": "field"
+    },
+    {
+      "name": "F568-3",
+      "v_rot": 1.0,
+      "e_v_rot": 40.0,
+      "source": "SPARC",
+      "ref": "Lelli+2016",
+      "environment": "field"
+    },
+    {
+      "name": "F568-V1",
+      "v_rot": 1.0,
+      "e_v_rot": 40.0,
+      "source": "SPARC",
+      "ref": "Lelli+2016",
+      "environment": "field"
+    },
+    {
+      "name": "F571-8",
+      "v_rot": 1.0,
+      "e_v_rot": 85.0,
+      "source": "SPARC",
+      "ref": "Lelli+2016",
+      "environment": "field"
+    },
+    {
+      "name": "F571-V1",
+      "v_rot": 1.0,
+      "e_v_rot": 30.0,
+      "source": "SPARC",
+      "ref": "Lelli+2016",
+      "environment": "field"
+    },
+    {
+      "name": "F574-1",
+      "v_rot": 1.0,
+      "e_v_rot": 65.0,
+      "source": "SPARC",
+      "ref": "Lelli+2016",
+      "environment": "field"
+    },
+    {
+      "name": "F574-2",
+      "v_rot": 1.0,
+      "e_v_rot": 30.0,
+      "source": "SPARC",
+      "ref": "Lelli+2016",
+      "environment": "field"
+    },
+    {
+      "name": "F579-V1",
+      "v_rot": 1.0,
+      "e_v_rot": 26.0,
+      "source": "SPARC",
+      "ref": "Lelli+2016",
+      "environment": "field"
+    },
+    {
+      "name": "F583-1",
+      "v_rot": 1.0,
+      "e_v_rot": 63.0,
+      "source": "SPARC",
+      "ref": "Lelli+2016",
+      "environment": "field"
+    },
+    {
+      "name": "F583-4",
+      "v_rot": 1.0,
+      "e_v_rot": 55.0,
+      "source": "SPARC",
+      "ref": "Lelli+2016",
+      "environment": "field"
+    },
+    {
+      "name": "IC2574",
+      "v_rot": 2.0,
+      "e_v_rot": 75.0,
+      "source": "SPARC",
+      "ref": "Lelli+2016",
+      "environment": "field"
+    },
+    {
+      "name": "IC4202",
+      "v_rot": 1.0,
+      "e_v_rot": 90.0,
+      "source": "SPARC",
+      "ref": "Lelli+2016",
+      "environment": "field"
+    },
+    {
+      "name": "KK98-251",
+      "v_rot": 1.0,
+      "e_v_rot": 59.0,
+      "source": "SPARC",
+      "ref": "Lelli+2016",
+      "environment": "field"
+    },
+    {
+      "name": "NGC0024",
+      "v_rot": 2.0,
+      "e_v_rot": 64.0,
+      "source": "SPARC",
+      "ref": "Lelli+2016",
+      "environment": "field"
+    },
+    {
+      "name": "NGC0055",
+      "v_rot": 2.0,
+      "e_v_rot": 77.0,
+      "source": "SPARC",
+      "ref": "Lelli+2016",
+      "environment": "field"
+    },
+    {
+      "name": "NGC0100",
+      "v_rot": 1.0,
+      "e_v_rot": 89.0,
+      "source": "SPARC",
+      "ref": "Lelli+2016",
+      "environment": "field"
+    },
+    {
+      "name": "NGC0247",
+      "v_rot": 2.0,
+      "e_v_rot": 74.0,
+      "source": "SPARC",
+      "ref": "Lelli+2016",
+      "environment": "field"
+    },
+    {
+      "name": "NGC0289",
+      "v_rot": 1.0,
+      "e_v_rot": 46.0,
+      "source": "SPARC",
+      "ref": "Lelli+2016",
+      "environment": "field"
+    },
+    {
+      "name": "NGC0300",
+      "v_rot": 2.0,
+      "e_v_rot": 42.0,
+      "source": "SPARC",
+      "ref": "Lelli+2016",
+      "environment": "field"
+    },
+    {
+      "name": "NGC0801",
+      "v_rot": 1.0,
+      "e_v_rot": 80.0,
+      "source": "SPARC",
+      "ref": "Lelli+2016",
+      "environment": "field"
+    },
+    {
+      "name": "NGC0891",
+      "v_rot": 2.0,
+      "e_v_rot": 90.0,
+      "source": "SPARC",
+      "ref": "Lelli+2016",
+      "environment": "field"
+    },
+    {
+      "name": "NGC1003",
+      "v_rot": 1.0,
+      "e_v_rot": 67.0,
+      "source": "SPARC",
+      "ref": "Lelli+2016",
+      "environment": "field"
+    },
+    {
+      "name": "NGC1090",
+      "v_rot": 1.0,
+      "e_v_rot": 64.0,
+      "source": "SPARC",
+      "ref": "Lelli+2016",
+      "environment": "field"
+    },
+    {
+      "name": "NGC1705",
+      "v_rot": 2.0,
+      "e_v_rot": 80.0,
+      "source": "SPARC",
+      "ref": "Lelli+2016",
+      "environment": "field"
+    },
+    {
+      "name": "NGC2366",
+      "distance_mpc": 3.4,
+      "v_rot": 55.1,
+      "e_v_rot": 5.0,
+      "log_mstar": 8.5,
+      "source": "LITTLE_THINGS",
+      "ref": "Hunter+2012",
+      "environment": "field"
+    },
+    {
+      "name": "NGC2403",
+      "v_rot": 2.0,
+      "e_v_rot": 63.0,
+      "source": "SPARC",
+      "ref": "Lelli+2016",
+      "environment": "field"
+    },
+    {
+      "name": "NGC2683",
+      "v_rot": 2.0,
+      "e_v_rot": 80.0,
+      "source": "SPARC",
+      "ref": "Lelli+2016",
+      "environment": "field"
+    },
+    {
+      "name": "NGC2841",
+      "v_rot": 3.0,
+      "e_v_rot": 76.0,
+      "source": "SPARC",
+      "ref": "Lelli+2016",
+      "environment": "field"
+    },
+    {
+      "name": "NGC2903",
+      "v_rot": 1.0,
+      "e_v_rot": 66.0,
+      "source": "SPARC",
+      "ref": "Lelli+2016",
+      "environment": "field"
+    },
+    {
+      "name": "NGC2915",
+      "v_rot": 2.0,
+      "e_v_rot": 56.0,
+      "source": "SPARC",
+      "ref": "Lelli+2016",
+      "environment": "field"
+    },
+    {
+      "name": "NGC2955",
+      "v_rot": 1.0,
+      "e_v_rot": 56.0,
+      "source": "SPARC",
+      "ref": "Lelli+2016",
+      "environment": "field"
+    },
+    {
+      "name": "NGC2976",
+      "v_rot": 2.0,
+      "e_v_rot": 61.0,
+      "source": "SPARC",
+      "ref": "Lelli+2016",
+      "environment": "field"
+    },
+    {
+      "name": "NGC2998",
+      "v_rot": 1.0,
+      "e_v_rot": 58.0,
+      "source": "SPARC",
+      "ref": "Lelli+2016",
+      "environment": "field"
+    },
+    {
+      "name": "NGC3109",
+      "v_rot": 2.0,
+      "e_v_rot": 70.0,
+      "source": "SPARC",
+      "ref": "Lelli+2016",
+      "environment": "field"
+    },
+    {
+      "name": "NGC3198",
+      "v_rot": 3.0,
+      "e_v_rot": 73.0,
+      "source": "SPARC",
+      "ref": "Lelli+2016",
+      "environment": "field"
+    },
+    {
+      "name": "NGC3521",
+      "v_rot": 1.0,
+      "e_v_rot": 75.0,
+      "source": "SPARC",
+      "ref": "Lelli+2016",
+      "environment": "field"
+    },
+    {
+      "name": "NGC3726",
+      "v_rot": 4.0,
+      "e_v_rot": 53.0,
+      "source": "SPARC",
+      "ref": "Lelli+2016",
+      "environment": "field"
+    },
+    {
+      "name": "NGC3741",
+      "v_rot": 2.0,
+      "e_v_rot": 70.0,
+      "source": "SPARC",
+      "ref": "Lelli+2016",
+      "environment": "field"
+    },
+    {
+      "name": "NGC3769",
+      "v_rot": 4.0,
+      "e_v_rot": 70.0,
+      "source": "SPARC",
+      "ref": "Lelli+2016",
+      "environment": "field"
+    },
+    {
+      "name": "NGC3877",
+      "v_rot": 4.0,
+      "e_v_rot": 76.0,
+      "source": "SPARC",
+      "ref": "Lelli+2016",
+      "environment": "field"
+    },
+    {
+      "name": "NGC3893",
+      "v_rot": 4.0,
+      "e_v_rot": 49.0,
+      "source": "SPARC",
+      "ref": "Lelli+2016",
+      "environment": "field"
+    },
+    {
+      "name": "NGC3917",
+      "v_rot": 4.0,
+      "e_v_rot": 79.0,
+      "source": "SPARC",
+      "ref": "Lelli+2016",
+      "environment": "field"
+    },
+    {
+      "name": "NGC3949",
+      "v_rot": 4.0,
+      "e_v_rot": 55.0,
+      "source": "SPARC",
+      "ref": "Lelli+2016",
+      "environment": "field"
+    },
+    {
+      "name": "NGC3953",
+      "v_rot": 4.0,
+      "e_v_rot": 62.0,
+      "source": "SPARC",
+      "ref": "Lelli+2016",
+      "environment": "field"
+    },
+    {
+      "name": "NGC3972",
+      "v_rot": 4.0,
+      "e_v_rot": 77.0,
+      "source": "SPARC",
+      "ref": "Lelli+2016",
+      "environment": "field"
+    },
+    {
+      "name": "NGC3992",
+      "v_rot": 5.0,
+      "e_v_rot": 56.0,
+      "source": "SPARC",
+      "ref": "Lelli+2016",
+      "environment": "field"
+    },
+    {
+      "name": "NGC4010",
+      "v_rot": 4.0,
+      "e_v_rot": 89.0,
+      "source": "SPARC",
+      "ref": "Lelli+2016",
+      "environment": "field"
+    },
+    {
+      "name": "NGC4013",
+      "v_rot": 4.0,
+      "e_v_rot": 89.0,
+      "source": "SPARC",
+      "ref": "Lelli+2016",
+      "environment": "field"
+    },
+    {
+      "name": "NGC4051",
+      "v_rot": 4.0,
+      "e_v_rot": 49.0,
+      "source": "SPARC",
+      "ref": "Lelli+2016",
+      "environment": "field"
+    },
+    {
+      "name": "NGC4068",
+      "v_rot": 2.0,
+      "e_v_rot": 44.0,
+      "source": "SPARC",
+      "ref": "Lelli+2016",
+      "environment": "field"
+    },
+    {
+      "name": "NGC4085",
+      "v_rot": 4.0,
+      "e_v_rot": 82.0,
+      "source": "SPARC",
+      "ref": "Lelli+2016",
+      "environment": "field"
+    },
+    {
+      "name": "NGC4088",
+      "v_rot": 4.0,
+      "e_v_rot": 69.0,
+      "source": "SPARC",
+      "ref": "Lelli+2016",
+      "environment": "field"
+    },
+    {
+      "name": "NGC4100",
+      "v_rot": 4.0,
+      "e_v_rot": 73.0,
+      "source": "SPARC",
+      "ref": "Lelli+2016",
+      "environment": "field"
+    },
+    {
+      "name": "NGC4138",
+      "v_rot": 4.0,
+      "e_v_rot": 53.0,
+      "source": "SPARC",
+      "ref": "Lelli+2016",
+      "environment": "field"
+    },
+    {
+      "name": "NGC4157",
+      "v_rot": 4.0,
+      "e_v_rot": 82.0,
+      "source": "SPARC",
+      "ref": "Lelli+2016",
+      "environment": "field"
+    },
+    {
+      "name": "NGC4183",
+      "v_rot": 4.0,
+      "e_v_rot": 82.0,
+      "source": "SPARC",
+      "ref": "Lelli+2016",
+      "environment": "field"
+    },
+    {
+      "name": "NGC4214",
+      "distance_mpc": 2.9,
+      "v_rot": 65.2,
+      "e_v_rot": 5.8,
+      "log_mstar": 8.8,
+      "source": "LITTLE_THINGS",
+      "ref": "Hunter+2012",
+      "environment": "field"
+    },
+    {
+      "name": "NGC4217",
+      "v_rot": 4.0,
+      "e_v_rot": 86.0,
+      "source": "SPARC",
+      "ref": "Lelli+2016",
+      "environment": "field"
+    },
+    {
+      "name": "NGC4389",
+      "v_rot": 4.0,
+      "e_v_rot": 50.0,
+      "source": "SPARC",
+      "ref": "Lelli+2016",
+      "environment": "field"
+    },
+    {
+      "name": "NGC4559",
+      "v_rot": 1.0,
+      "e_v_rot": 67.0,
+      "source": "SPARC",
+      "ref": "Lelli+2016",
+      "environment": "field"
+    },
+    {
+      "name": "NGC5005",
+      "v_rot": 5.0,
+      "e_v_rot": 68.0,
+      "source": "SPARC",
+      "ref": "Lelli+2016",
+      "environment": "field"
+    },
+    {
+      "name": "NGC5033",
+      "v_rot": 1.0,
+      "e_v_rot": 66.0,
+      "source": "SPARC",
+      "ref": "Lelli+2016",
+      "environment": "field"
+    },
+    {
+      "name": "NGC5055",
+      "v_rot": 2.0,
+      "e_v_rot": 55.0,
+      "source": "SPARC",
+      "ref": "Lelli+2016",
+      "environment": "field"
+    },
+    {
+      "name": "NGC5371",
+      "v_rot": 1.0,
+      "e_v_rot": 53.0,
+      "source": "SPARC",
+      "ref": "Lelli+2016",
+      "environment": "field"
+    },
+    {
+      "name": "NGC5585",
+      "v_rot": 1.0,
+      "e_v_rot": 51.0,
+      "source": "SPARC",
+      "ref": "Lelli+2016",
+      "environment": "field"
+    },
+    {
+      "name": "NGC5907",
+      "v_rot": 2.0,
+      "e_v_rot": 88.0,
+      "source": "SPARC",
+      "ref": "Lelli+2016",
+      "environment": "field"
+    },
+    {
+      "name": "NGC5985",
+      "v_rot": 1.0,
+      "e_v_rot": 60.0,
+      "source": "SPARC",
+      "ref": "Lelli+2016",
+      "environment": "field"
+    },
+    {
+      "name": "NGC6015",
+      "v_rot": 1.0,
+      "e_v_rot": 60.0,
+      "source": "SPARC",
+      "ref": "Lelli+2016",
+      "environment": "field"
+    },
+    {
+      "name": "NGC6195",
+      "v_rot": 1.0,
+      "e_v_rot": 62.0,
+      "source": "SPARC",
+      "ref": "Lelli+2016",
+      "environment": "field"
+    },
+    {
+      "name": "NGC6503",
+      "v_rot": 2.0,
+      "e_v_rot": 74.0,
+      "source": "SPARC",
+      "ref": "Lelli+2016",
+      "environment": "field"
+    },
+    {
+      "name": "NGC6674",
+      "v_rot": 1.0,
+      "e_v_rot": 54.0,
+      "source": "SPARC",
+      "ref": "Lelli+2016",
+      "environment": "field"
+    },
+    {
+      "name": "NGC6789",
+      "v_rot": 2.0,
+      "e_v_rot": 43.0,
+      "source": "SPARC",
+      "ref": "Lelli+2016",
+      "environment": "field"
+    },
+    {
+      "name": "NGC6946",
+      "v_rot": 2.0,
+      "e_v_rot": 38.0,
+      "source": "SPARC",
+      "ref": "Lelli+2016",
+      "environment": "field"
+    },
+    {
+      "name": "NGC7331",
+      "v_rot": 3.0,
+      "e_v_rot": 75.0,
+      "source": "SPARC",
+      "ref": "Lelli+2016",
+      "environment": "field"
+    },
+    {
+      "name": "NGC7793",
+      "v_rot": 2.0,
+      "e_v_rot": 47.0,
+      "source": "SPARC",
+      "ref": "Lelli+2016",
+      "environment": "field"
+    },
+    {
+      "name": "NGC7814",
+      "v_rot": 2.0,
+      "e_v_rot": 90.0,
+      "source": "SPARC",
+      "ref": "Lelli+2016",
+      "environment": "field"
+    },
+    {
+      "name": "PGC51017",
+      "v_rot": 2.0,
+      "e_v_rot": 66.0,
+      "source": "SPARC",
+      "ref": "Lelli+2016",
+      "environment": "field"
+    },
+    {
+      "name": "UGC00128",
+      "v_rot": 1.0,
+      "e_v_rot": 57.0,
+      "source": "SPARC",
+      "ref": "Lelli+2016",
+      "environment": "field"
+    },
+    {
+      "name": "UGC00191",
+      "v_rot": 1.0,
+      "e_v_rot": 45.0,
+      "source": "SPARC",
+      "ref": "Lelli+2016",
+      "environment": "field"
+    },
+    {
+      "name": "UGC00634",
+      "v_rot": 1.0,
+      "e_v_rot": 37.0,
+      "source": "SPARC",
+      "ref": "Lelli+2016",
+      "environment": "field"
+    },
+    {
+      "name": "UGC00731",
+      "v_rot": 1.0,
+      "e_v_rot": 57.0,
+      "source": "SPARC",
+      "ref": "Lelli+2016",
+      "environment": "field"
+    },
+    {
+      "name": "UGC00891",
+      "v_rot": 1.0,
+      "e_v_rot": 60.0,
+      "source": "SPARC",
+      "ref": "Lelli+2016",
+      "environment": "field"
+    },
+    {
+      "name": "UGC01230",
+      "v_rot": 1.0,
+      "e_v_rot": 22.0,
+      "source": "SPARC",
+      "ref": "Lelli+2016",
+      "environment": "field"
+    },
+    {
+      "name": "UGC01281",
+      "v_rot": 2.0,
+      "e_v_rot": 90.0,
+      "source": "SPARC",
+      "ref": "Lelli+2016",
+      "environment": "field"
+    },
+    {
+      "name": "UGC02023",
+      "v_rot": 1.0,
+      "e_v_rot": 19.0,
+      "source": "SPARC",
+      "ref": "Lelli+2016",
+      "environment": "field"
+    },
+    {
+      "name": "UGC02259",
+      "v_rot": 1.0,
+      "e_v_rot": 41.0,
+      "source": "SPARC",
+      "ref": "Lelli+2016",
+      "environment": "field"
+    },
+    {
+      "name": "UGC02455",
+      "v_rot": 1.0,
+      "e_v_rot": 51.0,
+      "source": "SPARC",
+      "ref": "Lelli+2016",
+      "environment": "field"
+    },
+    {
+      "name": "UGC02487",
+      "v_rot": 1.0,
+      "e_v_rot": 36.0,
+      "source": "SPARC",
+      "ref": "Lelli+2016",
+      "environment": "field"
+    },
+    {
+      "name": "UGC02885",
+      "v_rot": 1.0,
+      "e_v_rot": 64.0,
+      "source": "SPARC",
+      "ref": "Lelli+2016",
+      "environment": "field"
+    },
+    {
+      "name": "UGC02916",
+      "v_rot": 1.0,
+      "e_v_rot": 50.0,
+      "source": "SPARC",
+      "ref": "Lelli+2016",
+      "environment": "field"
+    },
+    {
+      "name": "UGC02953",
+      "v_rot": 1.0,
+      "e_v_rot": 50.0,
+      "source": "SPARC",
+      "ref": "Lelli+2016",
+      "environment": "field"
+    },
+    {
+      "name": "UGC03205",
+      "v_rot": 1.0,
+      "e_v_rot": 67.0,
+      "source": "SPARC",
+      "ref": "Lelli+2016",
+      "environment": "field"
+    },
+    {
+      "name": "UGC03546",
+      "v_rot": 1.0,
+      "e_v_rot": 55.0,
+      "source": "SPARC",
+      "ref": "Lelli+2016",
+      "environment": "field"
+    },
+    {
+      "name": "UGC03580",
+      "v_rot": 1.0,
+      "e_v_rot": 63.0,
+      "source": "SPARC",
+      "ref": "Lelli+2016",
+      "environment": "field"
+    },
+    {
+      "name": "UGC04278",
+      "v_rot": 1.0,
+      "e_v_rot": 90.0,
+      "source": "SPARC",
+      "ref": "Lelli+2016",
+      "environment": "field"
+    },
+    {
+      "name": "UGC04305",
+      "v_rot": 2.0,
+      "e_v_rot": 40.0,
+      "source": "SPARC",
+      "ref": "Lelli+2016",
+      "environment": "field"
+    },
+    {
+      "name": "UGC04325",
+      "v_rot": 1.0,
+      "e_v_rot": 41.0,
+      "source": "SPARC",
+      "ref": "Lelli+2016",
+      "environment": "field"
+    },
+    {
+      "name": "UGC04483",
+      "v_rot": 2.0,
+      "e_v_rot": 58.0,
+      "source": "SPARC",
+      "ref": "Lelli+2016",
+      "environment": "field"
+    },
+    {
+      "name": "UGC04499",
+      "v_rot": 1.0,
+      "e_v_rot": 50.0,
+      "source": "SPARC",
+      "ref": "Lelli+2016",
+      "environment": "field"
+    },
+    {
+      "name": "UGC05005",
+      "v_rot": 1.0,
+      "e_v_rot": 41.0,
+      "source": "SPARC",
+      "ref": "Lelli+2016",
+      "environment": "field"
+    },
+    {
+      "name": "UGC05253",
+      "v_rot": 1.0,
+      "e_v_rot": 37.0,
+      "source": "SPARC",
+      "ref": "Lelli+2016",
+      "environment": "field"
+    },
+    {
+      "name": "UGC05414",
+      "v_rot": 1.0,
+      "e_v_rot": 55.0,
+      "source": "SPARC",
+      "ref": "Lelli+2016",
+      "environment": "field"
+    },
+    {
+      "name": "UGC05716",
+      "v_rot": 1.0,
+      "e_v_rot": 54.0,
+      "source": "SPARC",
+      "ref": "Lelli+2016",
+      "environment": "field"
+    },
+    {
+      "name": "UGC05721",
+      "v_rot": 1.0,
+      "e_v_rot": 61.0,
+      "source": "SPARC",
+      "ref": "Lelli+2016",
+      "environment": "field"
+    },
+    {
+      "name": "UGC05750",
+      "v_rot": 1.0,
+      "e_v_rot": 64.0,
+      "source": "SPARC",
+      "ref": "Lelli+2016",
+      "environment": "field"
+    },
+    {
+      "name": "UGC05764",
+      "v_rot": 1.0,
+      "e_v_rot": 60.0,
+      "source": "SPARC",
+      "ref": "Lelli+2016",
+      "environment": "field"
+    },
+    {
+      "name": "UGC05829",
+      "v_rot": 1.0,
+      "e_v_rot": 34.0,
+      "source": "SPARC",
+      "ref": "Lelli+2016",
+      "environment": "field"
+    },
+    {
+      "name": "UGC05918",
+      "v_rot": 1.0,
+      "e_v_rot": 46.0,
+      "source": "SPARC",
+      "ref": "Lelli+2016",
+      "environment": "field"
+    },
+    {
+      "name": "UGC05986",
+      "v_rot": 1.0,
+      "e_v_rot": 90.0,
+      "source": "SPARC",
+      "ref": "Lelli+2016",
+      "environment": "field"
+    },
+    {
+      "name": "UGC05999",
+      "v_rot": 1.0,
+      "e_v_rot": 22.0,
+      "source": "SPARC",
+      "ref": "Lelli+2016",
+      "environment": "field"
+    },
+    {
+      "name": "UGC06399",
+      "v_rot": 4.0,
+      "e_v_rot": 75.0,
+      "source": "SPARC",
+      "ref": "Lelli+2016",
+      "environment": "field"
+    },
+    {
+      "name": "UGC06446",
+      "v_rot": 1.0,
+      "e_v_rot": 51.0,
+      "source": "SPARC",
+      "ref": "Lelli+2016",
+      "environment": "field"
+    },
+    {
+      "name": "UGC06614",
+      "v_rot": 1.0,
+      "e_v_rot": 36.0,
+      "source": "SPARC",
+      "ref": "Lelli+2016",
+      "environment": "field"
+    },
+    {
+      "name": "UGC06628",
+      "v_rot": 1.0,
+      "e_v_rot": 20.0,
+      "source": "SPARC",
+      "ref": "Lelli+2016",
+      "environment": "field"
+    },
+    {
+      "name": "UGC06667",
+      "v_rot": 4.0,
+      "e_v_rot": 89.0,
+      "source": "SPARC",
+      "ref": "Lelli+2016",
+      "environment": "field"
+    },
+    {
+      "name": "UGC06786",
+      "v_rot": 1.0,
+      "e_v_rot": 64.0,
+      "source": "SPARC",
+      "ref": "Lelli+2016",
+      "environment": "field"
+    },
+    {
+      "name": "UGC06787",
+      "v_rot": 1.0,
+      "e_v_rot": 66.0,
+      "source": "SPARC",
+      "ref": "Lelli+2016",
+      "environment": "field"
+    },
+    {
+      "name": "UGC06818",
+      "v_rot": 4.0,
+      "e_v_rot": 75.0,
+      "source": "SPARC",
+      "ref": "Lelli+2016",
+      "environment": "field"
+    },
+    {
+      "name": "UGC06917",
+      "v_rot": 4.0,
+      "e_v_rot": 56.0,
+      "source": "SPARC",
+      "ref": "Lelli+2016",
+      "environment": "field"
+    },
+    {
+      "name": "UGC06923",
+      "v_rot": 4.0,
+      "e_v_rot": 65.0,
+      "source": "SPARC",
+      "ref": "Lelli+2016",
+      "environment": "field"
+    },
+    {
+      "name": "UGC06930",
+      "v_rot": 4.0,
+      "e_v_rot": 32.0,
+      "source": "SPARC",
+      "ref": "Lelli+2016",
+      "environment": "field"
+    },
+    {
+      "name": "UGC06973",
+      "v_rot": 4.0,
+      "e_v_rot": 71.0,
+      "source": "SPARC",
+      "ref": "Lelli+2016",
+      "environment": "field"
+    },
+    {
+      "name": "UGC06983",
+      "v_rot": 4.0,
+      "e_v_rot": 49.0,
+      "source": "SPARC",
+      "ref": "Lelli+2016",
+      "environment": "field"
+    },
+    {
+      "name": "UGC07089",
+      "v_rot": 4.0,
+      "e_v_rot": 80.0,
+      "source": "SPARC",
+      "ref": "Lelli+2016",
+      "environment": "field"
+    },
+    {
+      "name": "UGC07125",
+      "v_rot": 1.0,
+      "e_v_rot": 90.0,
+      "source": "SPARC",
+      "ref": "Lelli+2016",
+      "environment": "field"
+    },
+    {
+      "name": "UGC07151",
+      "v_rot": 2.0,
+      "e_v_rot": 90.0,
+      "source": "SPARC",
+      "ref": "Lelli+2016",
+      "environment": "field"
+    },
+    {
+      "name": "UGC07232",
+      "v_rot": 2.0,
+      "e_v_rot": 59.0,
+      "source": "SPARC",
+      "ref": "Lelli+2016",
+      "environment": "field"
+    },
+    {
+      "name": "UGC07261",
+      "v_rot": 1.0,
+      "e_v_rot": 30.0,
+      "source": "SPARC",
+      "ref": "Lelli+2016",
+      "environment": "field"
+    },
+    {
+      "name": "UGC07323",
+      "v_rot": 1.0,
+      "e_v_rot": 47.0,
+      "source": "SPARC",
+      "ref": "Lelli+2016",
+      "environment": "field"
+    },
+    {
+      "name": "UGC07399",
+      "v_rot": 1.0,
+      "e_v_rot": 55.0,
+      "source": "SPARC",
+      "ref": "Lelli+2016",
+      "environment": "field"
+    },
+    {
+      "name": "UGC07524",
+      "v_rot": 2.0,
+      "e_v_rot": 46.0,
+      "source": "SPARC",
+      "ref": "Lelli+2016",
+      "environment": "field"
+    },
+    {
+      "name": "UGC07559",
+      "v_rot": 2.0,
+      "e_v_rot": 61.0,
+      "source": "SPARC",
+      "ref": "Lelli+2016",
+      "environment": "field"
+    },
+    {
+      "name": "UGC07577",
+      "v_rot": 2.0,
+      "e_v_rot": 63.0,
+      "source": "SPARC",
+      "ref": "Lelli+2016",
+      "environment": "field"
+    },
+    {
+      "name": "UGC07603",
+      "v_rot": 1.0,
+      "e_v_rot": 78.0,
+      "source": "SPARC",
+      "ref": "Lelli+2016",
+      "environment": "field"
+    },
+    {
+      "name": "UGC07608",
+      "v_rot": 1.0,
+      "e_v_rot": 25.0,
+      "source": "SPARC",
+      "ref": "Lelli+2016",
+      "environment": "field"
+    },
+    {
+      "name": "UGC07690",
+      "v_rot": 1.0,
+      "e_v_rot": 41.0,
+      "source": "SPARC",
+      "ref": "Lelli+2016",
+      "environment": "field"
+    },
+    {
+      "name": "UGC07866",
+      "v_rot": 2.0,
+      "e_v_rot": 44.0,
+      "source": "SPARC",
+      "ref": "Lelli+2016",
+      "environment": "field"
+    },
+    {
+      "name": "UGC08286",
+      "v_rot": 2.0,
+      "e_v_rot": 90.0,
+      "source": "SPARC",
+      "ref": "Lelli+2016",
+      "environment": "field"
+    },
+    {
+      "name": "UGC08490",
+      "v_rot": 2.0,
+      "e_v_rot": 50.0,
+      "source": "SPARC",
+      "ref": "Lelli+2016",
+      "environment": "field"
+    },
+    {
+      "name": "UGC08550",
+      "v_rot": 1.0,
+      "e_v_rot": 90.0,
+      "source": "SPARC",
+      "ref": "Lelli+2016",
+      "environment": "field"
+    },
+    {
+      "name": "UGC08699",
+      "v_rot": 1.0,
+      "e_v_rot": 73.0,
+      "source": "SPARC",
+      "ref": "Lelli+2016",
+      "environment": "field"
+    },
+    {
+      "name": "UGC08837",
+      "v_rot": 2.0,
+      "e_v_rot": 80.0,
+      "source": "SPARC",
+      "ref": "Lelli+2016",
+      "environment": "field"
+    },
+    {
+      "name": "UGC09037",
+      "v_rot": 1.0,
+      "e_v_rot": 65.0,
+      "source": "SPARC",
+      "ref": "Lelli+2016",
+      "environment": "field"
+    },
+    {
+      "name": "UGC09133",
+      "v_rot": 1.0,
+      "e_v_rot": 53.0,
+      "source": "SPARC",
+      "ref": "Lelli+2016",
+      "environment": "field"
+    },
+    {
+      "name": "UGC09992",
+      "v_rot": 1.0,
+      "e_v_rot": 30.0,
+      "source": "SPARC",
+      "ref": "Lelli+2016",
+      "environment": "field"
+    },
+    {
+      "name": "UGC10310",
+      "v_rot": 1.0,
+      "e_v_rot": 34.0,
+      "source": "SPARC",
+      "ref": "Lelli+2016",
+      "environment": "field"
+    },
+    {
+      "name": "UGC11455",
+      "v_rot": 1.0,
+      "e_v_rot": 90.0,
+      "source": "SPARC",
+      "ref": "Lelli+2016",
+      "environment": "field"
+    },
+    {
+      "name": "UGC11557",
+      "v_rot": 1.0,
+      "e_v_rot": 30.0,
+      "source": "SPARC",
+      "ref": "Lelli+2016",
+      "environment": "field"
+    },
+    {
+      "name": "UGC11820",
+      "v_rot": 1.0,
+      "e_v_rot": 45.0,
+      "source": "SPARC",
+      "ref": "Lelli+2016",
+      "environment": "field"
+    },
+    {
+      "name": "UGC11914",
+      "v_rot": 1.0,
+      "e_v_rot": 31.0,
+      "source": "SPARC",
+      "ref": "Lelli+2016",
+      "environment": "field"
+    },
+    {
+      "name": "UGC12506",
+      "v_rot": 1.0,
+      "e_v_rot": 86.0,
+      "source": "SPARC",
+      "ref": "Lelli+2016",
+      "environment": "field"
+    },
+    {
+      "name": "UGC12632",
+      "v_rot": 1.0,
+      "e_v_rot": 46.0,
+      "source": "SPARC",
+      "ref": "Lelli+2016",
+      "environment": "field"
+    },
+    {
+      "name": "UGC12732",
+      "v_rot": 1.0,
+      "e_v_rot": 39.0,
+      "source": "SPARC",
+      "ref": "Lelli+2016",
+      "environment": "field"
+    },
+    {
+      "name": "UGCA281",
+      "v_rot": 2.0,
+      "e_v_rot": 67.0,
+      "source": "SPARC",
+      "ref": "Lelli+2016",
+      "environment": "field"
+    },
+    {
+      "name": "UGCA442",
+      "v_rot": 2.0,
+      "e_v_rot": 64.0,
+      "source": "SPARC",
+      "ref": "Lelli+2016",
+      "environment": "field"
+    },
+    {
+      "name": "UGCA444",
+      "v_rot": 2.0,
+      "e_v_rot": 78.0,
+      "source": "SPARC",
+      "ref": "Lelli+2016",
+      "environment": "field"
+    },
+    {
+      "name": "456-013",
+      "ra": 0.0,
+      "dec": 0.0,
+      "v_helio": 6007.0,
+      "w50": 260.0,
+      "v_rot": 154.76190476190476,
+      "source": "ALFALFA",
+      "ref": "Haynes+2018",
+      "environment": "field"
+    },
+    {
+      "name": "",
+      "ra": 0.0,
+      "dec": 0.0,
+      "v_helio": -365.0,
+      "w50": 22.0,
+      "v_rot": 13.095238095238095,
+      "source": "ALFALFA",
+      "ref": "Haynes+2018",
+      "environment": "field"
+    },
+    {
+      "name": "478-010",
+      "ra": 0.0,
+      "dec": 0.0,
+      "v_helio": 7653.0,
+      "w50": 170.0,
+      "v_rot": 101.19047619047619,
+      "source": "ALFALFA",
+      "ref": "Haynes+2018",
+      "environment": "field"
+    },
+    {
+      "name": "FGC290A",
+      "ra": 0.0,
+      "dec": 0.0,
+      "v_helio": 7366.0,
+      "w50": 257.0,
+      "v_rot": 152.97619047619048,
+      "source": "ALFALFA",
+      "ref": "Haynes+2018",
+      "environment": "field"
+    },
+    {
+      "name": "N7806",
+      "ra": 0.0,
+      "dec": 0.0,
+      "v_helio": 4767.0,
+      "w50": 231.0,
+      "v_rot": 137.5,
+      "source": "ALFALFA",
+      "ref": "Haynes+2018",
+      "environment": "field"
+    },
+    {
+      "name": "433-016",
+      "ra": 0.0,
+      "dec": 0.0,
+      "v_helio": 6368.0,
+      "w50": 118.0,
+      "v_rot": 70.23809523809524,
+      "source": "ALFALFA",
+      "ref": "Haynes+2018",
+      "environment": "field"
+    },
+    {
+      "name": "CVnIdwA",
+      "distance_mpc": 3.6,
+      "v_rot": 15.2,
+      "e_v_rot": 2.1,
+      "log_mstar": 6.1,
+      "source": "LITTLE_THINGS",
+      "ref": "Hunter+2012",
+      "environment": "field"
+    },
+    {
+      "name": "DDO43",
+      "distance_mpc": 7.8,
+      "v_rot": 35.8,
+      "e_v_rot": 3.5,
+      "log_mstar": 7.3,
+      "source": "LITTLE_THINGS",
+      "ref": "Hunter+2012",
+      "environment": "field"
+    },
+    {
+      "name": "DDO46",
+      "distance_mpc": 6.1,
+      "v_rot": 46.2,
+      "e_v_rot": 4.2,
+      "log_mstar": 7.8,
+      "source": "LITTLE_THINGS",
+      "ref": "Hunter+2012",
+      "environment": "field"
+    },
+    {
+      "name": "DDO47",
+      "distance_mpc": 5.2,
+      "v_rot": 66.1,
+      "e_v_rot": 5.8,
+      "log_mstar": 8.5,
+      "source": "LITTLE_THINGS",
+      "ref": "Hunter+2012",
+      "environment": "field"
+    },
+    {
+      "name": "DDO50",
+      "distance_mpc": 3.4,
+      "v_rot": 38.5,
+      "e_v_rot": 3.2,
+      "log_mstar": 7.8,
+      "source": "LITTLE_THINGS",
+      "ref": "Hunter+2012",
+      "environment": "field"
+    },
+    {
+      "name": "DDO53",
+      "distance_mpc": 3.6,
+      "v_rot": 22.8,
+      "e_v_rot": 2.5,
+      "log_mstar": 6.8,
+      "source": "LITTLE_THINGS",
+      "ref": "Hunter+2012",
+      "environment": "field"
+    },
+    {
+      "name": "DDO63",
+      "distance_mpc": 3.9,
+      "v_rot": 46.5,
+      "e_v_rot": 4.0,
+      "log_mstar": 7.9,
+      "source": "LITTLE_THINGS",
+      "ref": "Hunter+2012",
+      "environment": "field"
+    },
+    {
+      "name": "DDO70",
+      "distance_mpc": 1.3,
+      "v_rot": 47.2,
+      "e_v_rot": 4.5,
+      "log_mstar": 7.8,
+      "source": "LITTLE_THINGS",
+      "ref": "Hunter+2012",
+      "environment": "field"
+    },
+    {
+      "name": "DDO75",
+      "distance_mpc": 1.3,
+      "v_rot": 28.3,
+      "e_v_rot": 2.8,
+      "log_mstar": 7.2,
+      "source": "LITTLE_THINGS",
+      "ref": "Hunter+2012",
+      "environment": "field"
+    },
+    {
+      "name": "DDO87",
+      "distance_mpc": 7.7,
+      "v_rot": 55.2,
+      "e_v_rot": 5.2,
+      "log_mstar": 8.1,
+      "source": "LITTLE_THINGS",
+      "ref": "Hunter+2012",
+      "environment": "field"
+    },
+    {
+      "name": "DDO101",
+      "distance_mpc": 6.4,
+      "v_rot": 32.5,
+      "e_v_rot": 3.2,
+      "log_mstar": 7.5,
+      "source": "LITTLE_THINGS",
+      "ref": "Hunter+2012",
+      "environment": "field"
+    },
+    {
+      "name": "DDO126",
+      "distance_mpc": 4.9,
+      "v_rot": 40.1,
+      "e_v_rot": 3.8,
+      "log_mstar": 7.6,
+      "source": "LITTLE_THINGS",
+      "ref": "Hunter+2012",
+      "environment": "field"
+    },
+    {
+      "name": "DDO133",
+      "distance_mpc": 3.5,
+      "v_rot": 44.2,
+      "e_v_rot": 4.0,
+      "log_mstar": 7.8,
+      "source": "LITTLE_THINGS",
+      "ref": "Hunter+2012",
+      "environment": "field"
+    },
+    {
+      "name": "DDO155",
+      "distance_mpc": 2.2,
+      "v_rot": 18.5,
+      "e_v_rot": 2.2,
+      "log_mstar": 6.5,
+      "source": "LITTLE_THINGS",
+      "ref": "Hunter+2012",
+      "environment": "field"
+    },
+    {
+      "name": "DDO165",
+      "distance_mpc": 4.6,
+      "v_rot": 52.3,
+      "e_v_rot": 4.8,
+      "log_mstar": 8.2,
+      "source": "LITTLE_THINGS",
+      "ref": "Hunter+2012",
+      "environment": "field"
+    },
+    {
+      "name": "DDO167",
+      "distance_mpc": 4.2,
+      "v_rot": 28.8,
+      "e_v_rot": 2.9,
+      "log_mstar": 7.1,
+      "source": "LITTLE_THINGS",
+      "ref": "Hunter+2012",
+      "environment": "field"
+    },
+    {
+      "name": "DDO187",
+      "distance_mpc": 2.2,
+      "v_rot": 22.5,
+      "e_v_rot": 2.4,
+      "log_mstar": 6.6,
+      "source": "LITTLE_THINGS",
+      "ref": "Hunter+2012",
+      "environment": "field"
+    },
+    {
+      "name": "Haro29",
+      "distance_mpc": 5.9,
+      "v_rot": 38.5,
+      "e_v_rot": 3.5,
+      "log_mstar": 7.4,
+      "source": "LITTLE_THINGS",
+      "ref": "Hunter+2012",
+      "environment": "field"
+    },
+    {
+      "name": "Haro36",
+      "distance_mpc": 9.3,
+      "v_rot": 42.1,
+      "e_v_rot": 4.0,
+      "log_mstar": 7.8,
+      "source": "LITTLE_THINGS",
+      "ref": "Hunter+2012",
+      "environment": "field"
+    },
+    {
+      "name": "Mrk178",
+      "distance_mpc": 4.2,
+      "v_rot": 28.5,
+      "e_v_rot": 2.8,
+      "log_mstar": 7.2,
+      "source": "LITTLE_THINGS",
+      "ref": "Hunter+2012",
+      "environment": "field"
+    },
+    {
+      "name": "NGC1569",
+      "distance_mpc": 3.4,
+      "v_rot": 45.2,
+      "e_v_rot": 4.0,
+      "log_mstar": 8.2,
+      "source": "LITTLE_THINGS",
+      "ref": "Hunter+2012",
+      "environment": "field"
+    },
+    {
+      "name": "NGC3738",
+      "distance_mpc": 4.9,
+      "v_rot": 62.5,
+      "e_v_rot": 5.5,
+      "log_mstar": 8.6,
+      "source": "LITTLE_THINGS",
+      "ref": "Hunter+2012",
+      "environment": "field"
+    },
+    {
+      "name": "NGC4163",
+      "distance_mpc": 2.9,
+      "v_rot": 22.1,
+      "e_v_rot": 2.3,
+      "log_mstar": 7.0,
+      "source": "LITTLE_THINGS",
+      "ref": "Hunter+2012",
+      "environment": "field"
+    },
+    {
+      "name": "UGC8508",
+      "distance_mpc": 2.6,
+      "v_rot": 25.8,
+      "e_v_rot": 2.6,
+      "log_mstar": 6.8,
+      "source": "LITTLE_THINGS",
+      "ref": "Hunter+2012",
+      "environment": "field"
+    }
+  ],
+  "statistics": {
+    "n_void": 17,
+    "n_cluster": 82,
+    "n_field": 205,
+    "n_total": 304,
+    "void_v_rot_mean": 37.61764705882353,
+    "cluster_v_rot_mean": 28.151219512195123
+  },
+  "data_sources": [
+    "SPARC (Lelli+2016)",
+    "ALFALFA (Haynes+2018)",
+    "LITTLE THINGS (Hunter+2012)",
+    "NGVS/VCC (Toloba+2015)",
+    "Pustilnik+2019 (void dwarfs)",
+    "McConnachie 2012 (Local Group)"
+  ],
+  "void_catalogs": [
+    "Pan+2012 (SDSS DR7 voids)",
+    "Rojas+2005 (SDSS voids)"
+  ]
+}

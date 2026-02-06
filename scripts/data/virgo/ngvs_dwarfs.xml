@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VOTABLE version="1.4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns="http://www.ivoa.net/xml/VOTable/v1.3"
+  xsi:schemaLocation="http://www.ivoa.net/xml/VOTable/v1.3 http://www.ivoa.net/xml/VOTable/v1.3">
+ <DESCRIPTION>
+   VizieR Astronomical Server vizier.cds.unistra.fr
+    Date: 2026-02-05T20:23:38 [V7.5.4]
+   Explanations and Statistics of UCDs:			See LINK below
+   In case of problem, please report to:	cds-question@unistra.fr
+ </DESCRIPTION>
+<!-- VOTable description at http://www.ivoa.net/Documents/latest/VOT.html -->
+<INFO name="service_protocol" value="ASU">  IVOID of the protocol through which the data was retrieved</INFO>
+<INFO name="request_date" value="2026-02-05T20:23:38">  Query execution date</INFO>
+<INFO name="request" value="https://vizier.cds.unistra.fr/viz-bin/votable?-source=J/A+A/667/A76/tabled1&amp;-out.max=unlimited">  Full request URL</INFO>
+<INFO name="contact" value="cds-question@unistra.fr">  Email or URL to contact publisher</INFO>
+<INFO name="server_software" value="VizieR/7.5.4">  Software version</INFO>
+<INFO name="publisher" value="CDS">  Data centre that produced the VOTable</INFO>
+
+<!--
+Execution Reports
+ -->
+
+<RESOURCE ID="yCat_36670076" name="J/A+A/667/A76" type="results">
+  <DESCRIPTION>64 Virgo galaxies radial surface brightness (Junais+, 2022)</DESCRIPTION>  <INFO name="ivoid" value="ivo://cds.vizier/j/a+a/667/a76">    IVOID of underlying data collection  </INFO>
+  <INFO name="data_ivoid" value="ivo://cds.vizier/j/a+a/667/a76">    IVOID of underlying data collection  </INFO>
+  <INFO name="creator" value="Junais S.">    First author or institution  </INFO>
+  <INFO name="cites" value="bibcode:2022A&amp;A...667A..76J">    Article or Data origin sources  </INFO>
+  <INFO name="journal" value="A&amp;A">    Journal name  </INFO>
+  <INFO name="original_date" value="2022">    Year of the article publication  </INFO>
+  <INFO name="reference_url" value="https://cdsarc.cds.unistra.fr/viz-bin/cat/J/A+A/667/A76">    Dataset landing page  </INFO>
+  <INFO name="citation" value="doi:10.26093/cds/vizier.36670076">    Dataset identifier that can be used for citation  </INFO>
+  <INFO name="publication_date" value="2024-11-06">    Date of first publication in the data centre  </INFO>
+  <INFO name="rights_uri" value="https://cds.unistra.fr/vizier-org/licences_vizier.html">    Licence URI  </INFO>
+
+  <COOSYS ID="J2000" system="eq_FK5" equinox="J2000"/>
+  <TABLE ID="J_A_A_667_A76_tabled1" name="J/A+A/667/A76/tabled1">
+    <DESCRIPTION>*Properties of the selected galaxies</DESCRIPTION>
+<!-- *Properties of the selected sample of galaxies -->
+
+    <!-- Definitions of GROUPs and FIELDs -->
+
+<!-- +++No column could be found to attach a LINK in table: J/A+A/667/A76/tabled1 -->
+    <FIELD name="ID" ucd="meta.id;meta.main" datatype="short" width="4"><!-- ucd="ID_MAIN" -->
+      <DESCRIPTION>Source ID based on the position in the NGVS catalog</DESCRIPTION>
+      <LINK href="http://vizier.cds.unistra.fr/viz-bin/VizieR-4?-info=XML&amp;-out.add=.&amp;-source=J/A+A/667/A76&amp;ID=${ID}"/>
+    </FIELD>
+    <FIELD name="NGVS" ucd="meta.id" datatype="char" arraysize="27"><!-- ucd="ID_ALTERNATIVE" -->
+      <DESCRIPTION>Name of the source in NGVS (NGVSJHH:MM:SS.ss+DD:MM:SS.s)</DESCRIPTION>
+    </FIELD>
+    <FIELD name="VCC" ucd="meta.id" datatype="char" arraysize="8*"><!-- ucd="ID_ALTERNATIVE" -->
+      <DESCRIPTION>VCC name</DESCRIPTION>
+    </FIELD>
+    <FIELD name="RAJ2000" ucd="pos.eq.ra;meta.main" ref="J2000" datatype="float" width="7" precision="3" unit="deg"><!-- ucd="POS_EQ_RA_MAIN" -->
+      <DESCRIPTION>Right ascension (J2000)</DESCRIPTION>
+    </FIELD>
+    <FIELD name="DEJ2000" ucd="pos.eq.dec;meta.main" ref="J2000" datatype="float" width="7" precision="3" unit="deg"><!-- ucd="POS_EQ_DEC_MAIN" -->
+      <DESCRIPTION>Declination (J2000)</DESCRIPTION>
+    </FIELD>
+    <FIELD name="DM87" ucd="pos.distance" datatype="float" width="5" precision="2" unit="Mpc"><!-- ucd="PHYS_DISTANCE_PROJ" -->
+      <DESCRIPTION>Projected distance of the galaxy from M87</DESCRIPTION>
+    </FIELD>
+    <FIELD name="gmag" ucd="phot.mag;em.opt.B" datatype="float" width="5" precision="2" unit="mag"><!-- ucd="PHOT_SDSS_G" -->
+      <DESCRIPTION>g-band magnitude</DESCRIPTION>
+    </FIELD>
+    <FIELD name="M*" ucd="phys.mass" datatype="float" width="5" precision="2" unit="1e+07solMass"><!-- ucd="PHYS_MASS_MISC" -->
+      <DESCRIPTION>Stellar mass of the galaxies (see Sect. 2.1)</DESCRIPTION>
+    </FIELD>
+    <FIELD name="Reg" ucd="phys.size.radius" datatype="float" width="5" precision="2" unit="kpc"><!-- ucd="PHYS_SIZE_RADIUS_GENERAL" -->
+      <DESCRIPTION>Effective radius of the source</DESCRIPTION>
+    </FIELD>
+    <FIELD name="mu0g" ucd="phot.mag.sb" datatype="float" width="5" precision="2" unit="mag.arcsec**-2"><!-- ucd="PHOT_SB_G" -->
+      <DESCRIPTION>g-band central surface brightness</DESCRIPTION>
+    </FIELD>
+    <FIELD name="q" ucd="phys.size.axisRatio" datatype="float" width="5" precision="2"><!-- ucd="PHYS_AXIS-RATIO" -->
+      <DESCRIPTION>Axis ratio</DESCRIPTION>
+    </FIELD>
+    <FIELD name="PA" ucd="pos.posAng" datatype="float" width="6" precision="2" unit="deg"><!-- ucd="POS_POS-ANG" -->
+      <DESCRIPTION>[] Position angle</DESCRIPTION>
+    </FIELD>
+    <FIELD name="E(B-V)" ucd="phot.color.excess" datatype="float" width="6" precision="3" unit="mag"><!-- ucd="PHOT_COLOR_EXCESS" -->
+      <DESCRIPTION>Foreground galactic extinction from Schlegel et al. (1998ApJ...500..525S)</DESCRIPTION>
+    </FIELD>
+    <FIELD name="Flag" ucd="meta.code.error" datatype="unsignedByte" width="1"><!-- ucd="CODE_MISC" -->
+      <DESCRIPTION>[1/2] Flag for the galaxy type (1)</DESCRIPTION>
+    </FIELD>
+    <FIELD name="SimbadName" ucd="meta.id" datatype="char" arraysize="24"><!-- ucd="ID_ALTERNATIVE" -->
+      <DESCRIPTION>Simbad column added by the CDS</DESCRIPTION>
+<!-- Designation understandable by the {\bf\fg{FireBrick}Simbad} data-base -->
+
+      <VALUES null=" " />
+      <LINK href="http://simbad.cds.unistra.fr/simbad/sim-id?Ident=${SimbadName}"/>
+    </FIELD>
+<DATA><TABLEDATA>
+<TR><TD>67</TD><TD>NGVSJ12:12:21.23+13:44:16.6</TD><TD>-</TD><TD>183.088</TD><TD>+13.738</TD><TD>1.35</TD><TD>17.76</TD><TD>2.64</TD><TD>2.29</TD><TD>26.07</TD><TD>0.77</TD><TD>-37.44</TD><TD>0.033</TD><TD>2</TD><TD>NGVS J121221.23+134416.6</TD></TR>
+<TR><TD>186</TD><TD>NGVSJ12:15:55.76+09:39:04.1</TD><TD>VCC 169</TD><TD>183.982</TD><TD>+09.651</TD><TD>1.32</TD><TD>16.97</TD><TD>2.29</TD><TD>2.51</TD><TD>24.71</TD><TD>0.60</TD><TD>-79.74</TD><TD>0.018</TD><TD>2</TD><TD>NGVS J121555.76+093904.1</TD></TR>
+<TR><TD>227</TD><TD>NGVSJ12:16:32.59+13:09:51.3</TD><TD>VCC 197</TD><TD>184.136</TD><TD>+13.164</TD><TD>1.03</TD><TD>16.78</TD><TD>12.20</TD><TD>9.09</TD><TD>23.96</TD><TD>0.30</TD><TD>65.29</TD><TD>0.030</TD><TD>1</TD><TD>NGVS J121632.59+130951.3</TD></TR>
+<TR><TD>261</TD><TD>NGVSJ12:17:04.16+10:00:19.8</TD><TD>VCC 217</TD><TD>184.267</TD><TD>+10.006</TD><TD>1.19</TD><TD>15.84</TD><TD>7.88</TD><TD>2.91</TD><TD>23.50</TD><TD>0.52</TD><TD>-83.93</TD><TD>0.021</TD><TD>2</TD><TD>NGVS J121704.16+100019.8</TD></TR>
+<TR><TD>321</TD><TD>NGVSJ12:18:05.98+07:38:02.6</TD><TD>-</TD><TD>184.525</TD><TD>+07.634</TD><TD>1.64</TD><TD>18.93</TD><TD>0.50</TD><TD>1.79</TD><TD>27.06</TD><TD>0.78</TD><TD>71.50</TD><TD>0.019</TD><TD>2</TD><TD>NGVS J121805.98+073802.6</TD></TR>
+<TR><TD>421</TD><TD>NGVSJ12:19:36.96+15:27:16.8</TD><TD>VCC 360</TD><TD>184.904</TD><TD>+15.455</TD><TD>1.18</TD><TD>16.61</TD><TD>5.31</TD><TD>3.01</TD><TD>25.56</TD><TD>0.81</TD><TD>81.84</TD><TD>0.023</TD><TD>1</TD><TD>NGVS J121936.96+152716.8</TD></TR>
+<TR><TD>466</TD><TD>NGVSJ12:20:11.38+11:53:56.5</TD><TD>-</TD><TD>185.047</TD><TD>+11.899</TD><TD>0.76</TD><TD>19.78</TD><TD>0.59</TD><TD>1.94</TD><TD>26.88</TD><TD>0.51</TD><TD>87.17</TD><TD>0.028</TD><TD>2</TD><TD>NGVS J122011.38+115356.5</TD></TR>
+<TR><TD>590</TD><TD>NGVSJ12:21:30.88+15:30:04.9</TD><TD>VCC 481</TD><TD>185.379</TD><TD>+15.501</TD><TD>1.11</TD><TD>17.56</TD><TD>5.50</TD><TD>2.20</TD><TD>25.58</TD><TD>0.70</TD><TD>-39.03</TD><TD>0.023</TD><TD>2</TD><TD>NGVS J122130.88+153004.9</TD></TR>
+<TR><TD>604</TD><TD>NGVSJ12:21:38.40+06:16:59.7</TD><TD>VCC 487</TD><TD>185.410</TD><TD>+06.283</TD><TD>1.87</TD><TD>18.71</TD><TD>1.27</TD><TD>1.69</TD><TD>26.02</TD><TD>0.76</TD><TD>-13.77</TD><TD>0.020</TD><TD>2</TD><TD>NGVS J122138.40+061659.7</TD></TR>
+<TR><TD>646</TD><TD>NGVSJ12:22:03.58+11:43:17.5</TD><TD>-</TD><TD>185.515</TD><TD>+11.722</TD><TD>0.65</TD><TD>18.34</TD><TD>2.79</TD><TD>1.79</TD><TD>26.68</TD><TD>1.00</TD><TD>88.31</TD><TD>0.029</TD><TD>2</TD><TD>NGVS J122203.58+114317.5</TD></TR>
+<TR><TD>796</TD><TD>NGVSJ12:23:04.59+12:00:53.4</TD><TD>VCC 615</TD><TD>185.769</TD><TD>+12.015</TD><TD>0.56</TD><TD>17.25</TD><TD>7.35</TD><TD>2.10</TD><TD>25.73</TD><TD>1.00</TD><TD>40.36</TD><TD>0.028</TD><TD>2</TD><TD>NGVS J122304.59+120053.4</TD></TR>
+<TR><TD>892</TD><TD>NGVSJ12:23:47.33+13:36:08.3</TD><TD>-</TD><TD>185.947</TD><TD>+13.602</TD><TD>0.60</TD><TD>18.61</TD><TD>2.68</TD><TD>2.04</TD><TD>26.70</TD><TD>0.72</TD><TD>-4.76</TD><TD>0.047</TD><TD>2</TD><TD>NGVS J122347.33+133608.3</TD></TR>
+<TR><TD>935</TD><TD>NGVSJ12:24:01.84+13:51:56.4</TD><TD>-</TD><TD>186.008</TD><TD>+13.866</TD><TD>0.64</TD><TD>18.39</TD><TD>1.37</TD><TD>2.98</TD><TD>27.64</TD><TD>0.77</TD><TD>-35.93</TD><TD>0.038</TD><TD>1</TD><TD>NGVS J122401.84+135156.4</TD></TR>
+<TR><TD>964</TD><TD>NGVSJ12:24:13.00+11:45:41.5</TD><TD>VCC 707</TD><TD>186.054</TD><TD>+11.762</TD><TD>0.50</TD><TD>17.55</TD><TD>7.16</TD><TD>1.79</TD><TD>25.15</TD><TD>0.95</TD><TD>14.74</TD><TD>0.038</TD><TD>2</TD><TD>NGVS J122413.00+114541.5</TD></TR>
+<TR><TD>1008</TD><TD>NGVSJ12:24:36.61+13:36:45.2</TD><TD>-</TD><TD>186.153</TD><TD>+13.613</TD><TD>0.56</TD><TD>19.65</TD><TD>0.77</TD><TD>1.60</TD><TD>27.27</TD><TD>0.62</TD><TD>69.75</TD><TD>0.040</TD><TD>2</TD><TD>NGVS J122436.61+133645.2</TD></TR>
+<TR><TD>1017</TD><TD>NGVSJ12:24:42.06+13:31:00.6</TD><TD>-</TD><TD>186.175</TD><TD>+13.517</TD><TD>0.54</TD><TD>17.60</TD><TD>5.84</TD><TD>2.98</TD><TD>26.03</TD><TD>0.76</TD><TD>-1.61</TD><TD>0.042</TD><TD>1</TD><TD>NGVS J122442.06+133100.6</TD></TR>
+<TR><TD>1160</TD><TD>NGVSJ12:25:37.61+10:14:58.6</TD><TD>VCC 811</TD><TD>186.407</TD><TD>+10.250</TD><TD>0.72</TD><TD>16.96</TD><TD>7.28</TD><TD>2.77</TD><TD>26.05</TD><TD>0.95</TD><TD>21.24</TD><TD>0.028</TD><TD>1</TD><TD>NGVS J122537.61+101458.6</TD></TR>
+<TR><TD>1164</TD><TD>NGVSJ12:25:38.76+14:09:02.1</TD><TD>VCC 824</TD><TD>186.411</TD><TD>+14.151</TD><TD>0.62</TD><TD>16.01</TD><TD>15.30</TD><TD>2.24</TD><TD>23.33</TD><TD>0.84</TD><TD>-36.15</TD><TD>0.047</TD><TD>2</TD><TD>NGVS J122538.76+140902.1</TD></TR>
+<TR><TD>1346</TD><TD>NGVSJ12:26:37.41+09:44:32.0</TD><TD>-</TD><TD>186.656</TD><TD>+09.742</TD><TD>0.82</TD><TD>20.70</TD><TD>0.25</TD><TD>1.21</TD><TD>28.22</TD><TD>0.90</TD><TD>-28.40</TD><TD>0.024</TD><TD>2</TD><TD>NGVS J122637.41+094432.0</TD></TR>
+<TR><TD>1352</TD><TD>NGVSJ12:26:38.25+13:04:44.2</TD><TD>VCC 927</TD><TD>186.659</TD><TD>+13.079</TD><TD>0.35</TD><TD>19.45</TD><TD>1.63</TD><TD>0.97</TD><TD>22.71</TD><TD>0.81</TD><TD>-70.36</TD><TD>0.029</TD><TD>1</TD><TD>NGVS J122638.25+130444.2</TD></TR>
+<TR><TD>1397</TD><TD>NGVSJ12:26:48.36+13:21:17.7</TD><TD>-</TD><TD>186.702</TD><TD>+13.355</TD><TD>0.40</TD><TD>19.10</TD><TD>1.73</TD><TD>2.06</TD><TD>27.25</TD><TD>0.78</TD><TD>-77.18</TD><TD>0.026</TD><TD>1</TD><TD>NGVS J122648.36+132117.7</TD></TR>
+<TR><TD>1405</TD><TD>NGVSJ12:26:50.78+11:33:27.1</TD><TD>VCC 950</TD><TD>186.712</TD><TD>+11.558</TD><TD>0.37</TD><TD>15.01</TD><TD>12.30</TD><TD>2.39</TD><TD>22.79</TD><TD>0.33</TD><TD>-48.18</TD><TD>0.031</TD><TD>2</TD><TD>NGVS J122650.78+113327.1</TD></TR>
+<TR><TD>1424</TD><TD>NGVSJ12:26:57.00+14:47:52.5</TD><TD>-</TD><TD>186.738</TD><TD>+14.798</TD><TD>0.74</TD><TD>19.10</TD><TD>0.81</TD><TD>2.06</TD><TD>26.83</TD><TD>0.49</TD><TD>51.69</TD><TD>0.034</TD><TD>2</TD><TD>NGVS J122657.00+144752.5</TD></TR>
+<TR><TD>1476</TD><TD>NGVSJ12:27:15.46+12:39:41.4</TD><TD>VCC 987</TD><TD>186.814</TD><TD>+12.662</TD><TD>0.26</TD><TD>17.77</TD><TD>7.88</TD><TD>2.48</TD><TD>26.51</TD><TD>0.68</TD><TD>0.05</TD><TD>0.030</TD><TD>2</TD><TD>NGVS J122715.46+123941.4</TD></TR>
+<TR><TD>1479</TD><TD>NGVSJ12:27:15.75+13:26:56.1</TD><TD>-</TD><TD>186.816</TD><TD>+13.449</TD><TD>0.39</TD><TD>19.42</TD><TD>1.16</TD><TD>1.23</TD><TD>26.43</TD><TD>0.83</TD><TD>11.46</TD><TD>0.025</TD><TD>1</TD><TD>NGVS J122715.75+132656.1</TD></TR>
+<TR><TD>1529</TD><TD>NGVSJ12:27:31.55+09:35:44.3</TD><TD>VCC 1017</TD><TD>186.881</TD><TD>+09.596</TD><TD>0.84</TD><TD>14.54</TD><TD>33.50</TD><TD>4.28</TD><TD>24.28</TD><TD>0.57</TD><TD>23.22</TD><TD>0.022</TD><TD>1</TD><TD>NGVS J122731.55+093544.3</TD></TR>
+<TR><TD>1593</TD><TD>NGVSJ12:27:55.22+12:22:09.5</TD><TD>VCC 1052</TD><TD>186.980</TD><TD>+12.369</TD><TD>0.20</TD><TD>16.16</TD><TD>20.80</TD><TD>3.93</TD><TD>25.77</TD><TD>0.78</TD><TD>41.59</TD><TD>0.027</TD><TD>1</TD><TD>NGVS J122755.22+122209.5</TD></TR>
+<TR><TD>1633</TD><TD>NGVSJ12:28:10.07+12:43:29.4</TD><TD>-</TD><TD>187.042</TD><TD>+12.725</TD><TD>0.21</TD><TD>18.36</TD><TD>2.17</TD><TD>2.93</TD><TD>27.45</TD><TD>0.73</TD><TD>88.93</TD><TD>0.024</TD><TD>1</TD><TD>NGVS J122810.07+124329.4</TD></TR>
+<TR><TD>1687</TD><TD>NGVSJ12:28:26.16+15:22:38.6</TD><TD>-</TD><TD>187.109</TD><TD>+15.377</TD><TD>0.88</TD><TD>20.03</TD><TD>0.37</TD><TD>1.19</TD><TD>27.47</TD><TD>1.00</TD><TD>-36.97</TD><TD>0.026</TD><TD>2</TD><TD>NGVS J122826.16+152238.6</TD></TR>
+<TR><TD>1719</TD><TD>NGVSJ12:28:37.88+12:51:42.0</TD><TD>-</TD><TD>187.158</TD><TD>+12.862</TD><TD>0.21</TD><TD>19.17</TD><TD>0.60</TD><TD>2.49</TD><TD>27.84</TD><TD>0.59</TD><TD>-63.21</TD><TD>0.020</TD><TD>1</TD><TD>NGVS J122837.88+125142.0</TD></TR>
+<TR><TD>1846</TD><TD>NGVSJ12:29:22.72+15:03:49.4</TD><TD>VCC 1181</TD><TD>187.345</TD><TD>+15.064</TD><TD>0.78</TD><TD>17.99</TD><TD>3.39</TD><TD>2.07</TD><TD>25.50</TD><TD>0.71</TD><TD>-30.32</TD><TD>0.034</TD><TD>2</TD><TD>NGVS J122922.72+150349.4</TD></TR>
+<TR><TD>1968</TD><TD>NGVSJ12:30:00.61+07:55:45.8</TD><TD>VCC 1249</TD><TD>187.503</TD><TD>+07.929</TD><TD>1.29</TD><TD>14.46</TD><TD>40.60</TD><TD>3.06</TD><TD>22.30</TD><TD>0.67</TD><TD>-1.25</TD><TD>0.022</TD><TD>2</TD><TD>NGVS J123000.61+075545.8</TD></TR>
+<TR><TD>1993</TD><TD>NGVSJ12:30:08.68+09:42:56.2</TD><TD>-</TD><TD>187.536</TD><TD>+09.716</TD><TD>0.77</TD><TD>17.09</TD><TD>28.60</TD><TD>3.73</TD><TD>26.42</TD><TD>0.58</TD><TD>88.39</TD><TD>0.021</TD><TD>1</TD><TD>NGVS J123008.68+094256.2</TD></TR>
+<TR><TD>2001</TD><TD>NGVSJ12:30:12.55+09:42:56.3</TD><TD>-</TD><TD>187.552</TD><TD>+09.716</TD><TD>0.77</TD><TD>18.70</TD><TD>4.47</TD><TD>1.49</TD><TD>26.39</TD><TD>1.00</TD><TD>79.08</TD><TD>0.021</TD><TD>2</TD><TD>NGVS J123012.55+094256.3</TD></TR>
+<TR><TD>2046</TD><TD>NGVSJ12:30:24.43+13:58:54.5</TD><TD>VCC 1287</TD><TD>187.602</TD><TD>+13.982</TD><TD>0.46</TD><TD>15.93</TD><TD>16.30</TD><TD>3.63</TD><TD>24.81</TD><TD>0.98</TD><TD>19.74</TD><TD>0.036</TD><TD>1</TD><TD>NGVS J123024.43+135854.5</TD></TR>
+<TR><TD>2079</TD><TD>NGVSJ12:30:37.30+10:20:53.0</TD><TD>-</TD><TD>187.655</TD><TD>+10.348</TD><TD>0.59</TD><TD>17.45</TD><TD>5.54</TD><TD>4.18</TD><TD>27.28</TD><TD>0.79</TD><TD>-60.49</TD><TD>0.034</TD><TD>1</TD><TD>NGVS J123037.30+102053.0</TD></TR>
+<TR><TD>2269</TD><TD>NGVSJ12:31:48.01+12:21:33.1</TD><TD>-</TD><TD>187.950</TD><TD>+12.359</TD><TD>0.07</TD><TD>19.87</TD><TD>0.33</TD><TD>2.77</TD><TD>28.04</TD><TD>0.31</TD><TD>71.84</TD><TD>0.024</TD><TD>1</TD><TD>NGVS J123148.01+122133.1</TD></TR>
+<TR><TD>2343</TD><TD>NGVSJ12:32:12.92+09:18:56.7</TD><TD>VCC 1421</TD><TD>188.054</TD><TD>+09.316</TD><TD>0.89</TD><TD>17.33</TD><TD>3.52</TD><TD>2.18</TD><TD>25.54</TD><TD>0.90</TD><TD>-14.17</TD><TD>0.021</TD><TD>2</TD><TD>NGVS J123212.92+091856.7</TD></TR>
+<TR><TD>2351</TD><TD>NGVSJ12:32:15.43+11:23:52.6</TD><TD>-</TD><TD>188.064</TD><TD>+11.398</TD><TD>0.30</TD><TD>19.21</TD><TD>0.89</TD><TD>1.61</TD><TD>25.44</TD><TD>0.64</TD><TD>13.93</TD><TD>0.057</TD><TD>2</TD><TD>NGVS J123215.43+112352.6</TD></TR>
+<TR><TD>2365</TD><TD>NGVSJ12:32:22.52+12:19:32.1</TD><TD>-</TD><TD>188.094</TD><TD>+12.326</TD><TD>0.11</TD><TD>18.16</TD><TD>4.37</TD><TD>5.15</TD><TD>28.08</TD><TD>0.50</TD><TD>89.10</TD><TD>0.028</TD><TD>1</TD><TD>NGVS J123222.52+121932.1</TD></TR>
+<TR><TD>2458</TD><TD>NGVSJ12:33:02.20+13:42:14.0</TD><TD>-</TD><TD>188.259</TD><TD>+13.704</TD><TD>0.41</TD><TD>20.03</TD><TD>0.46</TD><TD>2.54</TD><TD>28.38</TD><TD>0.49</TD><TD>-65.27</TD><TD>0.036</TD><TD>1</TD><TD>NGVS J123302.20+134214.0</TD></TR>
+<TR><TD>2531</TD><TD>NGVSJ12:33:29.59+15:14:02.8</TD><TD>-</TD><TD>188.373</TD><TD>+15.234</TD><TD>0.84</TD><TD>17.51</TD><TD>6.23</TD><TD>2.29</TD><TD>25.95</TD><TD>0.90</TD><TD>35.97</TD><TD>0.033</TD><TD>1</TD><TD>NGVS J123329.59+151402.8</TD></TR>
+<TR><TD>2572</TD><TD>NGVSJ12:33:51.04+09:04:46.7</TD><TD>-</TD><TD>188.463</TD><TD>+09.080</TD><TD>0.98</TD><TD>20.23</TD><TD>0.33</TD><TD>1.28</TD><TD>27.46</TD><TD>0.79</TD><TD>-74.74</TD><TD>0.020</TD><TD>2</TD><TD>NGVS J123351.04+090446.7</TD></TR>
+<TR><TD>2621</TD><TD>NGVSJ12:34:15.55+11:28:00.8</TD><TD>VCC 1551</TD><TD>188.565</TD><TD>+11.467</TD><TD>0.36</TD><TD>17.91</TD><TD>3.39</TD><TD>2.02</TD><TD>25.99</TD><TD>0.82</TD><TD>-52.14</TD><TD>0.036</TD><TD>2</TD><TD>NGVS J123415.55+112800.8</TD></TR>
+<TR><TD>2690</TD><TD>NGVSJ12:34:49.20+05:54:13.4</TD><TD>-</TD><TD>188.705</TD><TD>+05.904</TD><TD>1.89</TD><TD>19.39</TD><TD>0.66</TD><TD>2.01</TD><TD>27.02</TD><TD>0.46</TD><TD>63.37</TD><TD>0.020</TD><TD>2</TD><TD>NGVS J123449.20+055413.4</TD></TR>
+<TR><TD>2731</TD><TD>NGVSJ12:35:12.86+07:03:22.4</TD><TD>-</TD><TD>188.804</TD><TD>+07.056</TD><TD>1.57</TD><TD>18.09</TD><TD>1.31</TD><TD>3.73</TD><TD>27.57</TD><TD>0.86</TD><TD>33.87</TD><TD>0.020</TD><TD>1</TD><TD>NGVS J123512.86+070322.4</TD></TR>
+<TR><TD>2887</TD><TD>NGVSJ12:36:37.40+11:09:13.1</TD><TD>VCC 1681</TD><TD>189.156</TD><TD>+11.154</TD><TD>0.54</TD><TD>16.40</TD><TD>16.00</TD><TD>2.52</TD><TD>23.89</TD><TD>0.84</TD><TD>-67.59</TD><TD>0.031</TD><TD>2</TD><TD>NGVS J123637.40+110913.1</TD></TR>
+<TR><TD>2999</TD><TD>NGVSJ12:37:49.73+07:49:23.1</TD><TD>-</TD><TD>189.457</TD><TD>+07.823</TD><TD>1.41</TD><TD>19.50</TD><TD>0.73</TD><TD>1.49</TD><TD>27.22</TD><TD>1.00</TD><TD>-37.31</TD><TD>0.023</TD><TD>1</TD><TD>NGVS J123749.73+074923.1</TD></TR>
+<TR><TD>3032</TD><TD>NGVSJ12:38:09.93+10:47:17.6</TD><TD>-</TD><TD>189.541</TD><TD>+10.788</TD><TD>0.69</TD><TD>20.66</TD><TD>0.11</TD><TD>1.51</TD><TD>27.70</TD><TD>0.69</TD><TD>24.37</TD><TD>0.021</TD><TD>1</TD><TD>NGVS J123809.93+104717.6</TD></TR>
+<TR><TD>3088</TD><TD>NGVSJ12:38:54.29+10:14:31.6</TD><TD>VCC 1776</TD><TD>189.726</TD><TD>+10.242</TD><TD>0.84</TD><TD>17.00</TD><TD>5.64</TD><TD>2.24</TD><TD>25.25</TD><TD>0.81</TD><TD>-88.57</TD><TD>0.020</TD><TD>2</TD><TD>NGVS J123854.29+101431.6</TD></TR>
+<TR><TD>3112</TD><TD>NGVSJ12:39:20.34+11:26:20.0</TD><TD>-</TD><TD>189.835</TD><TD>+11.439</TD><TD>0.66</TD><TD>20.16</TD><TD>0.35</TD><TD>1.47</TD><TD>27.10</TD><TD>0.56</TD><TD>-59.70</TD><TD>0.034</TD><TD>2</TD><TD>NGVS J123920.34+112620.0</TD></TR>
+<TR><TD>3116</TD><TD>NGVSJ12:39:21.99+12:05:34.6</TD><TD>-</TD><TD>189.842</TD><TD>+12.093</TD><TD>0.61</TD><TD>20.76</TD><TD>0.13</TD><TD>1.20</TD><TD>26.43</TD><TD>0.70</TD><TD>73.36</TD><TD>0.045</TD><TD>2</TD><TD>NGVS J123921.99+120534.6</TD></TR>
+<TR><TD>3128</TD><TD>NGVSJ12:39:31.78+11:27:15.3</TD><TD>VCC 1798</TD><TD>189.882</TD><TD>+11.454</TD><TD>0.67</TD><TD>17.94</TD><TD>2.41</TD><TD>2.04</TD><TD>25.97</TD><TD>0.76</TD><TD>75.42</TD><TD>0.034</TD><TD>2</TD><TD>NGVS J123931.78+112715.3</TD></TR>
+<TR><TD>3146</TD><TD>NGVSJ12:39:48.00+07:18:47.2</TD><TD>-</TD><TD>189.950</TD><TD>+07.313</TD><TD>1.59</TD><TD>18.12</TD><TD>2.39</TD><TD>2.54</TD><TD>26.48</TD><TD>0.64</TD><TD>-61.81</TD><TD>0.024</TD><TD>1</TD><TD>NGVS J123948.00+071847.2</TD></TR>
+<TR><TD>3190</TD><TD>NGVSJ12:40:21.21+12:43:02.8</TD><TD>VCC 1835</TD><TD>190.088</TD><TD>+12.717</TD><TD>0.68</TD><TD>18.23</TD><TD>1.55</TD><TD>2.58</TD><TD>26.70</TD><TD>0.58</TD><TD>88.38</TD><TD>0.040</TD><TD>2</TD><TD>NGVS J124021.21+124302.8</TD></TR>
+<TR><TD>3225</TD><TD>NGVSJ12:40:56.41+14:15:16.3</TD><TD>-</TD><TD>190.235</TD><TD>+14.255</TD><TD>0.89</TD><TD>19.46</TD><TD>0.22</TD><TD>1.88</TD><TD>26.93</TD><TD>0.74</TD><TD>-39.45</TD><TD>0.038</TD><TD>1</TD><TD>NGVS J124056.41+141516.3</TD></TR>
+<TR><TD>3233</TD><TD>NGVSJ12:40:58.86+14:15:57.6</TD><TD>-</TD><TD>190.245</TD><TD>+14.266</TD><TD>0.89</TD><TD>19.50</TD><TD>0.20</TD><TD>1.69</TD><TD>27.70</TD><TD>0.85</TD><TD>5.14</TD><TD>0.037</TD><TD>2</TD><TD>NGVS J124058.86+141557.6</TD></TR>
+<TR><TD>3265</TD><TD>NGVSJ12:41:30.86+11:40:55.8</TD><TD>VCC 1882</TD><TD>190.379</TD><TD>+11.682</TD><TD>0.78</TD><TD>18.58</TD><TD>1.76</TD><TD>2.17</TD><TD>24.43</TD><TD>0.48</TD><TD>71.21</TD><TD>0.033</TD><TD>2</TD><TD>NGVS J124130.86+114055.8</TD></TR>
+<TR><TD>3272</TD><TD>NGVSJ12:41:39.34+09:12:30.5</TD><TD>VCC 1884</TD><TD>190.414</TD><TD>+09.208</TD><TD>1.19</TD><TD>16.29</TD><TD>17.10</TD><TD>3.34</TD><TD>25.58</TD><TD>0.82</TD><TD>67.42</TD><TD>0.020</TD><TD>1</TD><TD>NGVS J124139.34+091230.5</TD></TR>
+<TR><TD>3356</TD><TD>NGVSJ12:42:56.59+13:20:49.4</TD><TD>-</TD><TD>190.736</TD><TD>+13.347</TD><TD>0.89</TD><TD>18.29</TD><TD>1.49</TD><TD>2.31</TD><TD>26.66</TD><TD>0.65</TD><TD>86.74</TD><TD>0.025</TD><TD>2</TD><TD>NGVS J124256.59+132049.4</TD></TR>
+<TR><TD>3365</TD><TD>NGVSJ12:43:07.09+16:28:42.0</TD><TD>-</TD><TD>190.780</TD><TD>+16.478</TD><TD>1.46</TD><TD>19.38</TD><TD>0.42</TD><TD>1.95</TD><TD>27.80</TD><TD>0.74</TD><TD>-81.73</TD><TD>0.021</TD><TD>2</TD><TD>NGVS J124307.09+162842.0</TD></TR>
+<TR><TD>3379</TD><TD>NGVSJ12:43:20.88+14:02:02.9</TD><TD>-</TD><TD>190.837</TD><TD>+14.034</TD><TD>1.00</TD><TD>18.77</TD><TD>1.10</TD><TD>1.99</TD><TD>26.48</TD><TD>0.70</TD><TD>66.98</TD><TD>0.027</TD><TD>2</TD><TD>NGVS J124320.88+140202.9</TD></TR>
+<TR><TD>3548</TD><TD>NGVSJ12:46:55.48+10:10:56.7</TD><TD>VCC 2045</TD><TD>191.731</TD><TD>+10.182</TD><TD>1.30</TD><TD>15.64</TD><TD>40.40</TD><TD>1.60</TD><TD>21.73</TD><TD>0.33</TD><TD>75.54</TD><TD>0.032</TD><TD>1</TD><TD>NGVS J124655.48+101056.7</TD></TR>
+<TR><TD>3633</TD><TD>NGVSJ12:49:38.67+15:03:16.6</TD><TD>-</TD><TD>192.411</TD><TD>+15.055</TD><TD>1.52</TD><TD>19.16</TD><TD>1.19</TD><TD>1.76</TD><TD>27.09</TD><TD>0.72</TD><TD>-82.50</TD><TD>0.029</TD><TD>2</TD><TD>NGVS J124938.67+150316.6</TD></TR>
+</TABLEDATA></DATA>
+</TABLE>
+<INFO name="matches" value="64">matching records</INFO>
+
+<INFO name="Warning" value="unsolved tested-link for col Flag"/>
+</RESOURCE>
+</VOTABLE>

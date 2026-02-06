@@ -1,0 +1,23 @@
+{
+  "date": "2026-02-03",
+  "success": [
+    "ALFALFA",
+    "VGS",
+    "SPARC",
+    "VOID_MANUAL",
+    "CLUSTER_MANUAL"
+  ],
+  "failed": [
+    "LITTLE_THINGS",
+    "LVG",
+    "VIRGO",
+    "FORNAX"
+  ],
+  "files": {
+    "ALFALFA": "/Users/ashishyesale/Videos/EDU/Hypothesis/MCMC_cgc/scripts/data/alfalfa/alfalfa_a40.csv",
+    "VGS": "/Users/ashishyesale/Videos/EDU/Hypothesis/MCMC_cgc/scripts/data/vgs/vgs_votable.xml",
+    "SPARC": "/Users/ashishyesale/Videos/EDU/Hypothesis/MCMC_cgc/scripts/data/sparc/sparc_data.mrt",
+    "VOID_MANUAL": "/Users/ashishyesale/Videos/EDU/Hypothesis/MCMC_cgc/scripts/data/dwarfs/verified_void_dwarfs.json",
+    "CLUSTER_MANUAL": "/Users/ashishyesale/Videos/EDU/Hypothesis/MCMC_cgc/scripts/data/dwarfs/verified_cluster_dwarfs.json"
+  }
+}
