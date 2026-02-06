@@ -139,7 +139,7 @@ results/*.h5
 !results/PROJECT_STATUS.md
 
 # -----------------------------------------------------------------------------
-# Thesis materials - only keep v13, older versions local only
+# Thesis materials - only keep v13 PDF, older versions local only
 # -----------------------------------------------------------------------------
 thesis_materials/DRAFT/v1_base/
 thesis_materials/DRAFT/v2/
@@ -153,9 +153,9 @@ thesis_materials/DRAFT/v9/
 thesis_materials/DRAFT/v10/
 thesis_materials/DRAFT/v11/
 thesis_materials/DRAFT/v12/
-# Keep v13 source files (PDF generated locally)
-!thesis_materials/DRAFT/v13/*.tex
-thesis_materials/DRAFT/v13/*.pdf
+# v13: Keep PDF on GitHub, keep .tex local only
+thesis_materials/DRAFT/v13/*.tex
+!thesis_materials/DRAFT/v13/*.pdf
 thesis_materials/DRAFT/v13/*.aux
 thesis_materials/DRAFT/v13/*.toc
 thesis_materials/DRAFT/v13/*.out
