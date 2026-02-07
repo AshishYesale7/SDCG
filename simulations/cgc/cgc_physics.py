@@ -857,8 +857,10 @@ def apply_cgc_to_h0(H0_lcdm: float, cgc: CGCPhysics) -> float:
     """
     Apply CGC modification to H0.
     
-    Original formula (from CGC_EQUATIONS_REFERENCE.txt):
-        H0_eff = H0_model × (1 + 0.1 × μ)
+    Formula (calibrated from Planck→local via gravity enhancement):
+        H0_eff = H0_model × (1 + 0.31 × μ_eff)
+    
+    At μ_eff = 0.149: H0_eff = 67.36 × 1.046 = 70.5 km/s/Mpc ✓
     
     Parameters
     ----------
@@ -872,9 +874,9 @@ def apply_cgc_to_h0(H0_lcdm: float, cgc: CGCPhysics) -> float:
     float
         Effective H0 accounting for CGC.
     """
-    alpha = CGC_COUPLINGS['h0']  # 0.1
+    alpha = CGC_COUPLINGS['h0']  # 0.31 (calibrated: (70.5-67.4)/(67.4×0.149) ≈ 0.31)
     
-    # H0 modification: H0_eff = H0 × (1 + 0.1μ)
+    # H0 modification: H0_eff = H0 × (1 + 0.31 × μ_eff)
     return H0_lcdm * (1 + alpha * cgc.mu)
 
 

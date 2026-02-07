@@ -363,9 +363,9 @@ PARAM_BOUNDS = {
     # ═══════════════════════════════════════════════════════════════════════
     
     'omega_b': (0.019, 0.025),     # BBN + CMB constraints (tightened)
-    'omega_cdm': (0.10, 0.14),     # CMB + LSS constraints
+    'omega_cdm': (0.10, 0.18),     # Widened: CGC can shift ω_cdm significantly
     'h': (0.60, 0.80),             # Wide prior encompassing Planck & SH0ES
-    'ln10As': (2.9, 3.2),          # CMB amplitude (tightened)
+    'ln10As': (2.9, 3.3),          # Widened: τ-As degeneracy needs room
     'n_s': (0.92, 1.00),           # Nearly scale-invariant
     'tau_reio': (0.02, 0.10),      # Reionization constraints
     
@@ -376,10 +376,10 @@ PARAM_BOUNDS = {
     # μ_bare ≈ 0.48 (QFT), but screening gives μ_eff ≈ 0.15 in cosmology
     # ═══════════════════════════════════════════════════════════════════════
     
-    'cgc_mu': (0.0, 0.50),         # μ_fit: FUNDAMENTAL coupling (ONLY free SDCG param)
+    'cgc_mu': (0.0, 0.50),         # μ_void: Bare/void coupling (ONLY free SDCG param)
                                    # 0.0 = ΛCDM limit (no modification)
-                                   # 0.50 = QFT upper bound (stability)
-                                   # Best-fit: 0.47 ± 0.03 (matches μ_bare = 0.48)
+                                   # 0.50 = Theoretical upper bound (G_eff/G_N ≤ 1.5)
+                                   # Best-fit: ~0.47 (QFT one-loop prediction: 0.48)
 }
 
 # FIXED PARAMETERS (not sampled, but stored for reference)
@@ -458,7 +458,7 @@ class CGCParameters:
     #   - rho_thresh = 200 (virial theorem)
     # ═══════════════════════════════════════════════════════════════════════
     
-    cgc_mu: float = 0.47           # THESIS v12: μ_fit = 0.47 ± 0.03 (MCMC best-fit)
+    cgc_mu: float = 0.47           # THESIS v13: μ_void ≈ 0.47 (bare/void coupling, S≈1)
     
     # ═══════════════════════════════════════════════════════════════════════
     # Derived properties (FIXED BY THEORY)

@@ -206,3 +206,8 @@ PATH_UPDATE_SUMMARY.md
 # Added by ggshield
 .cache_ggshield
 simulations/LaCE/
+todo.md
+
+# Virtual environment
+mcmc_env/
+mcmc_env

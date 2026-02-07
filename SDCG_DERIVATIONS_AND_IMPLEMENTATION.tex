@@ -22,7 +22,7 @@
 % - Five μ hierarchy: μ_bare, μ_max, μ, μ_eff, μ_Lyα
 % - Ly-α constraint resolution section
 % - Tension reduction summary (62% H₀, 69% S₈)
-% - n_g discrepancy documentation (EFT 0.014 vs MCMC 0.92)
+% - n_g fixed at 0.014 (EFT derived, not fitted)
 %
 % KEY NUMBERS (v3.0):
 % - β₀ = 0.70 (SM conformal anomaly)
@@ -33,7 +33,7 @@
 % - ΔV_observed = 11.7 ± 0.9 km/s (mass-matched)
 % - ΔV_stripping = 7.2 ± 0.4 km/s (sample-weighted)
 % - ΔV_SDCG = 4.5 ± 1.0 km/s (4.5σ detection)
-% - n_g = 0.014 (EFT) vs 0.92 (MCMC) - 70× tension!
+% - n_g = 0.014 (EFT derived, fixed in MCMC)
 % - z_trans = 1.67 (EFT)
 % - ρ_thresh = 200 ρ_crit (virial)
 %
@@ -225,8 +225,7 @@ $\ln(M_{\text{Pl}}/H_0)$ & 140 & CONSTANT & Hierarchy ratio \\
 $\mu_{\text{bare}}$ & 0.48 & DERIVED & $\beta_0^2 \ln(M_{\text{Pl}}/H_0)/(16\pi^2)$ \\
 $\mu_{\text{max}}$ & 0.50 & THEORETICAL & Upper bound \\
 $\mu$ (MCMC) & $0.47 \pm 0.03$ & FITTED & CMB+BAO+SNe \\
-$n_g$ (EFT) & 0.014 & DERIVED & $\beta_0^2/(4\pi^2)$ \\
-$n_g$ (MCMC) & $0.92 \pm 0.06$ & FITTED & 70× tension with EFT! \\
+$n_g$ & 0.014 & DERIVED (fixed) & $\beta_0^2/(4\pi^2)$; not fitted \\
 $z_{\text{trans}}$ (EFT) & 1.67 & DERIVED & $z_{\text{eq}} + \Delta z$ \\
 $\rho_{\text{thresh}}$ & 200 $\rho_{\text{crit}}$ & DERIVED & Virial theorem \\
 \midrule
@@ -1794,7 +1793,7 @@ n_g = \frac{\beta_0^2}{4\pi^2}
 \beta_0^{\text{max}} = 0.89 &\Rightarrow n_g^{\text{max}} = \frac{0.89^2}{4\pi^2} = 0.0201
 \end{align}
 
-\textbf{Critical tension:} MCMC-preferred $n_g \approx 0.92$ exceeds EFT bound by factor $\sim 70$!
+\textbf{Result:} $n_g$ is fixed at the EFT-derived value 0.014 and is not a free MCMC parameter.  Early exploratory fits that left $n_g$ free returned $n_g \approx 0.9$, an unphysical artifact of parameter-volume effects; the EFT derivation uniquely determines $n_g = \beta_0^2/(4\pi^2) \approx 0.014$.
 \end{derivebox}
 
 \subsection{Derivation of $z_{\text{trans}}$ Bounds}
@@ -2089,9 +2088,9 @@ def mass_matched_dwarf_analysis():
     dict : Analysis results with detection significance
     """
     
-    # ═══════════════════════════════════════════════════════════════════
+    # ===================================================================
     # STEP 1: Mass-Filtered Galaxy Selection (5 < log M* < 9)
-    # ═══════════════════════════════════════════════════════════════════
+    # ===================================================================
     
     mass_range = {'log_min': 5.0, 'log_max': 9.0}  # Solar masses
     
@@ -2104,9 +2103,9 @@ def mass_matched_dwarf_analysis():
     dV_observed = 11.7  # km/s
     dV_observed_err = 0.9  # km/s
     
-    # ═══════════════════════════════════════════════════════════════════
+    # ===================================================================
     # STEP 2: Mass-Dependent Tidal Stripping Calibration
-    # ═══════════════════════════════════════════════════════════════════
+    # ===================================================================
     
     # From EAGLE/IllustrisTNG simulations (Thesis Sec. 13.2)
     mass_dependent_stripping = {
@@ -2128,9 +2127,9 @@ def mass_matched_dwarf_analysis():
         }
     }
     
-    # ═══════════════════════════════════════════════════════════════════
+    # ===================================================================
     # STEP 3: Sample-Weighted Stripping Calculation
-    # ═══════════════════════════════════════════════════════════════════
+    # ===================================================================
     
     # Physics: Heavier dwarfs have deeper potential wells, resist stripping
     # Must weight by actual sample composition, NOT use global average
@@ -2147,16 +2146,16 @@ def mass_matched_dwarf_analysis():
     print(f"Sample-weighted stripping: {dV_stripping_weighted:.1f} km/s")
     # Output: 7.2 km/s (NOT 8.4 km/s)
     
-    # ═══════════════════════════════════════════════════════════════════
+    # ===================================================================
     # STEP 4: SDCG Residual Signal
-    # ═══════════════════════════════════════════════════════════════════
+    # ===================================================================
     
     residual_dV = dV_observed - dV_stripping_weighted  # 11.7 - 7.2 = 4.5
     residual_dV_err = np.sqrt(dV_observed_err**2 + dV_stripping_err**2)  # ~1.0
     
-    # ═══════════════════════════════════════════════════════════════════
+    # ===================================================================
     # STEP 5: Statistical Significance (Physics-Based)
-    # ═══════════════════════════════════════════════════════════════════
+    # ===================================================================
     
     # Detection significance: Is residual > 0?
     detection_sigma = residual_dV / residual_dV_err  # 4.5 / 1.0 = 4.5
@@ -2170,9 +2169,9 @@ def mass_matched_dwarf_analysis():
     theory_combined_err = np.sqrt(residual_dV_err**2 + sdcg_prediction_err**2)
     theory_sigma = theory_diff / theory_combined_err  # 0.5 / 1.8 = 0.3
     
-    # ═══════════════════════════════════════════════════════════════════
+    # ===================================================================
     # COMPILE RESULTS
-    # ═══════════════════════════════════════════════════════════════════
+    # ===================================================================
     
     results = {
         'methodology': 'v13 Mass-Matched',

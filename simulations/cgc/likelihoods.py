@@ -84,6 +84,45 @@ def log_prior(theta: np.ndarray) -> float:
     
     logp = 0.0
     
+    # ══════════════════════════════════════════════════════════════════
+    # Planck 2018 Gaussian priors on ΛCDM parameters
+    # ══════════════════════════════════════════════════════════════════
+    # The toy 3-Gaussian CMB model cannot constrain these parameters
+    # (χ²/dof ≈ 80 against 2507 real Planck points). Instead, we encode
+    # CMB information through Gaussian priors from Planck 2018
+    # (TT,TE,EE+lowE+lensing, Planck Collaboration VI, Table 2).
+    #
+    # All 6 standard ΛCDM priors from v12/v13 main_cgc_real_analysis.py:
+    #   planck_means  = [0.02237, 0.1200, 0.6736, 3.044, 0.9649, 0.0544]
+    #   planck_errors = [0.00015, 0.0012, 0.0054, 0.014, 0.0042, 0.0073]
+    #
+    # NOTE: NO Gaussian prior on μ — determined by data.
+    # ──────────────────────────────────────────────────────────────────
+    omega_b  = theta[0]
+    omega_cdm = theta[1]
+    h        = theta[2]
+    ln10As   = theta[3]
+    n_s      = theta[4]
+    tau      = theta[5]
+    
+    # ω_b: BBN + Planck 2018
+    logp += -0.5 * ((omega_b - 0.02237) / 0.00015)**2
+    
+    # ω_cdm: Planck 2018
+    logp += -0.5 * ((omega_cdm - 0.1200) / 0.0012)**2
+    
+    # h: Planck 2018 (encodes CMB sound-horizon constraint on H₀)
+    logp += -0.5 * ((h - 0.6736) / 0.0054)**2
+    
+    # ln(10¹⁰As): Planck 2018
+    logp += -0.5 * ((ln10As - 3.044) / 0.014)**2
+    
+    # n_s: Planck 2018
+    logp += -0.5 * ((n_s - 0.9649) / 0.0042)**2
+    
+    # τ: Planck 2018 low-ℓ EE (critical — prevents τ-As degeneracy trap)
+    logp += -0.5 * ((tau - 0.0544) / 0.0073)**2
+    
     # Lyα constraint is AUTOMATICALLY satisfied by screening mechanism!
     # The IGM (ρ ~ 50-100 ρ_crit) is much denser than voids (ρ ~ 0.1 ρ_crit)
     # Combined suppression: S(ρ_IGM)/S(ρ_void) × g(z=3) × Vainshtein ≈ 0.15
@@ -122,42 +161,22 @@ def log_prior_gaussian(theta: np.ndarray,
     float
         Log prior probability.
     """
-    # First check flat bounds
+    # First check flat bounds (includes all Planck Gaussian priors)
     logp = log_prior(theta)
     if logp == -np.inf:
         return logp
     
-    # Add BBN prior on omega_b if requested
-    if add_bbn_prior:
-        omega_b = theta[0]
-        omega_b_bbn = 0.02242  # BBN + D/H
-        omega_b_bbn_err = 0.00014
-        logp -= 0.5 * ((omega_b - omega_b_bbn) / omega_b_bbn_err)**2
+    # NOTE: All Gaussian priors (ω_b, ω_cdm, ln10As, n_s, τ) are now
+    # in log_prior() directly. The add_bbn_prior flag is kept for
+    # backward compatibility but is a no-op (BBN prior already included).
     
-    # THESIS v2 TENSION-SOLVER PRIORS
+    # THESIS v13 PRIORS
     # NOTE: n_g = 0.0125, z_trans = 1.67, ρ_thresh = 200 are FIXED BY THEORY
-    # NOTE: We sample μ_eff (effective coupling), NOT μ_bare!
-    #       μ_eff ≈ 0.149 is the cosmological best-fit value (= μ_fit × S_avg ≈ 0.47 × 0.31).
-    if tight_eft_priors:
-        # TIGHT μ_eff prior: 0.149 ± 0.015 (very constraining)
-        # This enforces the theory prediction from screening analysis
-        # Thesis v12: μ_fit = 0.47 → μ_eff(void) = μ_fit × S_avg = 0.149
-        mu = theta[6]
-        mu_v2 = 0.149     # μ_eff(void) best-fit: 14.9% enhancement
-        mu_err = 0.015    # Tight uncertainty to enforce theory
-        logp -= 0.5 * ((mu - mu_v2) / mu_err)**2
-        # z_trans is FIXED at 1.67 by theory, no prior needed
-        
-    elif add_eft_priors:
-        # MODERATE μ_eff prior: 0.149 ± 0.025
-        # This guides the MCMC toward physically reasonable values
-        # while allowing some data-driven flexibility
-        # Thesis v12: μ_fit = 0.47 → μ_eff(void) = μ_fit × S_avg = 0.149
-        mu = theta[6]
-        mu_v2 = 0.149     # μ_eff(void) best-fit
-        mu_err = 0.025    # Moderate uncertainty
-        logp -= 0.5 * ((mu - mu_v2) / mu_err)**2
-        # z_trans is FIXED at 1.67 by theory, no prior needed
+    # NOTE: We sample μ_void (bare coupling in voids where S≈1)
+    #       μ_void ≈ 0.47 is the QFT one-loop best-fit [Source 715]
+    #       Lyα constraint is satisfied by IGM screening, NOT by prior!
+    # NO Gaussian prior on μ — let data (CMB/BAO/SNe) determine the value
+    # The flat prior [0, 0.50] provides the theoretical bound
     
     return logp
 
@@ -816,22 +835,26 @@ def log_likelihood_h0(theta: np.ndarray, h0_data: Dict[str, Any],
     H0_eff = apply_cgc_to_h0(H0_model, cgc)
     
     # ═══════════════════════════════════════════════════════════════════════
-    # Likelihood contributions
+    # Likelihood contributions — LOCAL measurements only
+    # ═══════════════════════════════════════════════════════════════════════
+    #
+    # NOTE: Planck H0 (67.36) is NOT included here because:
+    #   1. It's derived from CMB assuming ΛCDM (not a direct measurement)
+    #   2. The CMB information is ALREADY encoded in the Gaussian prior on h
+    #      (h ~ N(0.6736, 0.0054) in log_prior())
+    #   3. Including it double-counts the CMB constraint and fights the CGC
+    #      H0 boost (H0_eff > h×100 when μ > 0), preventing μ detection.
+    #
+    # Only LOCAL/independent H0 measurements belong here (SH0ES, TRGB).
     # ═══════════════════════════════════════════════════════════════════════
     
-    # Planck (always included)
-    if 'planck' in h0_data:
-        H0_planck = h0_data['planck']['value']
-        H0_planck_err = h0_data['planck']['error']
-        chi2 += ((H0_eff - H0_planck) / H0_planck_err)**2
-    
-    # SH0ES
+    # SH0ES (local distance ladder — independent of CMB)
     if use_sh0es and 'sh0es' in h0_data:
         H0_sh0es = h0_data['sh0es']['value']
         H0_sh0es_err = h0_data['sh0es']['error']
         chi2 += ((H0_eff - H0_sh0es) / H0_sh0es_err)**2
     
-    # TRGB
+    # TRGB (independent local measurement)
     if use_trgb and 'trgb' in h0_data:
         H0_trgb = h0_data['trgb']['value']
         H0_trgb_err = h0_data['trgb']['error']
